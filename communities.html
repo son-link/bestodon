@@ -5,7 +5,7 @@ title: "Communities"
 
 <div class="py-4 max-w-5xl mx-auto">
   <div class="grid grid-cols-2 gap-2">
-    {% assign data = paginator.data.communities | sort_natural: "display_name" %}
+    {% assign data = site.data.communities | sort_natural: "display_name" %}
     {% for acc_hash in data %}
     {{ acc_hash[1] }}
       {% assign ac = acc_hash %}
