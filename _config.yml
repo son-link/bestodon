@@ -1,12 +1,9 @@
-url: 'https://son-link.github.io/bestodon/'
+url: 'https://son-link.github.io/bestodon'
 baseurl: ''
 title: 'Open Source projects on Mastodon'
-paginate: 10
 
 plugins:
   - jekyll-postcss
-  - jekyll-paginate
-
 postcss:
   cache: false
 
