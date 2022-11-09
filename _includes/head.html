@@ -7,44 +7,8 @@
     <link rel="stylesheet" href="{{ "/assets/css/roboto.css" | absolute_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}">
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <script>
-      let accounts = [];
-      let page = 1;
-  
-      const paginate = (items, page = 1, perPage = 10) => {
-        console.log(items)
-        const offset = perPage * (page - 1);
-        const totalPages = Math.ceil(items.length / perPage);
-        const paginatedItems = items.slice(offset, perPage * page);
-        
-        return {
-          previousPage: page - 1 ? page - 1 : null,
-          nextPage: (totalPages > page) ? page + 1 : null,
-          total: items.length,
-          totalPages: totalPages,
-          items: paginatedItems
-        };
-      };
-  
-      const getData = list => {
-        axios.get(`/assets/lists/${list}.json`)
-          .then( resp => {
-            accounts = resp.data;
-            if (page > 1) drawAccounts();
-            drawPagination();
-          });
-      }
-      
-      const drawAccounts = () => {
-        data = paginate(accounts, page, 10);
-        console.log(data);
-      }
-
-      const drawPagination = () => {
-        data = paginate(accounts, page, 10);
-        console.log(data);
-      }
-    </script>
+    <script src="{{ "/assets/js/pequejs.min.js" | absolute_url }}"></script>
+    <script src="{{ "/assets/js/ejs.min.js" | absolute_url }}"></script>
   </head>
   <body class="bg-neutral-900">
     <header class="m-2 p-2 max-w-5xl mx-auto bg-gray-700 text-white rounded">

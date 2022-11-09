@@ -1,3 +1,3 @@
 ---
 ---
-{{ site.data.games | jsonify }}
+{{ site.data.games | sort_natural: "display_name" | jsonify }}

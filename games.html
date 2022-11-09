@@ -4,7 +4,7 @@ title: "Games"
 ---
 
 <div class="py-4 max-w-5xl mx-auto">
-  <div class="grid grid-cols-2 gap-2">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 w-11/12 md:w-full mx-auto"" id="list">
     {% assign data = site.data.games | sort_natural: "display_name" %}
     {% for acc_hash in data %}
     {{ acc_hash[1] }}
@@ -40,7 +40,6 @@ title: "Games"
         </div>
     {% endfor %}
   </div>
-
 </div>
 <script defer>
 	getData('games');

@@ -4,9 +4,9 @@ title: "All"
 ---
 
 <div class="py-4 max-w-5xl mx-auto">
-  <div class="grid grid-cols-2 gap-2">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 w-11/12 md:w-full mx-auto" id="list">
     {% assign data = site.data.all | sort_natural: "display_name" %}
-    {% for acc_hash in data %}
+    {% for acc_hash in data limit: 10 %}
     {{ acc_hash[1] }}
       {% assign ac = acc_hash %}
         <div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
@@ -40,5 +40,9 @@ title: "All"
         </div>
     {% endfor %}
   </div>
-
 </div>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    getData('all');
+  });
+</script>
