@@ -1,0 +1,33 @@
+@font-face {
+  font-family: mastodon-font-sans-serif;
+  src:
+    local('Roboto'),
+    url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-regular-webfont.woff') format('woff'),
+    url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-regular-webfont.svg#roboto-regular-webfont') format('svg');
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: mastodon-font-sans-serif;
+  src:
+    local('Roboto Medium'),
+    url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-medium-webfont.woff') format('woff'),
+    url('../fonts/roboto-medium-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-medium-webfont.svg#roboto-medium-webfont') format('svg');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+html {
+  font-family: mastodon-font-sans-serif;
+}
+
+.mastodon-btn {
+  font-weight: 500;
+}

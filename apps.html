@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Applications - Open Source projects on Mastodon</title>
+    <link rel="stylesheet" href="/assets/css/roboto.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script>
+      let accounts = [];
+      let page = 1;
+  
+      const paginate = (items, page = 1, perPage = 10) => {
+        console.log(items)
+        const offset = perPage * (page - 1);
+        const totalPages = Math.ceil(items.length / perPage);
+        const paginatedItems = items.slice(offset, perPage * page);
+        
+        return {
+          previousPage: page - 1 ? page - 1 : null,
+          nextPage: (totalPages > page) ? page + 1 : null,
+          total: items.length,
+          totalPages: totalPages,
+          items: paginatedItems
+        };
+      };
+  
+      const getData = list => {
+        axios.get(`/assets/lists/${list}.json`)
+          .then( resp => {
+            accounts = resp.data;
+            if (page > 1) drawAccounts();
+            drawPagination();
+          });
+      }
+      
+      const drawAccounts = () => {
+        data = paginate(accounts, page, 10);
+        console.log(data);
+      }
+
+      const drawPagination = () => {
+        data = paginate(accounts, page, 10);
+        console.log(data);
+      }
+    </script>
+  </head>
+  <body class="bg-neutral-900">
+    <header class="m-2 p-2 max-w-5xl mx-auto bg-gray-700 text-white rounded">
+      <nav class="flex flex-wrap gap-2">
+        <a class="hover:text-neutral-900" href="/">All</a>
+        <a class="hover:text-neutral-900" href="/apps">Applications</a>
+        <a class="hover:text-neutral-900" href="/communities">Communities</a>
+        <a class="hover:text-neutral-900" href="/games">Games</a>
+        <a class="hover:text-neutral-900" href="/distros">Linux distributions</a>
+      </nav>
+    </header>
+
+    <header class="m-2 p-2 max-w-5xl mx-auto bg-gray-700 text-white text-center rounded">
+      <div class="text-4xl font-bold">Mastodon List</div>
+      <p>
+        Welcome to this list of Mastodon accounts.
+      </p>
+      <p>
+        Here you can find accounts dedicated to Free and Open Source Software, such as games, applications, Linux distributions, etc. 
+      </p>
+    </header>
+	<div class="py-4 max-w-5xl mx-auto">
+  <div class="grid grid-cols-2 gap-2" id="list">
+    
+    
+    
+      
+        <div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
+          <a href="https://mastodon.social/@Blender" target="_blank">
+            <div>
+              <img src="https://todon.eu/system/cache/accounts/headers/000/013/836/original/a536b8dfa3513220.jpg" class="object-cover h-32 w-full rounded bg-neutral-900" />
+            </div>
+            <div class="px-2 flex flex-wrap gap-2">
+              <div class="-translate-y-2">
+                <img src="https://todon.eu/system/cache/accounts/avatars/000/013/836/original/212a778e21b94a9a.jpg" class="rounded-lg w-16 h-16 bg-neutral-900" />
+              </div>
+              <div class="mt-2">
+                <p>Blender</p>
+                <p class="text-neutral-500">@Blender@mastodon.social</p>
+              </div>
+            </div>
+          </a>
+          <div class="p-2 h-20 overflow-hidden mb-4">
+            <p>Official account for the Free and Open Source 3D creation suite. Free to use for any purpose, forever.</p>
+          </div>
+          <a
+            class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+            href="https://mastodon.social/users/Blender/remote_follow"
+            target="_blank"
+          >
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current h-6 w-6">
+              <path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+            </svg>
+            Follow
+          </a>
+        </div>
+    
+    
+      
+        <div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
+          <a href="https://floss.social/@fdroidorg" target="_blank">
+            <div>
+              <img src="https://todon.eu/system/cache/accounts/headers/109/177/230/268/787/801/original/74fe9ee632c0fc7d.jpg" class="object-cover h-32 w-full rounded bg-neutral-900" />
+            </div>
+            <div class="px-2 flex flex-wrap gap-2">
+              <div class="-translate-y-2">
+                <img src="https://todon.eu/system/cache/accounts/avatars/109/177/230/268/787/801/original/2b3bc169afc61b9e.png" class="rounded-lg w-16 h-16 bg-neutral-900" />
+              </div>
+              <div class="mt-2">
+                <p>F-Droid</p>
+                <p class="text-neutral-500">@fdroidorg@floss.social</p>
+              </div>
+            </div>
+          </a>
+          <div class="p-2 h-20 overflow-hidden mb-4">
+            <p>F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.</p>
+          </div>
+          <a
+            class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+            href="https://floss.social/users/fdroidorg/remote_follow"
+            target="_blank"
+          >
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current h-6 w-6">
+              <path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+            </svg>
+            Follow
+          </a>
+        </div>
+    
+    
+      
+        <div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
+          <a href="https://floss.social/@GIMP" target="_blank">
+            <div>
+              <img src="https://todon.eu/system/cache/accounts/headers/109/155/782/730/207/918/original/3bec827897adb118.png" class="object-cover h-32 w-full rounded bg-neutral-900" />
+            </div>
+            <div class="px-2 flex flex-wrap gap-2">
+              <div class="-translate-y-2">
+                <img src="https://todon.eu/system/cache/accounts/avatars/109/155/782/730/207/918/original/fdee5acba261da2a.png" class="rounded-lg w-16 h-16 bg-neutral-900" />
+              </div>
+              <div class="mt-2">
+                <p>GIMP</p>
+                <p class="text-neutral-500">@GIMP@floss.social</p>
+              </div>
+            </div>
+          </a>
+          <div class="p-2 h-20 overflow-hidden mb-4">
+            <p>This is the official Mastodon account of the GNU Image Manipulation Program (GIMP). </p><p>GIMP is a cross-platform image editor available for GNU/Linux, macOS, Windows and more operating systems. It is free software, you can change its source code and distribute your changes.</p><p>Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done.</p>
+          </div>
+          <a
+            class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+            href="https://floss.social/users/GIMP/remote_follow"
+            target="_blank"
+          >
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current h-6 w-6">
+              <path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+            </svg>
+            Follow
+          </a>
+        </div>
+    
+    
+      
+        <div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
+          <a href="https://floss.social/@gnome" target="_blank">
+            <div>
+              <img src="https://todon.eu/system/cache/accounts/headers/000/004/087/original/51c3f0e557fd2d64.jpg" class="object-cover h-32 w-full rounded bg-neutral-900" />
+            </div>
+            <div class="px-2 flex flex-wrap gap-2">
+              <div class="-translate-y-2">
+                <img src="https://todon.eu/system/cache/accounts/avatars/000/004/087/original/5e0ee74a07103a75.jpg" class="rounded-lg w-16 h-16 bg-neutral-900" />
+              </div>
+              <div class="mt-2">
+                <p>GNOME</p>
+                <p class="text-neutral-500">@gnome@floss.social</p>
+              </div>
+            </div>
+          </a>
+          <div class="p-2 h-20 overflow-hidden mb-4">
+            <p>GNOME is a free and open-source software environment project supported by a non-profit foundation. Together, the community of contributors and the Foundation create a computing platform and software ecosystem, composed entirely of free software, that is designed to be elegant, efficient, and easy to use.</p>
+          </div>
+          <a
+            class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+            href="https://floss.social/users/gnome/remote_follow"
+            target="_blank"
+          >
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current h-6 w-6">
+              <path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+            </svg>
+            Follow
+          </a>
+        </div>
+    
+    
+      
+        <div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
+          <a href="https://floss.social/@gnome" target="_blank">
+            <div>
+              <img src="https://todon.eu/system/cache/accounts/headers/000/004/087/original/51c3f0e557fd2d64.jpg" class="object-cover h-32 w-full rounded bg-neutral-900" />
+            </div>
+            <div class="px-2 flex flex-wrap gap-2">
+              <div class="-translate-y-2">
+                <img src="https://todon.eu/system/cache/accounts/avatars/000/004/087/original/5e0ee74a07103a75.jpg" class="rounded-lg w-16 h-16 bg-neutral-900" />
+              </div>
+              <div class="mt-2">
+                <p>GNOME</p>
+                <p class="text-neutral-500">@gnome@floss.social</p>
+              </div>
+            </div>
+          </a>
+          <div class="p-2 h-20 overflow-hidden mb-4">
+            <p>GNOME is a free and open-source software environment project supported by a non-profit foundation. Together, the community of contributors and the Foundation create a computing platform and software ecosystem, composed entirely of free software, that is designed to be elegant, efficient, and easy to use.</p>
+          </div>
+          <a
+            class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+            href="https://floss.social/users/gnome/remote_follow"
+            target="_blank"
+          >
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current h-6 w-6">
+              <path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+            </svg>
+            Follow
+          </a>
+        </div>
+    
+    
+      
+        <div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
+          <a href="https://mastodon.gamedev.place/@godotengine" target="_blank">
+            <div>
+              <img src="https://todon.eu/system/cache/accounts/headers/000/016/481/original/d982253acb621886.jpg" class="object-cover h-32 w-full rounded bg-neutral-900" />
+            </div>
+            <div class="px-2 flex flex-wrap gap-2">
+              <div class="-translate-y-2">
+                <img src="https://todon.eu/system/cache/accounts/avatars/000/016/481/original/0870696ab4c8042b.png" class="rounded-lg w-16 h-16 bg-neutral-900" />
+              </div>
+              <div class="mt-2">
+                <p>Godot Engine</p>
+                <p class="text-neutral-500">@godotengine@mastodon.gamedev.place</p>
+              </div>
+            </div>
+          </a>
+          <div class="p-2 h-20 overflow-hidden mb-4">
+            <p>Advanced, feature-packed, multi-platform 2D and 3D open source game engine. It is developed by hundreds of contributors from all around the world!</p>
+          </div>
+          <a
+            class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+            href="https://mastodon.gamedev.place/users/godotengine/remote_follow"
+            target="_blank"
+          >
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current h-6 w-6">
+              <path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+            </svg>
+            Follow
+          </a>
+        </div>
+    
+    
+      
+        <div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
+          <a href="https://mastodon.art/@inkscape" target="_blank">
+            <div>
+              <img src="https://todon.eu/system/cache/accounts/headers/000/004/564/original/678a807812295363.png" class="object-cover h-32 w-full rounded bg-neutral-900" />
+            </div>
+            <div class="px-2 flex flex-wrap gap-2">
+              <div class="-translate-y-2">
+                <img src="https://todon.eu/system/cache/accounts/avatars/000/004/564/original/2920d775e28f94f8.png" class="rounded-lg w-16 h-16 bg-neutral-900" />
+              </div>
+              <div class="mt-2">
+                <p>Inkscape</p>
+                <p class="text-neutral-500">@inkscape@mastodon.art</p>
+              </div>
+            </div>
+          </a>
+          <div class="p-2 h-20 overflow-hidden mb-4">
+            <p>A vector drawing app for Windows, MacOS &amp; GNU/Linux. Free and open source, available to everyone! Profile header CC BY-SA 4.0 Chris Hildenbrand</p>
+          </div>
+          <a
+            class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+            href="https://mastodon.art/users/inkscape/remote_follow"
+            target="_blank"
+          >
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current h-6 w-6">
+              <path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+            </svg>
+            Follow
+          </a>
+        </div>
+    
+    
+      
+        <div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
+          <a href="https://floss.social/@kde" target="_blank">
+            <div>
+              <img src="https://todon.eu/system/cache/accounts/headers/109/134/920/695/130/789/original/c88b74e03046328a.png" class="object-cover h-32 w-full rounded bg-neutral-900" />
+            </div>
+            <div class="px-2 flex flex-wrap gap-2">
+              <div class="-translate-y-2">
+                <img src="https://todon.eu/system/cache/accounts/avatars/109/134/920/695/130/789/original/9d23ed47dc55ae2d.png" class="rounded-lg w-16 h-16 bg-neutral-900" />
+              </div>
+              <div class="mt-2">
+                <p>KDE</p>
+                <p class="text-neutral-500">@kde@floss.social</p>
+              </div>
+            </div>
+          </a>
+          <div class="p-2 h-20 overflow-hidden mb-4">
+            <p>A worldwide technology community 🌍 Creators of the Plasma desktop &amp; a variety of Free and open source applications that let you control your digital life.</p>
+          </div>
+          <a
+            class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+            href="https://floss.social/users/kde/remote_follow"
+            target="_blank"
+          >
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current h-6 w-6">
+              <path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+            </svg>
+            Follow
+          </a>
+        </div>
+    
+    
+      
+        <div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
+          <a href="https://floss.social/@kdenlive" target="_blank">
+            <div>
+              <img src="https://todon.eu/system/cache/accounts/headers/109/137/203/247/990/301/original/6409c98be824f37c.jpg" class="object-cover h-32 w-full rounded bg-neutral-900" />
+            </div>
+            <div class="px-2 flex flex-wrap gap-2">
+              <div class="-translate-y-2">
+                <img src="https://todon.eu/system/cache/accounts/avatars/109/137/203/247/990/301/original/f6341e0c06c43653.png" class="rounded-lg w-16 h-16 bg-neutral-900" />
+              </div>
+              <div class="mt-2">
+                <p>Kdenlive</p>
+                <p class="text-neutral-500">@kdenlive@floss.social</p>
+              </div>
+            </div>
+          </a>
+          <div class="p-2 h-20 overflow-hidden mb-4">
+            <p>Free and Open Source video editing program made by the KDE community.</p>
+          </div>
+          <a
+            class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+            href="https://floss.social/users/kdenlive/remote_follow"
+            target="_blank"
+          >
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current h-6 w-6">
+              <path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+            </svg>
+            Follow
+          </a>
+        </div>
+    
+    
+      
+        <div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
+          <a href="https://mastodon.art/@Krita" target="_blank">
+            <div>
+              <img src="https://todon.eu/system/cache/accounts/headers/000/008/666/original/ebd6f64d8c08c34f.png" class="object-cover h-32 w-full rounded bg-neutral-900" />
+            </div>
+            <div class="px-2 flex flex-wrap gap-2">
+              <div class="-translate-y-2">
+                <img src="https://todon.eu/system/cache/accounts/avatars/000/008/666/original/15919500bcd95bc1.jpg" class="rounded-lg w-16 h-16 bg-neutral-900" />
+              </div>
+              <div class="mt-2">
+                <p>Krita</p>
+                <p class="text-neutral-500">@Krita@mastodon.art</p>
+              </div>
+            </div>
+          </a>
+          <div class="p-2 h-20 overflow-hidden mb-4">
+            <p>Free and open source painting software. Get it at krita.org  (Linux, Windows, OSX or Android) and talk with other users and devs in the <a href="https://mastodon.art/tags/krita" class="mention hashtag" rel="nofollow noopener noreferrer" target="_blank">#<span>krita</span></a> channel on libera.chat!</p>
+          </div>
+          <a
+            class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+            href="https://mastodon.art/users/Krita/remote_follow"
+            target="_blank"
+          >
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current h-6 w-6">
+              <path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+            </svg>
+            Follow
+          </a>
+        </div>
+    
+  </div>
+</div>
+<script>
+	getData('apps');
+</script>
+	</body>
+</html>
