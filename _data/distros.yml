@@ -1,0 +1,23 @@
+- username: opensuse_es
+  acct: opensuse_es@floss.social
+  display_name: openSUSE Español
+  avatar: https://todon.eu/system/cache/accounts/avatars/109/281/550/337/673/959/original/854ad3cc857f030b.png
+  header: https://todon.eu/system/cache/accounts/headers/109/281/550/337/673/959/original/d3d87174fca7a5e3.png
+  url: https://floss.social/@opensuse_es
+  note: <p>openSUSE es un sistema operativo abierto, gratuito y seguro basado en
+    Linux para PC, computadoras portátiles, servidores y dispositivos
+    ARM.<br>Esta cuenta reproduce las notas compartidas en <a
+    href="https://planet.opensuse.org/es/" rel="nofollow noopener noreferrer"
+    target="_blank"><span class="invisible">https://</span><span
+    class="">planet.opensuse.org/es/</span><span class="invisible"></span></a>,
+    entre otras cosas.</p>
+  domain: floss.social
+- username: snowflakelinux
+  acct: snowflakelinux@floss.social
+  display_name: SnowflakeOS
+  avatar: https://todon.eu/system/cache/accounts/avatars/109/040/706/175/515/212/original/ed37700eeaf4aaf6.png
+  header: https://todon.eu/headers/original/missing.png
+  url: https://floss.social/@snowflakelinux
+  note: <p>SnowflakeOS is a NixOS based Linux distribution focused on beginner
+    friendliness and ease of use</p>
+  domain: floss.social

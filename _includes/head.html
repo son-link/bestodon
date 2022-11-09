@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/roboto.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script>
+      let accounts = [];
+      let page = 1;
+  
+      const paginate = (items, page = 1, perPage = 10) => {
+        console.log(items)
+        const offset = perPage * (page - 1);
+        const totalPages = Math.ceil(items.length / perPage);
+        const paginatedItems = items.slice(offset, perPage * page);
+        
+        return {
+          previousPage: page - 1 ? page - 1 : null,
+          nextPage: (totalPages > page) ? page + 1 : null,
+          total: items.length,
+          totalPages: totalPages,
+          items: paginatedItems
+        };
+      };
+  
+      const getData = list => {
+        axios.get(`/assets/lists/${list}.json`)
+          .then( resp => {
+            accounts = resp.data;
+            if (page > 1) drawAccounts();
+            drawPagination();
+          });
+      }
+      
+      const drawAccounts = () => {
+        data = paginate(accounts, page, 10);
+        console.log(data);
+      }
+
+      const drawPagination = () => {
+        data = paginate(accounts, page, 10);
+        console.log(data);
+      }
+    </script>
+  </head>
+  <body class="bg-neutral-900">
+    <header class="m-2 p-2 max-w-5xl mx-auto bg-gray-700 text-white rounded">
+      <nav class="flex flex-wrap gap-2">
+        <a class="hover:text-neutral-900" href="{{ "/" | relative_url }}">All</a>
+        <a class="hover:text-neutral-900" href="{{ "/apps" | relative_url }}">Applications</a>
+        <a class="hover:text-neutral-900" href="{{ "/communities" | relative_url }}">Communities</a>
+        <a class="hover:text-neutral-900" href="{{ "/games" | relative_url }}">Games</a>
+        <a class="hover:text-neutral-900" href="{{ "/distros" | relative_url }}">Linux distributions</a>
+      </nav>
+    </header>
+
+    <header class="m-2 p-2 max-w-5xl mx-auto bg-gray-700 text-white text-center rounded">
+      <div class="text-4xl font-bold">Mastodon List</div>
+      <p>
+        Welcome to this list of Mastodon accounts.
+      </p>
+      <p>
+        Here you can find accounts dedicated to Free and Open Source Software, such as games, applications, Linux distributions, etc. 
+      </p>
+    </header>

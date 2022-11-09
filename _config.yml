@@ -1,0 +1,19 @@
+url: ''
+baseurl: ''
+title: 'Open Source projects on Mastodon'
+paginate: 10
+
+plugins:
+  - jekyll-postcss
+  - jekyll-paginate
+
+postcss:
+  cache: false
+
+exclude:
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
+  - yarn.lock
+  - _lists
+  - makedata.js
