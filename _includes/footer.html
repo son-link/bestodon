@@ -105,7 +105,7 @@
 	<script type="text/javascript">
 		let accounts = [];
       	let page = 1;
-		axios.defaults.baseURL = '{{ absolute_url }}';
+		axios.defaults.baseURL = '{{ site.url }}';
 
 		if (location.hash) page = location.hash.replace('#page-', '');
 
