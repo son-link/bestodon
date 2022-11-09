@@ -212,11 +212,11 @@
 	<script type="text/javascript">
 		let accounts = [];
       	let page = 1;
+		axios.defaults.baseURL = '';
 
 		if (location.hash) page = location.hash.replace('#page-', '');
 
 		const paginate = (items, page = 1, perPage = 10) => {
-			console.log(items)
 			const offset = perPage * (page - 1);
 			const totalPages = Math.ceil(items.length / perPage);
 			const paginatedItems = items.slice(offset, perPage * page);
