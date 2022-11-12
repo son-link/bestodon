@@ -3,17 +3,4 @@ layout: default
 title: "Development"
 ---
 
-<div class="py-2 max-w-5xl mx-auto md:py-4">
-  <div class="grid grid-cols-1 gap-2 w-full pl-14 pr-2 md:mx-auto md:grid-cols-2 md:px-0" id="list">
-    {% assign data = site.data.dev | sort_natural: "display_name" %}
-    {% for acc_hash in data %}
-      {{ acc_hash[1] }}
-      {% include account.html ac=acc_hash %}
-    {% endfor %}
-  </div>
-</div>
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    getData('distros');
-  });
-</script>
+{% include list.html list='dev' %}
