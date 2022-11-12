@@ -1,0 +1,31 @@
+{% assign remote_follow = 'https://' | append: include.ac.domain | append: '/users/' | append: include.ac.username | append: '/remote_follow' %}
+      {% if include.ac.domain == 'mastodon.social' %}
+        {% assign remote_follow = include.ac.url %}
+      {% endif %}
+        <div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
+          <a href="{{ include.ac.url }}" target="_blank">
+            <div>
+              <img src="{{ include.ac.header }}" class="object-cover h-32 w-full rounded bg-neutral-900" />
+            </div>
+            <div class="px-2 flex flex-wrap gap-2">
+              <div class="-translate-y-2">
+                <img src="{{ include.ac.avatar }}" class="rounded-lg w-16 h-16 bg-neutral-900" />
+              </div>
+              <div class="mt-2">
+                <p>{{ include.ac.acdisplay_name }}</p>
+                <p class="text-neutral-500">{{ '@' | append: include.ac.username | append: '@' | append: include.ac.domain  }}</p>
+              </div>
+            </div>
+          </a>
+          <div class="p-2 h-20 overflow-hidden mb-4 note">
+            {{ include.ac.note }}
+          </div>
+          <a
+            class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+            href="{{ remote_follow }}"
+            target="_blank"
+          >
+            {% include icons/mastodon.svg %}
+            Follow
+          </a>
+        </div>

@@ -6,11 +6,12 @@ const lists = [
   'games',
   'apps',
   'distros',
-  'communities'
+  'communities',
+  'dev'
 ];
 
 //axios.defaults.baseURL = 'https://mastodon.social/api/v1';
-axios.defaults.baseURL = 'https://todon.eu/api/v1';
+axios.defaults.baseURL = 'https://fosstodon.org/api/v1';
 
 const writeAllListStream = fs.createWriteStream(`./_data/all.yml`);
 

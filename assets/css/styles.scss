@@ -1,0 +1,33 @@
+---
+---
+#readme {
+	h1 {
+		@apply text-4xl my-4;
+	}
+
+	h2 {
+		@apply text-3xl my-4;
+	}
+
+	h3 {
+		@apply text-2xl my-4;
+	}
+
+	p {
+		@apply mb-2
+	}
+
+	ul {
+		@apply list-disc list-inside mb-2 ml-2
+	}
+
+	a {
+		@apply underline;
+	}
+}
+
+#list {
+	.note a {
+		@apply underline;
+	}
+}

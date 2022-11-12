@@ -4,29 +4,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="icon" type="image/svg" href="{{ "/assets/icon.svg" | absolute_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/roboto.css" | absolute_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | absolute_url }}">
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="{{ "/assets/js/pequejs.min.js" | absolute_url }}"></script>
     <script src="{{ "/assets/js/ejs.min.js" | absolute_url }}"></script>
   </head>
   <body class="bg-neutral-900">
-    <header class="m-2 p-2 max-w-5xl mx-auto bg-gray-700 text-white rounded">
-      <nav class="flex flex-wrap gap-2">
-        <a class="hover:text-neutral-900" href="{{ "/" | absolute_url }}">All</a>
-        <a class="hover:text-neutral-900" href="{{ "/apps" | absolute_url }}">Applications</a>
-        <a class="hover:text-neutral-900" href="{{ "/communities" | absolute_url }}">Communities</a>
-        <a class="hover:text-neutral-900" href="{{ "/games" | absolute_url }}">Games</a>
-        <a class="hover:text-neutral-900" href="{{ "/distros" | absolute_url }}">Linux distributions</a>
+    <div class="w-12 h-full fixed inset-0 top-0 bg-gray-700 text-white flex flex-columns justify-center z-10 md:hidden">
+      <nav class="my-2">
+        <a class="w-10 h-10 flex items-center justify-center" title="All" href="{{ "/" | absolute_url }}">
+          {% include icons/home.svg %}
+        </a>
+        <a class="w-10 h-10 flex items-center justify-center" href="{{ "/apps" | absolute_url }}" title="Applications">
+          {% include icons/apps.svg %}
+        </a>
+        <a class="w-10 h-10 flex items-center justify-center" href="{{ "/communities" | absolute_url }}" title="Communities">
+          {% include icons/communities.svg %}
+        </a>
+        <a class="w-10 h-10 flex items-center justify-center" href="{{ "/dev" | absolute_url }}" title="Development">
+          {% include icons/dev.svg %}
+        </a>
+        <a class="w-10 h-10 flex items-center justify-center" href="{{ "/games" | absolute_url }}" title="Games">
+          {% include icons/games.svg %}
+        </a>
+        <a class="w-10 h-10 flex items-center justify-center" href="{{ "/distros" | absolute_url }}" title="Linux">
+          {% include icons/tux.svg %}
+        </a>
+        <div class="border-t-2 h-1 mt-2"></div>
+        <a class="w-10 h-10 flex items-center justify-center" href="{{ "/about" | absolute_url }}" title="About">
+          {% include icons/about.svg %}
+        </a>
+      </nav>
+    </div>
+    <header class="m-2 p-4 w-11/12 max-w-5xl mx-auto bg-gray-700 text-white rounded hidden md:block">
+      <nav class="flex flex-wrap gap-2 items-center justify-between">
+        <div class="flex flex-wrap gap-2 items-center">
+          <img src="{{ "/assets/bestodon.svg" | absolute_url }}" class="h-6" />
+        </div>
+        <div class="flex flex-wrap gap-2 items-center">
+          <a class="hover:underline" href="{{ "/" | absolute_url }}">
+            All
+          </a>
+          <a class="hover:underline" href="{{ "/apps" | absolute_url }}">
+            Applications
+          </a>
+          <a class="hover:underline" href="{{ "/communities" | absolute_url }}">
+            Communities
+          </a>
+          <a class="hover:underline" href="{{ "/dev" | absolute_url }}">
+            Development
+          </a>
+          <a class="hover:underline" href="{{ "/games" | absolute_url }}">
+            Games
+          </a>
+          <a class="hover:underline" href="{{ "/distros" | absolute_url }}">
+            Linux distributions
+          </a>
+        </div>
+        <div class="flex flex-wrap gap-2 items-center">
+          <a class="hover:underline" href="{{ "/about" | absolute_url }}">About</a>
+        </div>
       </nav>
     </header>
-
-    <header class="m-2 p-2 max-w-5xl mx-auto bg-gray-700 text-white text-center rounded">
-      <div class="text-4xl font-bold">Bestodon</div>
-      <p>
-        Welcome to this list of Mastodon accounts.
-      </p>
-      <p>
-        Here you can find accounts dedicated to Free and Open Source Software, such as games, applications, Linux distributions, etc. 
-      </p>
-    </header>
+    <div class="w-full pl-14 pr-2 max-w-5xl text-center mt-2 md:mx-auto md:p-0 md:w-11/12">
+      <div class="bg-gray-700 text-white rounded p-2">
+        <img src="{{ "/assets/bestodon.svg" | absolute_url }}" class="h-18 mx-auto my-2" />
+        <p>
+          Welcome to this list of Mastodon accounts.
+        </p>
+        <p>
+          Here you can find accounts dedicated to Free and Open Source Software, such as games, applications, Linux distributions, etc.
+        </p>
+      </div>
+    </div>

@@ -1,0 +1,10 @@
+---
+title: About
+layout: default
+---
+<div id="readme" class="p-2 max-w-5xl mt-2 ml-14 mr-2 md:mx-auto bg-neutral-800 text-white rounded-lg">
+	{% capture readme %}
+		{% include_relative README.md %}
+	{% endcapture %}
+	{{ readme | markdownify }}
+</div>
