@@ -286,7 +286,7 @@
 			axios.get(`/assets/lists/${list}.json`)
 			.then( resp => {
 				accounts = resp.data;
-				if (page > 1) drawAccounts();
+				drawAccounts();
 				drawPagination();
 			});
 		}
