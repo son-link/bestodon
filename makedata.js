@@ -1,9 +1,5 @@
-const { rejects } = require('assert');
 const axios = require('axios');
-const e = require('express');
 const fs = require('fs');
-const { resolve } = require('path');
-const { comment } = require('postcss');
 
 const lists = [
   'games',
@@ -69,7 +65,7 @@ const getList = (list) => {
             if (fa > fb) return 1;
             return 0;
           });
-          
+
           writeListStream.write(JSON.stringify(content));
           resolve(content);
         })
