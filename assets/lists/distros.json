@@ -1,3 +1,0 @@
----
----
-{{ site.data.distros | sort_natural: "display_name" | jsonify }}

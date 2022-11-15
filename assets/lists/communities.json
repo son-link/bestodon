@@ -1,3 +1,0 @@
----
----
-{{ site.data.communities | sort_natural: "display_name" | jsonify }}

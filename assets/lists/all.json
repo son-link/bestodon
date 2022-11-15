@@ -1,3 +1,0 @@
----
----
-{{ site.data.all | sort_natural: "display_name" | jsonify }}
