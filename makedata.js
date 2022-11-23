@@ -91,6 +91,9 @@ const getData = async () => {
       if (newAllContent.length == 0) return;
       
       allContent.push(...newAllContent);
+
+      allContent = [...new Map(allContent.map(v => [v.acct, v])).values()]
+      
       allContent = sortArray(allContent)
 
       const writeAllListStream = fs.createWriteStream(`./assets/lists/all.json`);
