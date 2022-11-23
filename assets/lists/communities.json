@@ -1,1 +1,22 @@
-[{"username":"gnulinuxvalencia","acct":"gnulinuxvalencia@floss.social","display_name":"GNU/Linux Valencia","avatar":"https://cdn.fosstodon.org/cache/accounts/avatars/000/054/607/original/8ab7a9113ccdc37b.jpg","header":"https://cdn.fosstodon.org/cache/accounts/headers/000/054/607/original/fb0ee224e5f546f6.jpg","url":"https://floss.social/@gnulinuxvalencia","note":"<p>El objeto de este grupo es la difusión de GNU/Linux.</p>","domain":"floss.social"},{"username":"kde_espana","acct":"kde_espana@floss.social","display_name":"KDE España","avatar":"https://cdn.fosstodon.org/cache/accounts/avatars/109/144/461/452/085/124/original/6e0c1816d4fad0f6.jpg","header":"https://cdn.fosstodon.org/cache/accounts/headers/109/144/461/452/085/124/original/d4cc47b26b834e98.png","url":"https://floss.social/@kde_espana","note":"<p>KDE España es una asociación que está formada por un grupo de personas que desarrollan y contribuyen al proyecto KDE con la intención de dinamizar el desarrollo y uso del entorno del escritorio KDE en particular y el software libre en general</p>","domain":"floss.social"}]
+[
+  {
+    "username": "gnulinuxvalencia",
+    "acct": "gnulinuxvalencia@floss.social",
+    "display_name": "GNU/Linux Valencia",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/054/607/original/8ab7a9113ccdc37b.jpg",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/054/607/original/fb0ee224e5f546f6.jpg",
+    "url": "https://floss.social/@gnulinuxvalencia",
+    "note": "<p>El objeto de esta Asociación es la difusión de GNU/Linux y el Software/Cultura Libre.</p>",
+    "domain": "floss.social"
+  },
+  {
+    "username": "kde_espana",
+    "acct": "kde_espana@floss.social",
+    "display_name": "KDE España",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/144/461/452/085/124/original/6e0c1816d4fad0f6.jpg",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/144/461/452/085/124/original/d4cc47b26b834e98.png",
+    "url": "https://floss.social/@kde_espana",
+    "note": "<p>KDE España es una asociación que está formada por un grupo de personas que desarrollan y contribuyen al proyecto KDE con la intención de dinamizar el desarrollo y uso del entorno del escritorio KDE en particular y el software libre en general</p>",
+    "domain": "floss.social"
+  }
+]

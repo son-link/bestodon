@@ -1,1 +1,52 @@
-[{"username":"elementary","acct":"elementary@mastodon.social","display_name":"elementary","avatar":"https://cdn.fosstodon.org/cache/accounts/avatars/000/024/157/original/ce63dcb3cf5204d0.png","header":"https://cdn.fosstodon.org/cache/accounts/headers/000/024/157/original/a09cd7c0d39edde2.png","url":"https://mastodon.social/@elementary","note":"<p>The thoughtful, capable, and ethical replacement for Windows and macOS—plus AppCenter, the pay-what-you-can app store.</p>","domain":"mastodon.social"},{"username":"openmandriva","acct":"openmandriva@linuxrocks.online","display_name":"OpenMandriva","avatar":"https://cdn.fosstodon.org/cache/accounts/avatars/000/316/236/original/ab2045abd1f477d0.png","header":"https://cdn.fosstodon.org/cache/accounts/headers/000/316/236/original/1bedce36e4a8768a.png","url":"https://linuxrocks.online/@openmandriva","note":"<p>OpenMandriva Lx is a unique and independent distribution and direct descendant of Mandriva Linux</p>","domain":"linuxrocks.online"},{"username":"opensuse_es","acct":"opensuse_es@floss.social","display_name":"openSUSE Español","avatar":"https://cdn.fosstodon.org/cache/accounts/avatars/109/275/157/721/230/148/original/5ba43c1eac68bbfb.png","header":"https://cdn.fosstodon.org/cache/accounts/headers/109/275/157/721/230/148/original/a80ce8e93bbbb29f.png","url":"https://floss.social/@opensuse_es","note":"<p>openSUSE es un sistema operativo abierto, gratuito y seguro basado en Linux para PC, computadoras portátiles, servidores y dispositivos ARM.<br>Esta cuenta reproduce las notas compartidas en <a href=\"https://planet.opensuse.org/es/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">planet.opensuse.org/es/</span><span class=\"invisible\"></span></a>, entre otras cosas.</p>","domain":"floss.social"},{"username":"snowflakelinux","acct":"snowflakelinux@floss.social","display_name":"SnowflakeOS","avatar":"https://cdn.fosstodon.org/cache/accounts/avatars/109/040/706/789/451/536/original/a66620a00107b5c8.png","header":"https://fosstodon.org/headers/original/missing.png","url":"https://floss.social/@snowflakelinux","note":"<p>SnowflakeOS is a NixOS based Linux distribution focused on beginner friendliness and ease of use</p>","domain":"floss.social"},{"username":"SUSE","acct":"SUSE","display_name":"SUSE","avatar":"https://cdn.fosstodon.org/accounts/avatars/000/110/134/original/f6617ca82fee49bc.png","header":"https://fosstodon.org/headers/original/missing.png","url":"https://fosstodon.org/@SUSE","note":"","domain":"fosstodon.org"}]
+[
+  {
+    "username": "elementary",
+    "acct": "elementary@mastodon.social",
+    "display_name": "elementary",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/024/157/original/ce63dcb3cf5204d0.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/024/157/original/a09cd7c0d39edde2.png",
+    "url": "https://mastodon.social/@elementary",
+    "note": "<p>The thoughtful, capable, and ethical replacement for Windows and macOS—plus AppCenter, the pay-what-you-can app store.</p>",
+    "domain": "mastodon.social"
+  },
+  {
+    "username": "openmandriva",
+    "acct": "openmandriva@linuxrocks.online",
+    "display_name": "OpenMandriva",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/316/236/original/ab2045abd1f477d0.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/316/236/original/2eab68ca4ce7b216.jpeg",
+    "url": "https://linuxrocks.online/@openmandriva",
+    "note": "<p>OpenMandriva Lx is a unique and independent distribution and direct descendant of Mandriva Linux</p>",
+    "domain": "linuxrocks.online"
+  },
+  {
+    "username": "opensuse_es",
+    "acct": "opensuse_es@floss.social",
+    "display_name": "openSUSE Español",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/275/157/721/230/148/original/5ba43c1eac68bbfb.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/275/157/721/230/148/original/a80ce8e93bbbb29f.png",
+    "url": "https://floss.social/@opensuse_es",
+    "note": "<p>openSUSE es un sistema operativo abierto, gratuito y seguro basado en Linux para PC, computadoras portátiles, servidores y dispositivos ARM.<br>Esta cuenta reproduce las notas compartidas en <a href=\"https://planet.opensuse.org/es/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">planet.opensuse.org/es/</span><span class=\"invisible\"></span></a>, entre otras cosas.</p>",
+    "domain": "floss.social"
+  },
+  {
+    "username": "snowflakelinux",
+    "acct": "snowflakelinux@floss.social",
+    "display_name": "SnowflakeOS",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/040/706/789/451/536/original/a66620a00107b5c8.png",
+    "header": "https://fosstodon.org/headers/original/missing.png",
+    "url": "https://floss.social/@snowflakelinux",
+    "note": "<p>SnowflakeOS is a NixOS based Linux distribution focused on beginner friendliness and ease of use</p>",
+    "domain": "floss.social"
+  },
+  {
+    "username": "SUSE",
+    "acct": "SUSE@fosstodon.org",
+    "display_name": "SUSE",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/000/110/134/original/f6617ca82fee49bc.png",
+    "header": "https://fosstodon.org/headers/original/missing.png",
+    "url": "https://fosstodon.org/@SUSE",
+    "note": "",
+    "domain": "fosstodon.org"
+  }
+]
