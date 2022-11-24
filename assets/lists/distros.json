@@ -1,5 +1,15 @@
 [
   {
+    "username": "alpinelinux",
+    "acct": "alpinelinux@fosstodon.org",
+    "display_name": "Alpine Linux 🏔",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/393/135/857/799/187/original/06de99feb868ed0a.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/393/135/857/799/187/original/793b4771d3ad5eff.png",
+    "url": "https://fosstodon.org/@alpinelinux",
+    "note": "<p>Alpine Linux announcements</p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "elementary",
     "acct": "elementary@mastodon.social",
     "display_name": "elementary",
