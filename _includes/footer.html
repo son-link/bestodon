@@ -1,3 +1,8 @@
+	<div id="no-results" class="hidden w-full max-w-5xl pl-14 pr-2 md:mx-auto md:grid-cols-2 md:p-0 md:w-11/1">
+		<div class="rounded-lg w-full bg-neutral-800 font-bold p-2 text-xl text-white">
+			No results
+		</div>
+	</div>
 	<div id="pagination" class="flex flex-wrap justify-center gap-4 my-4"></div>
 	<div class="w-full pl-14 pr-2 max-w-5xl mt-2 m-4 p-2 max-w-5xl mx-auto text-neutral-500 flex-wrap gap-8 md:flex md:mx-auto md:p-0">
 		<div>
@@ -170,6 +175,7 @@
 				prevData = null;
 			}
 
+			$('#list').show('grid');
 			$('.clear-search').hide();
 			$('.search-icon').show();
 			location.hash = '';
@@ -190,6 +196,8 @@
 			});
 
 			$('.search').on('keyup', function() {
+				$('#no-results').hide();
+				$('#list').show('grid');
 				const search = $(this).val().toLowerCase().trim();
 
 				if (prevData) {
@@ -202,6 +210,9 @@
 				if (search.length > 0) {
 					$('.clear-search').show();
 					$('.search-icon').hide();
+				} else {
+					$('.clear-search').hide();
+					$('.search-icon').show();
 				}
 
 				if (search.length < 3) return;
@@ -216,7 +227,11 @@
 					accounts = results;
 					drawAccounts();
 					drawPagination();
-				} else $('#list').html(`<h4>No results</h4>`);
+				} else {
+					$('#no-results').show();
+					$('#list').hide();
+					$('#pagination').empty();
+				}
 				
 				location.hash = '';
 				page = 1;
