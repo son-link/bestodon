@@ -13,6 +13,11 @@
     <script src="https://son-link.github.io/bestodon/assets/js/ejs.min.js"></script>
   </head>
   <body class="bg-neutral-900">
+    <button class="fixed bottom-4 right-4 text-white bg-neutral-500 rounded p-2 z-20 hidden" id="backtotop">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+      </svg>      
+    </button>
     <div class="w-12 h-full fixed inset-0 top-0 bg-gray-700 text-white flex flex-columns justify-center z-10 md:hidden">
       <nav class="my-2">
         <a class="w-10 h-10 flex items-center justify-center" title="All" href="https://son-link.github.io/bestodon/">
@@ -79,8 +84,23 @@
             Linux distributions
           </a>
         </div>
-        <div class="flex flex-wrap gap-2 items-center">
-          <a class="hover:underline" href="https://son-link.github.io/bestodon/about">About</a>
+        <div class="flex flex-wrap gap-2">
+          <div class="flex items-center justify-end gap-2 relative">
+            <input type="text" id="search" class=" search bg-neutral-800 text-white rounded p-1" placeholder="Search...." />
+            <div class="absolute right-1 search-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+              </svg>
+            </div>
+            <button class="clear-search absolute right-1 rounded-full bg-neutral-500 p-1 hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+              </svg>
+            </button>
+          </div>
+          <div class="flex flex-wrap gap-2 items-center">
+            <a class="hover:underline" href="https://son-link.github.io/bestodon/about">About</a>
+          </div>
         </div>
       </nav>
     </header>
@@ -93,6 +113,19 @@
         <p>
           Here you can find accounts dedicated to Free and Open Source Software, such as games, applications, Linux distributions, etc.
         </p>
+        <div class="flex items-center gap-2 relative w-full mt-2 md:hidden">
+          <input type="text" id="search" class="search bg-neutral-800 text-white rounded p-1 w-full" placeholder="Search...." />
+          <div class="absolute right-1 search-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+          </div>
+          <button class="clear-search absolute right-1 rounded-full bg-neutral-500 p-1 hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+              <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
 	<div id="readme" class="p-2 max-w-5xl mt-2 ml-14 mr-2 md:mx-auto bg-neutral-800 text-white rounded-lg">
@@ -264,6 +297,7 @@
 	<script type="text/javascript">
 		let accounts = [];
       	let page = 1;
+		let prevData = null;
 		axios.defaults.baseURL = 'https://son-link.github.io/bestodon';
 
 		if (location.hash) page = parseInt(location.hash.replace('#page-', ''));
@@ -295,7 +329,7 @@
 			data = paginate(accounts, page, 10);
 			const tpl = $('#account-tpl').html();
 			const html = ejs.render(tpl, { items: data.items });
-			$(list).html(html)
+			$('#list').html(html)
 		}
 	
 		const drawPagination = () => {
@@ -328,6 +362,21 @@
 			}
 		}
 
+		const clearSearch = () => {
+			if (prevData) {
+				accounts = prevData;
+				prevData = null;
+			}
+
+			$('.clear-search').hide();
+			$('.search-icon').show();
+			location.hash = '';
+			page = 1;
+			window.scrollTo({ top: 0, behavior: 'smooth' });
+			drawAccounts();
+			drawPagination();
+		}
+
 		document.addEventListener("DOMContentLoaded", () => {
 			$('#pagination').on('click', 'a', function(e) {
 				if (! $(this).attr('href').startsWith('#page-')) return;
@@ -336,6 +385,54 @@
 				drawPagination();
 				drawAccounts();
 				window.scrollTo({ top: 0, behavior: 'smooth' })
+			});
+
+			$('.search').on('keyup', function() {
+				const search = $(this).val().toLowerCase().trim();
+
+				if (prevData) {
+					accounts = prevData;
+					prevData = null;
+					drawAccounts();
+					drawPagination();
+				}
+
+				if (search.length > 0) {
+					$('.clear-search').show();
+					$('.search-icon').hide();
+				}
+
+				if (search.length < 3) return;
+
+				const results = accounts.filter( (data)=>{
+					var regex = new RegExp(search, "i");
+					return data.username.match(regex) || data.acct.match(regex)  || data.note.match(regex);
+				});
+				
+				if (results.length > 0) {
+					if (!prevData) prevData = accounts;
+					accounts = results;
+					drawAccounts();
+					drawPagination();
+				} else $('#list').html(`<h4>No results</h4>`);
+				
+				location.hash = '';
+				page = 1;
+				window.scrollTo({ top: 0, behavior: 'smooth' });
+			});
+
+			$(window).on('scroll', () => {
+				if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300)
+					$('#backtotop').show();					
+
+				else $('#backtotop').hide();
+			});
+
+			$('#backtotop').on('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+			$('.clear-search').on('click', () => {
+				$('.search').each( ele => ele.value = '');
+				clearSearch();
 			});
 		});
 	</script>
