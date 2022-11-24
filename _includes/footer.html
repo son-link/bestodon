@@ -103,6 +103,7 @@
 	<script type="text/javascript">
 		let accounts = [];
       	let page = 1;
+		let prevData = null;
 		axios.defaults.baseURL = '{{ site.url }}';
 
 		if (location.hash) page = parseInt(location.hash.replace('#page-', ''));
@@ -134,7 +135,7 @@
 			data = paginate(accounts, page, 10);
 			const tpl = $('#account-tpl').html();
 			const html = ejs.render(tpl, { items: data.items });
-			$(list).html(html)
+			$('#list').html(html)
 		}
 	
 		const drawPagination = () => {
@@ -163,6 +164,21 @@
 			}
 		}
 
+		const clearSearch = () => {
+			if (prevData) {
+				accounts = prevData;
+				prevData = null;
+			}
+
+			$('.clear-search').hide();
+			$('.search-icon').show();
+			location.hash = '';
+			page = 1;
+			window.scrollTo({ top: 0, behavior: 'smooth' });
+			drawAccounts();
+			drawPagination();
+		}
+
 		document.addEventListener("DOMContentLoaded", () => {
 			$('#pagination').on('click', 'a', function(e) {
 				if (! $(this).attr('href').startsWith('#page-')) return;
@@ -171,6 +187,54 @@
 				drawPagination();
 				drawAccounts();
 				window.scrollTo({ top: 0, behavior: 'smooth' })
+			});
+
+			$('.search').on('keyup', function() {
+				const search = $(this).val().toLowerCase().trim();
+
+				if (prevData) {
+					accounts = prevData;
+					prevData = null;
+					drawAccounts();
+					drawPagination();
+				}
+
+				if (search.length > 0) {
+					$('.clear-search').show();
+					$('.search-icon').hide();
+				}
+
+				if (search.length < 3) return;
+
+				const results = accounts.filter( (data)=>{
+					var regex = new RegExp(search, "i");
+					return data.username.match(regex) || data.acct.match(regex)  || data.note.match(regex);
+				});
+				
+				if (results.length > 0) {
+					if (!prevData) prevData = accounts;
+					accounts = results;
+					drawAccounts();
+					drawPagination();
+				} else $('#list').html(`<h4>No results</h4>`);
+				
+				location.hash = '';
+				page = 1;
+				window.scrollTo({ top: 0, behavior: 'smooth' });
+			});
+
+			$(window).on('scroll', () => {
+				if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300)
+					$('#backtotop').show();					
+
+				else $('#backtotop').hide();
+			});
+
+			$('#backtotop').on('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+			$('.clear-search').on('click', () => {
+				$('.search').each( ele => ele.value = '');
+				clearSearch();
 			});
 		});
 	</script>
