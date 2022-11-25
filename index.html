@@ -141,6 +141,11 @@
 			No results
 		</div>
 	</div>
+	<div class="text-white text-center w-full max-w-5xl pl-14 pr-2 mt-2 md:mx-auto md:grid-cols-2 md:p-0 md:w-11/1">
+		<div class="p-2" id="total-pages">
+			View 1/1 of 1
+		</div>
+	</div>
 	<div id="pagination" class="flex flex-wrap justify-center gap-4 my-4"></div>
 	<div class="w-full pl-14 pr-2 max-w-5xl mt-2 m-4 p-2 max-w-5xl mx-auto text-neutral-500 flex-wrap gap-8 md:flex md:mx-auto md:p-0">
 		<div>
@@ -281,6 +286,10 @@
 			const tpl = $('#account-tpl').html();
 			const html = ejs.render(tpl, { items: data.items });
 			$('#list').html(html)
+
+			const from = (10 * (page -1 )) + 1;
+			const to = (from + 9 <= data.total) ? from + 9 : data.total
+			$('#total-pages').html(`View ${from} - ${to} of ${accounts.length} accounts`);
 		}
 	
 		const drawPagination = () => {
