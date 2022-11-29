@@ -10,11 +10,20 @@
     <link rel="stylesheet" href="{{ "/assets/css/styles.css" | absolute_url }}">
   </head>
   <body class="bg-neutral-900">
-    <button class="fixed bottom-4 right-4 text-white bg-neutral-500 rounded p-2 z-20 hidden" id="backtotop">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
-      </svg>      
-    </button>
+    <div class="fixed bottom-4 right-4 z-20 flex flex-wrap gap-2">
+      <button class="text-white bg-neutral-500 rounded p-2 hidden" id="backtotop">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+        </svg>
+      </button>
+      <button class="text-white bg-neutral-500 rounded p-2 hidden" id="downmarked">
+        {% include icons/download.svg %}
+      </button>
+      <button class="text-white bg-neutral-500 rounded p-2 hidden" id="remove-marked">
+        {% include icons/bookmark-slash.svg %}
+      </button>
+    </div>
+    
     <div class="w-12 h-full fixed inset-0 top-0 bg-gray-700 text-white flex flex-columns justify-center z-10 md:hidden">
       <nav class="my-2">
         <a class="w-10 h-10 flex items-center justify-center" title="All" href="{{ "/" | absolute_url }}">

@@ -3,6 +3,9 @@
 let accounts = [];
 let page = 1;
 let prevData = null;
+let bookmarks = ('bookmarks' in localStorage) ? JSON.parse(localStorage.getItem('bookmarks')) : [];
+
+if (bookmarks.length > 0) $('#downmarked, #remove-marked').show();
 axios.defaults.baseURL = '{{ site.url }}';
 
 if (location.hash) page = parseInt(location.hash.replace('#page-', ''));
@@ -33,7 +36,7 @@ const getData = list => {
 const drawAccounts = () => {
 	data = paginate(accounts, page, 10);
 	const tpl = $('#account-tpl').html();
-	const html = ejs.render(tpl, { items: data.items });
+	const html = ejs.render(tpl, { items: data.items, bookmarks: bookmarks });
 	$('#list').html(html)
 
 	const from = (10 * (page -1 )) + 1;
@@ -46,7 +49,7 @@ const drawPagination = () => {
 	const totalPages = Math.ceil(accounts.length / 10);
 
 	if (page > 1) {
-		$('#pagination').append(`<a class="md:w-8 h-8 text-white flex items-center justify-center" href="#page-${page-1}">
+		$('#pagination').append(`<a class="page md:w-8 h-8 text-white flex items-center justify-center" href="#page-${page-1}">
 			{% include icons/prev.svg %}
 			<span class="md:hidden">Prev</span>
 		</a>`);
@@ -56,11 +59,11 @@ const drawPagination = () => {
 		if (page == i+1)
 			$('#pagination').append(`<span class="rounded-full bg-gray-100 w-8 h-8 items-center justify-center hidden md:flex">${i+1}</span>`);
 		else
-			$('#pagination').append(`<a class="rounded-full text-white w-8 h-8 items-center justify-center hidden md:flex" href="#page-${i+1}">${i+1}</a>`);
+			$('#pagination').append(`<a class="page rounded-full text-white w-8 h-8 items-center justify-center hidden md:flex" href="#page-${i+1}">${i+1}</a>`);
 	}
 
 	if (page < totalPages) {
-		$('#pagination').append(`<a class="text-white md:w-8 h-8 flex items-center justify-centerhref="#page-${page+1}">
+		$('#pagination').append(`<a class="page text-white md:w-8 h-8 flex items-center justify-center" href="#page-${page+1}">
 					<span class="md:hidden">Next</span>
 			{% include icons/next.svg %}
 		</a>`);
@@ -83,8 +86,26 @@ const clearSearch = () => {
 	drawPagination();
 }
 
+const AddDelBookmark = ele => {
+	const acct = $(ele).attr('data-acct');
+	if ($(ele).hasClass('marked')) {
+		bookmarks.push(acct);
+	} else {
+		bookmarks = bookmarks.filter(function(value, index, arr){ 
+			return value != acct;
+		});
+	}
+
+	$('#downmarked, #remove-marked').hide();
+	if (bookmarks.length > 0) {
+		$('#downmarked, #remove-marked').show();
+	}
+
+	localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
+}
+
 document.addEventListener("DOMContentLoaded", () => {
-	$('#pagination').on('click', 'a', function(e) {
+	$('#pagination').on('click', '.page', function() {
 		if (! $(this).attr('href').startsWith('#page-')) return;
 
 		page = parseInt($(this).attr('href').replace('#page-', ''));
@@ -147,5 +168,35 @@ document.addEventListener("DOMContentLoaded", () => {
 	$('.clear-search').on('click', () => {
 		$('.search').each( ele => ele.value = '');
 		clearSearch();
+	});
+
+	$('body').on('click', '.bookmark', function() {
+		$(this).toggleClass('marked');
+		AddDelBookmark(this);
+	});
+
+	$('#downmarked').on('click', () => {
+		let csv = 'Account address,Show boosts,Notify on new posts,Languages\r\n';
+		bookmarks.forEach(marked => csv += `${marked},true,false\r\n`);
+
+		const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+   		const link = document.createElement("a");
+        if (link.download !== undefined) { // feature detection
+            // Browsers that support HTML5 download attribute
+            const url = URL.createObjectURL(blob);
+            link.setAttribute("href", url);
+            link.setAttribute("download", "accts2follow.csv");
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+	});
+
+	$('#remove-marked').on('click', () => {
+		bookmarks = [];
+		localStorage.removeItem('bookmarks');
+		$('#downmarked, #remove-marked').hide();
+		$('.bookmark').removeClass('marked');
 	});
 });

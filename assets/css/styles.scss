@@ -31,3 +31,15 @@
 		@apply underline;
 	}
 }
+
+.bookmark {
+	svg {
+		@apply fill-neutral-500;
+	}
+	
+	&.marked {
+		svg {
+			@apply fill-red-600;
+		}
+	}
+}
