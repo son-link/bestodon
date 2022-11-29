@@ -14,4 +14,8 @@
 
 #list .note a { text-decoration-line: underline; }
 
+.bookmark svg { fill: #737373; }
+
+.bookmark.marked svg { fill: #dc2626; }
+
 /*# sourceMappingURL=styles.css.map */
