@@ -14,10 +14,20 @@
     "acct": "godotengine@mastodon.gamedev.place",
     "display_name": "Godot Engine",
     "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/006/648/original/6a1bebe2ffb6f47b.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/006/648/original/b1920b05019f6546.jpg",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/006/648/original/2c9caa4a7118b2d4.png",
     "url": "https://mastodon.gamedev.place/@godotengine",
     "note": "<p>Advanced, feature-packed, multi-platform 2D and 3D open source game engine. It is developed by hundreds of contributors from all around the world!</p>",
     "domain": "mastodon.gamedev.place"
+  },
+  {
+    "username": "GTK",
+    "acct": "GTK@floss.social",
+    "display_name": "GTK",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/321/394/916/200/690/original/ee76bbd2ab76ce09.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/321/394/916/200/690/original/e90c134d03c13091.png",
+    "url": "https://floss.social/@GTK",
+    "note": "<p>Official account of the GTK project.</p><p>GTK is a general purpose graphical toolkit for a wide variety of environments, from desktop to mobile platforms. You can use GTK to build beautiful applications on Linux, as well as Windows and macOS, using one of the many programming languages that support it.</p>",
+    "domain": "floss.social"
   },
   {
     "username": "rpginabox",
@@ -48,5 +58,15 @@
     "url": "https://mastodon.gamedev.place/@xenko",
     "note": "<p>Stride is a modern open-source cross-platform game engine written in c#</p><p><a href=\"https://mastodon.gamedev.place/tags/gameengine\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>gameengine</span></a> <a href=\"https://mastodon.gamedev.place/tags/dotnet\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>dotnet</span></a> <a href=\"https://mastodon.gamedev.place/tags/csharp\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>csharp</span></a> <a href=\"https://mastodon.gamedev.place/tags/opensource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>opensource</span></a></p>",
     "domain": "mastodon.gamedev.place"
+  },
+  {
+    "username": "vala_lang",
+    "acct": "vala_lang@mastodon.social",
+    "display_name": "Vala",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/108/583/244/286/924/834/original/03d54ba58d59b30b.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/108/583/244/286/924/834/original/38bdc6dd4c992ffd.png",
+    "url": "https://mastodon.social/@vala_lang",
+    "note": "<p>A Familiar Way To Develop Applications</p><p>Vala is an object-oriented programming language with a self-hosting compiler that generates C code and uses the GObject type system.</p><p>Account is run by: <span class=\"h-card\"><a href=\"https://merveilles.town/@colinkiama\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>colinkiama</span></a></span></p><p><a href=\"https://mastodon.social/tags/vala\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>vala</span></a> <a href=\"https://mastodon.social/tags/valalang\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>valalang</span></a> <a href=\"https://mastodon.social/tags/gnome\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>gnome</span></a> <a href=\"https://mastodon.social/tags/elementaryos\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>elementaryos</span></a> <a href=\"https://mastodon.social/tags/linux\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>linux</span></a> <a href=\"https://mastodon.social/tags/foss\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>foss</span></a> <a href=\"https://mastodon.social/tags/opensource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>opensource</span></a> <a href=\"https://mastodon.social/tags/programming\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>programming</span></a> <a href=\"https://mastodon.social/tags/programminglanguages\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>programminglanguages</span></a></p>",
+    "domain": "mastodon.social"
   }
 ]

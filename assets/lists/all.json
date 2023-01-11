@@ -12,7 +12,7 @@
   {
     "username": "alpinelinux",
     "acct": "alpinelinux@fosstodon.org",
-    "display_name": "Alpine Linux 🏔",
+    "display_name": "Alpine Linux :alpine:",
     "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/393/135/857/799/187/original/06de99feb868ed0a.png",
     "header": "https://cdn.fosstodon.org/accounts/headers/109/393/135/857/799/187/original/793b4771d3ad5eff.png",
     "url": "https://fosstodon.org/@alpinelinux",
@@ -54,10 +54,30 @@
     "acct": "fdroidorg@floss.social",
     "display_name": "F-Droid",
     "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/177/208/564/891/358/original/50b534f3f8aa1689.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/177/208/564/891/358/original/8f9f4088fc6031b4.jpg",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/177/208/564/891/358/original/aafa1a9f78354c69.jpg",
     "url": "https://floss.social/@fdroidorg",
     "note": "<p>F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.</p>",
     "domain": "floss.social"
+  },
+  {
+    "username": "fedora",
+    "acct": "fedora@fosstodon.org",
+    "display_name": "Fedora Project",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/509/696/036/420/221/original/db69fa5b8afc3f12.jpg",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/509/696/036/420/221/original/aa2f2d0e7027e968.png",
+    "url": "https://fosstodon.org/@fedora",
+    "note": "<p>This is the official (experimental) feed for the Fedora Project, a global free software community sponsored by Red Hat.</p>",
+    "domain": "fosstodon.org"
+  },
+  {
+    "username": "FlatpakApps",
+    "acct": "FlatpakApps@fosstodon.org",
+    "display_name": "Flatpak",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/107/123/847/184/407/366/original/40f54da5f9693a50.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/107/123/847/184/407/366/original/ef0e179b445e1b58.png",
+    "url": "https://fosstodon.org/@FlatpakApps",
+    "note": "<p>The future of desktop application distribution on Linux.</p>",
+    "domain": "fosstodon.org"
   },
   {
     "username": "FreeCAD",
@@ -130,6 +150,16 @@
     "domain": "mastodon.gamedev.place"
   },
   {
+    "username": "geary",
+    "acct": "geary@floss.social",
+    "display_name": "Geary",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/247/557/original/eaa567d945e54b50.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/247/557/original/a3f7b717aa0e126d.png",
+    "url": "https://floss.social/@geary",
+    "note": "<p>Geary is an email application built around conversations, for the <span class=\"h-card\"><a href=\"https://floss.social/@gnome\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>gnome</span></a></span> desktop.</p><p>Account managed by <span class=\"h-card\"><a href=\"https://octodon.social/@mjog\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>mjog</span></a></span></p>",
+    "domain": "floss.social"
+  },
+  {
     "username": "GIMP",
     "acct": "GIMP@floss.social",
     "display_name": "GIMP",
@@ -174,10 +204,20 @@
     "acct": "godotengine@mastodon.gamedev.place",
     "display_name": "Godot Engine",
     "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/006/648/original/6a1bebe2ffb6f47b.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/006/648/original/b1920b05019f6546.jpg",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/006/648/original/2c9caa4a7118b2d4.png",
     "url": "https://mastodon.gamedev.place/@godotengine",
     "note": "<p>Advanced, feature-packed, multi-platform 2D and 3D open source game engine. It is developed by hundreds of contributors from all around the world!</p>",
     "domain": "mastodon.gamedev.place"
+  },
+  {
+    "username": "GTK",
+    "acct": "GTK@floss.social",
+    "display_name": "GTK",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/321/394/916/200/690/original/ee76bbd2ab76ce09.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/321/394/916/200/690/original/e90c134d03c13091.png",
+    "url": "https://floss.social/@GTK",
+    "note": "<p>Official account of the GTK project.</p><p>GTK is a general purpose graphical toolkit for a wide variety of environments, from desktop to mobile platforms. You can use GTK to build beautiful applications on Linux, as well as Windows and macOS, using one of the many programming languages that support it.</p>",
+    "domain": "floss.social"
   },
   {
     "username": "inkscape",
@@ -198,6 +238,16 @@
     "url": "https://mstdn.io/@Jami",
     "note": "<p>The distributed universal and secure Free Software for multimedia communications by Savoir-faire Linux and the GNU community.<br>Download Jami on <a href=\"https://jami.net\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">jami.net</span><span class=\"invisible\"></span></a></p>",
     "domain": "mstdn.io"
+  },
+  {
+    "username": "k9mail",
+    "acct": "k9mail@fosstodon.org",
+    "display_name": "K-9 Mail",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/000/211/144/original/a271f9c2e34f3b29.png",
+    "header": "https://fosstodon.org/headers/original/missing.png",
+    "url": "https://fosstodon.org/@k9mail",
+    "note": "<p>K-9 Mail – Open source email app for Android</p>",
+    "domain": "fosstodon.org"
   },
   {
     "username": "kde",
@@ -258,6 +308,16 @@
     "url": "https://mastodon.social/@LXQt",
     "note": "<p>The lightweight and modular Desktop Environment based on Qt</p>",
     "domain": "mastodon.social"
+  },
+  {
+    "username": "matrix",
+    "acct": "matrix@mastodon.matrix.org",
+    "display_name": "Matrix.org",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/001/396/original/def145802f013bf0.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/001/396/original/e871ba3e907b3da9.jpg",
+    "url": "https://mastodon.matrix.org/@matrix",
+    "note": "<p>An open standard for decentralised persistent communication. Crossposts from the birdsite 'cos bridges rock. We monitor the mastodon side too though.</p>",
+    "domain": "mastodon.matrix.org"
   },
   {
     "username": "Minetest",
@@ -398,6 +458,16 @@
     "url": "https://mastodon.online/@thunderbird",
     "note": "<p>Your all-in-one communications command center that puts YOU in control, not a corporation. Manage multiple email accounts, calendars, tasks, RSS feeds and newsgroups. </p><p><a href=\"https://mastodon.online/tags/OpenSource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>OpenSource</span></a> and respectful of your privacy.</p><p>Read about Thunderbird 102 here: <a href=\"https://mzla.link/3hjVSMQ\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/3hjVSMQ</span><span class=\"invisible\"></span></a></p><p>Get involved with Thunderbird here: <a href=\"https://mzla.link/3Ur3BXu\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/3Ur3BXu</span><span class=\"invisible\"></span></a></p><p>Get help with Thunderbird here: <a href=\"https://mzla.link/thunderbirdhelp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/thunderbirdhelp</span><span class=\"invisible\"></span></a></p>",
     "domain": "mastodon.online"
+  },
+  {
+    "username": "vala_lang",
+    "acct": "vala_lang@mastodon.social",
+    "display_name": "Vala",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/108/583/244/286/924/834/original/03d54ba58d59b30b.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/108/583/244/286/924/834/original/38bdc6dd4c992ffd.png",
+    "url": "https://mastodon.social/@vala_lang",
+    "note": "<p>A Familiar Way To Develop Applications</p><p>Vala is an object-oriented programming language with a self-hosting compiler that generates C code and uses the GObject type system.</p><p>Account is run by: <span class=\"h-card\"><a href=\"https://merveilles.town/@colinkiama\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>colinkiama</span></a></span></p><p><a href=\"https://mastodon.social/tags/vala\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>vala</span></a> <a href=\"https://mastodon.social/tags/valalang\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>valalang</span></a> <a href=\"https://mastodon.social/tags/gnome\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>gnome</span></a> <a href=\"https://mastodon.social/tags/elementaryos\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>elementaryos</span></a> <a href=\"https://mastodon.social/tags/linux\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>linux</span></a> <a href=\"https://mastodon.social/tags/foss\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>foss</span></a> <a href=\"https://mastodon.social/tags/opensource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>opensource</span></a> <a href=\"https://mastodon.social/tags/programming\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>programming</span></a> <a href=\"https://mastodon.social/tags/programminglanguages\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>programminglanguages</span></a></p>",
+    "domain": "mastodon.social"
   },
   {
     "username": "veloren",

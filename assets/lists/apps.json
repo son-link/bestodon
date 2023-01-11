@@ -24,10 +24,20 @@
     "acct": "fdroidorg@floss.social",
     "display_name": "F-Droid",
     "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/177/208/564/891/358/original/50b534f3f8aa1689.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/177/208/564/891/358/original/8f9f4088fc6031b4.jpg",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/177/208/564/891/358/original/aafa1a9f78354c69.jpg",
     "url": "https://floss.social/@fdroidorg",
     "note": "<p>F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.</p>",
     "domain": "floss.social"
+  },
+  {
+    "username": "FlatpakApps",
+    "acct": "FlatpakApps@fosstodon.org",
+    "display_name": "Flatpak",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/107/123/847/184/407/366/original/40f54da5f9693a50.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/107/123/847/184/407/366/original/ef0e179b445e1b58.png",
+    "url": "https://fosstodon.org/@FlatpakApps",
+    "note": "<p>The future of desktop application distribution on Linux.</p>",
+    "domain": "fosstodon.org"
   },
   {
     "username": "FreeCAD",
@@ -80,6 +90,16 @@
     "domain": "mastodon.social"
   },
   {
+    "username": "geary",
+    "acct": "geary@floss.social",
+    "display_name": "Geary",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/247/557/original/eaa567d945e54b50.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/247/557/original/a3f7b717aa0e126d.png",
+    "url": "https://floss.social/@geary",
+    "note": "<p>Geary is an email application built around conversations, for the <span class=\"h-card\"><a href=\"https://floss.social/@gnome\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>gnome</span></a></span> desktop.</p><p>Account managed by <span class=\"h-card\"><a href=\"https://octodon.social/@mjog\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>mjog</span></a></span></p>",
+    "domain": "floss.social"
+  },
+  {
     "username": "GIMP",
     "acct": "GIMP@floss.social",
     "display_name": "GIMP",
@@ -130,6 +150,16 @@
     "domain": "mstdn.io"
   },
   {
+    "username": "k9mail",
+    "acct": "k9mail@fosstodon.org",
+    "display_name": "K-9 Mail",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/000/211/144/original/a271f9c2e34f3b29.png",
+    "header": "https://fosstodon.org/headers/original/missing.png",
+    "url": "https://fosstodon.org/@k9mail",
+    "note": "<p>K-9 Mail – Open source email app for Android</p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "kde",
     "acct": "kde@floss.social",
     "display_name": "KDE",
@@ -178,6 +208,16 @@
     "url": "https://mastodon.social/@LXQt",
     "note": "<p>The lightweight and modular Desktop Environment based on Qt</p>",
     "domain": "mastodon.social"
+  },
+  {
+    "username": "matrix",
+    "acct": "matrix@mastodon.matrix.org",
+    "display_name": "Matrix.org",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/001/396/original/def145802f013bf0.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/001/396/original/e871ba3e907b3da9.jpg",
+    "url": "https://mastodon.matrix.org/@matrix",
+    "note": "<p>An open standard for decentralised persistent communication. Crossposts from the birdsite 'cos bridges rock. We monitor the mastodon side too though.</p>",
+    "domain": "mastodon.matrix.org"
   },
   {
     "username": "qgis",

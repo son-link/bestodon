@@ -2,7 +2,7 @@
   {
     "username": "alpinelinux",
     "acct": "alpinelinux@fosstodon.org",
-    "display_name": "Alpine Linux 🏔",
+    "display_name": "Alpine Linux :alpine:",
     "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/393/135/857/799/187/original/06de99feb868ed0a.png",
     "header": "https://cdn.fosstodon.org/accounts/headers/109/393/135/857/799/187/original/793b4771d3ad5eff.png",
     "url": "https://fosstodon.org/@alpinelinux",
@@ -18,6 +18,16 @@
     "url": "https://mastodon.social/@elementary",
     "note": "<p>The thoughtful, capable, and ethical replacement for Windows and macOS—plus AppCenter, the pay-what-you-can app store.</p>",
     "domain": "mastodon.social"
+  },
+  {
+    "username": "fedora",
+    "acct": "fedora@fosstodon.org",
+    "display_name": "Fedora Project",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/509/696/036/420/221/original/db69fa5b8afc3f12.jpg",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/509/696/036/420/221/original/aa2f2d0e7027e968.png",
+    "url": "https://fosstodon.org/@fedora",
+    "note": "<p>This is the official (experimental) feed for the Fedora Project, a global free software community sponsored by Red Hat.</p>",
+    "domain": "fosstodon.org"
   },
   {
     "username": "openmandriva",
