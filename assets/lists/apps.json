@@ -130,6 +130,16 @@
     "domain": "floss.social"
   },
   {
+    "username": "heroiclauncher",
+    "acct": "heroiclauncher@mastodon.social",
+    "display_name": "Heroic Games Launcher",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/358/453/999/952/264/original/f32d73d1ee8cb01d.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/358/453/999/952/264/original/3d51465624bea7d0.png",
+    "url": "https://mastodon.social/@heroiclauncher",
+    "note": "<p>An Open source GOG and Epic Games Launcher for Linux, Windows, and macOS.</p>",
+    "domain": "mastodon.social"
+  },
+  {
     "username": "inkscape",
     "acct": "inkscape@mastodon.art",
     "display_name": "Inkscape",
@@ -197,6 +207,16 @@
     "header": "https://cdn.fosstodon.org/accounts/headers/000/110/553/original/d70c657d8fcb1db2.png",
     "url": "https://fosstodon.org/@libreoffice",
     "note": "<p>Free open source office suite by The Document Foundation and a worldwide community. LibreOffice was based on <a href=\"http://OpenOffice.org\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">http://</span><span class=\"\">OpenOffice.org</span><span class=\"invisible\"></span></a>. <a href=\"https://fosstodon.org/tags/foss\" class=\"mention hashtag\" rel=\"tag\">#<span>foss</span></a> <a href=\"https://fosstodon.org/tags/opensource\" class=\"mention hashtag\" rel=\"tag\">#<span>opensource</span></a></p>",
+    "domain": "fosstodon.org"
+  },
+  {
+    "username": "lutris",
+    "acct": "lutris@fosstodon.org",
+    "display_name": "Lutris",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/539/770/461/035/925/original/72b8332df1ca969e.png",
+    "header": "https://fosstodon.org/headers/original/missing.png",
+    "url": "https://fosstodon.org/@lutris",
+    "note": "<p>Video game preservation platform for Linux.<br />Play all your games, from all eras and platforms on Linux, keep your game collection playable for the years to come!</p>",
     "domain": "fosstodon.org"
   },
   {
