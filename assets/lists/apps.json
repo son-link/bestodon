@@ -250,6 +250,16 @@
     "domain": "fosstodon.org"
   },
   {
+    "username": "readthedocs",
+    "acct": "readthedocs@fosstodon.org",
+    "display_name": "Read the Docs",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/394/545/843/904/570/original/ab4292f9ccfcf075.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/394/545/843/904/570/original/85ccdb732ad16a7e.png",
+    "url": "https://fosstodon.org/@readthedocs",
+    "note": "<p>🌎 We host the world&#39;s docs<br />💗 Fully open source<br />🔨 Sphinx, Mkdocs, and your tool of choice<br />🔑 Public &amp; private docs<br />🐦 <a href=\"https://twitter.com/readthedocs\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/readthedocs</span><span class=\"invisible\"></span></a></p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "keepassxc",
     "acct": "keepassxc@fosstodon.org",
     "display_name": "Team KeePassXC",
