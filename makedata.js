@@ -4,7 +4,7 @@ const fs = require('fs');
 const lists = [
   'games',
   'apps',
-  'distros',
+  'os',
   'communities',
   'dev'
 ];
