@@ -110,16 +110,6 @@
     "domain": "floss.social"
   },
   {
-    "username": "gitea",
-    "acct": "gitea@social.gitea.io",
-    "display_name": "Gitea",
-    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/106/949/873/951/234/253/original/d3f9c8f96e07d6d8.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/106/949/873/951/234/253/original/fb3f606705db9f7e.jpg",
-    "url": "https://social.gitea.io/@gitea",
-    "note": "<p>Lightweight code hosting solution written in Go.</p>",
-    "domain": "social.gitea.io"
-  },
-  {
     "username": "gnome",
     "acct": "gnome@floss.social",
     "display_name": "GNOME",

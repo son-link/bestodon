@@ -1,5 +1,15 @@
 [
   {
+    "username": "circuitpython",
+    "acct": "circuitpython@fosstodon.org",
+    "display_name": "",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/317/485/651/909/218/original/b7be7208a5909c5f.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/317/485/651/909/218/original/f6194bd9d3576cfb.jpg",
+    "url": "https://fosstodon.org/@circuitpython",
+    "note": "<p>CircuitPython is a version of Python for microcontrollers.<br /><a href=\"https://circuitpython.org/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">circuitpython.org/</span><span class=\"invisible\"></span></a><br /><a href=\"https://adafruit.com/circuitpython\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">adafruit.com/circuitpython</span><span class=\"invisible\"></span></a><br /><a href=\"https://github.com/adafruit/circuitpython\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/adafruit/circuitpyt</span><span class=\"invisible\">hon</span></a></p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "play0ad",
     "acct": "play0ad@mastodon.social",
     "display_name": "0 A.D.  ✅",
@@ -290,6 +300,16 @@
     "domain": "floss.social"
   },
   {
+    "username": "kicad",
+    "acct": "kicad@fosstodon.org",
+    "display_name": "KiCad",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/108/278/678/683/861/706/original/95243fca49660ea9.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/108/278/678/683/861/706/original/74a9abd73f59b39f.jpg",
+    "url": "https://fosstodon.org/@kicad",
+    "note": "<p>Official account of the KiCad EDA suite.</p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "krita",
     "acct": "krita@mastodon.art",
     "display_name": "Krita",
@@ -368,6 +388,26 @@
     "url": "https://floss.social/@opensuse_es",
     "note": "<p>openSUSE es un sistema operativo abierto, gratuito y seguro basado en Linux para PC, computadoras portátiles, servidores y dispositivos ARM.<br>Esta cuenta reproduce las notas compartidas en <a href=\"https://planet.opensuse.org/es/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">planet.opensuse.org/es/</span><span class=\"invisible\"></span></a>, entre otras cosas.</p>",
     "domain": "floss.social"
+  },
+  {
+    "username": "peppermintos",
+    "acct": "peppermintos@fosstodon.org",
+    "display_name": "PeppermintOS :peppermintos:",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/133/018/532/080/029/original/191139730a6fba10.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/133/018/532/080/029/original/c1f02586dbf4a211.png",
+    "url": "https://fosstodon.org/@peppermintos",
+    "note": "<p>The Peppermint OS Development Team</p>",
+    "domain": "fosstodon.org"
+  },
+  {
+    "username": "pygame",
+    "acct": "pygame@mastodon.social",
+    "display_name": "pygame",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/250/754/776/876/104/original/8d48838f5ac65559.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/250/754/776/876/104/original/9d183f2efccef011.png",
+    "url": "https://mastodon.social/@pygame",
+    "note": "<p>For making ga🌈mes, fart animations &amp; robot controllers.  I've had this joypad in my mouth for twenty two years.  Someone please fix my eyes. Us/them.</p>",
+    "domain": "mastodon.social"
   },
   {
     "username": "qgis",
@@ -467,6 +507,16 @@
     "header": "https://cdn.fosstodon.org/accounts/headers/109/328/392/729/834/441/original/555dc526fe5aeac1.png",
     "url": "https://fosstodon.org/@keepassxc",
     "note": "<p>KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information.</p><p>You can run KeePassXC on Windows, macOS, and Linux systems. KeePassXC is for people with extremely high demands of secure personal data management. It saves many different types of information, such as usernames, passwords, URLs, attachments, and notes in an offline, encrypted file that can be stored in any location, including private and public cloud solutions.</p>",
+    "domain": "fosstodon.org"
+  },
+  {
+    "username": "freedosproject",
+    "acct": "freedosproject@fosstodon.org",
+    "display_name": "The FreeDOS Project",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/287/234/796/561/798/original/20fe5f5f2cac7db0.jpg",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/287/234/796/561/798/original/257aa6aa75166c4a.jpeg",
+    "url": "https://fosstodon.org/@freedosproject",
+    "note": "<p>FreeDOS is an open source DOS-compatible operating system that you can use to play classic DOS games, run legacy business software, or develop embedded systems. Any program that works on MS-DOS should also run on FreeDOS.</p>",
     "domain": "fosstodon.org"
   },
   {

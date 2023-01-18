@@ -50,6 +50,16 @@
     "domain": "floss.social"
   },
   {
+    "username": "peppermintos",
+    "acct": "peppermintos@fosstodon.org",
+    "display_name": "PeppermintOS :peppermintos:",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/133/018/532/080/029/original/191139730a6fba10.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/133/018/532/080/029/original/c1f02586dbf4a211.png",
+    "url": "https://fosstodon.org/@peppermintos",
+    "note": "<p>The Peppermint OS Development Team</p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "snowflakelinux",
     "acct": "snowflakelinux@floss.social",
     "display_name": "SnowflakeOS",
@@ -67,6 +77,16 @@
     "header": "https://fosstodon.org/headers/original/missing.png",
     "url": "https://fosstodon.org/@SUSE",
     "note": "",
+    "domain": "fosstodon.org"
+  },
+  {
+    "username": "freedosproject",
+    "acct": "freedosproject@fosstodon.org",
+    "display_name": "The FreeDOS Project",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/287/234/796/561/798/original/20fe5f5f2cac7db0.jpg",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/287/234/796/561/798/original/257aa6aa75166c4a.jpeg",
+    "url": "https://fosstodon.org/@freedosproject",
+    "note": "<p>FreeDOS is an open source DOS-compatible operating system that you can use to play classic DOS games, run legacy business software, or develop embedded systems. Any program that works on MS-DOS should also run on FreeDOS.</p>",
     "domain": "fosstodon.org"
   }
 ]
