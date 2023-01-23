@@ -256,7 +256,7 @@
     "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/328/392/729/834/441/original/46924a4084204bf7.png",
     "header": "https://cdn.fosstodon.org/accounts/headers/109/328/392/729/834/441/original/555dc526fe5aeac1.png",
     "url": "https://fosstodon.org/@keepassxc",
-    "note": "<p>KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information.</p><p>You can run KeePassXC on Windows, macOS, and Linux systems. KeePassXC is for people with extremely high demands of secure personal data management. It saves many different types of information, such as usernames, passwords, URLs, attachments, and notes in an offline, encrypted file that can be stored in any location, including private and public cloud solutions.</p>",
+    "note": "<p>KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information.</p><p>You can run KeePassXC on Windows, macOS, and Linux systems. KeePassXC saves many different types of information, such as usernames, passwords, URLs, attachments, and notes in an offline, encrypted file that can be stored in any location, including private and public cloud solutions.</p><p>Team email PGP key: 105D 8D57 BB97 46BD</p>",
     "domain": "fosstodon.org"
   },
   {

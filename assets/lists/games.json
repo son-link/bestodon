@@ -1,5 +1,15 @@
 [
   {
+    "username": "freeciv",
+    "acct": "freeciv@fosstodon.org",
+    "display_name": "",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/332/747/494/496/145/original/219574755e1decd4.png",
+    "header": "https://fosstodon.org/headers/original/missing.png",
+    "url": "https://fosstodon.org/@freeciv",
+    "note": "",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "play0ad",
     "acct": "play0ad@mastodon.social",
     "display_name": "0 A.D.  ✅",
@@ -10,6 +20,16 @@
     "domain": "mastodon.social"
   },
   {
+    "username": "wesnoth",
+    "acct": "wesnoth@fosstodon.org",
+    "display_name": "Battle for Wesnoth",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/373/769/585/660/955/original/ecf8283c0d21bb80.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/373/769/585/660/955/original/d1de09515546e8a1.jpeg",
+    "url": "https://fosstodon.org/@wesnoth",
+    "note": "<p>Official Battle for Wesnoth Mastodon feed. Check our site&#39;s status at <a href=\"https://status.wesnoth.org\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">status.wesnoth.org</span><span class=\"invisible\"></span></a>.</p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "FreeRCT",
     "acct": "FreeRCT@floss.social",
     "display_name": "FreeRCT",
@@ -18,6 +38,16 @@
     "url": "https://floss.social/@FreeRCT",
     "note": "<p>FreeRCT aims to be a free and open source game which captures the look, feel, and gameplay of the popular games RollerCoaster Tycoon 1 and 2. The game is still in an early alpha state, but it is already playable and offers a variety of features.</p>",
     "domain": "floss.social"
+  },
+  {
+    "username": "MineClone2",
+    "acct": "MineClone2@fosstodon.org",
+    "display_name": "MineClone2",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/184/675/526/993/627/original/24b7f2e4e8d0c5e8.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/184/675/526/993/627/original/55ad5e175e593f42.png",
+    "url": "https://fosstodon.org/@MineClone2",
+    "note": "<p>Fosstodon Account for the MineClone2 Game. Account operated by <span class=\"h-card\"><a href=\"https://fosstodon.org/@PrairieWind\" class=\"u-url mention\">@<span>PrairieWind</span></a></span></p>",
+    "domain": "fosstodon.org"
   },
   {
     "username": "Minetest",

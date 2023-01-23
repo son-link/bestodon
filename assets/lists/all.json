@@ -1,5 +1,25 @@
 [
   {
+    "username": "freeciv",
+    "acct": "freeciv@fosstodon.org",
+    "display_name": "",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/332/747/494/496/145/original/219574755e1decd4.png",
+    "header": "https://fosstodon.org/headers/original/missing.png",
+    "url": "https://fosstodon.org/@freeciv",
+    "note": "",
+    "domain": "fosstodon.org"
+  },
+  {
+    "username": "circuitpython",
+    "acct": "circuitpython@fosstodon.org",
+    "display_name": "",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/317/485/651/909/218/original/b7be7208a5909c5f.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/317/485/651/909/218/original/f6194bd9d3576cfb.jpg",
+    "url": "https://fosstodon.org/@circuitpython",
+    "note": "<p>CircuitPython is a version of Python for microcontrollers.<br /><a href=\"https://circuitpython.org/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">circuitpython.org/</span><span class=\"invisible\"></span></a><br /><a href=\"https://adafruit.com/circuitpython\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">adafruit.com/circuitpython</span><span class=\"invisible\"></span></a><br /><a href=\"https://github.com/adafruit/circuitpython\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/adafruit/circuitpyt</span><span class=\"invisible\">hon</span></a></p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "play0ad",
     "acct": "play0ad@mastodon.social",
     "display_name": "0 A.D.  ✅",
@@ -17,6 +37,16 @@
     "header": "https://cdn.fosstodon.org/accounts/headers/109/393/135/857/799/187/original/793b4771d3ad5eff.png",
     "url": "https://fosstodon.org/@alpinelinux",
     "note": "<p>Alpine Linux announcements</p>",
+    "domain": "fosstodon.org"
+  },
+  {
+    "username": "wesnoth",
+    "acct": "wesnoth@fosstodon.org",
+    "display_name": "Battle for Wesnoth",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/373/769/585/660/955/original/ecf8283c0d21bb80.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/373/769/585/660/955/original/d1de09515546e8a1.jpeg",
+    "url": "https://fosstodon.org/@wesnoth",
+    "note": "<p>Official Battle for Wesnoth Mastodon feed. Check our site&#39;s status at <a href=\"https://status.wesnoth.org\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">status.wesnoth.org</span><span class=\"invisible\"></span></a>.</p>",
     "domain": "fosstodon.org"
   },
   {
@@ -204,10 +234,20 @@
     "acct": "godotengine@mastodon.gamedev.place",
     "display_name": "Godot Engine",
     "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/006/648/original/6a1bebe2ffb6f47b.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/006/648/original/b1920b05019f6546.jpg",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/006/648/original/2c9caa4a7118b2d4.png",
     "url": "https://mastodon.gamedev.place/@godotengine",
     "note": "<p>Advanced, feature-packed, multi-platform 2D and 3D open source game engine. It is developed by hundreds of contributors from all around the world!</p>",
     "domain": "mastodon.gamedev.place"
+  },
+  {
+    "username": "GTK",
+    "acct": "GTK@floss.social",
+    "display_name": "GTK",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/321/394/916/200/690/original/ee76bbd2ab76ce09.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/321/394/916/200/690/original/e90c134d03c13091.png",
+    "url": "https://floss.social/@GTK",
+    "note": "<p>Official account of the GTK project.</p><p>GTK is a general purpose graphical toolkit for a wide variety of environments, from desktop to mobile platforms. You can use GTK to build beautiful applications on Linux, as well as Windows and macOS, using one of the many programming languages that support it.</p>",
+    "domain": "floss.social"
   },
   {
     "username": "heroiclauncher",
@@ -280,6 +320,16 @@
     "domain": "floss.social"
   },
   {
+    "username": "kicad",
+    "acct": "kicad@fosstodon.org",
+    "display_name": "KiCad",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/108/278/678/683/861/706/original/95243fca49660ea9.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/108/278/678/683/861/706/original/74a9abd73f59b39f.jpg",
+    "url": "https://fosstodon.org/@kicad",
+    "note": "<p>Official account of the KiCad EDA suite.</p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "krita",
     "acct": "krita@mastodon.art",
     "display_name": "Krita",
@@ -330,6 +380,16 @@
     "domain": "mastodon.matrix.org"
   },
   {
+    "username": "MineClone2",
+    "acct": "MineClone2@fosstodon.org",
+    "display_name": "MineClone2",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/184/675/526/993/627/original/24b7f2e4e8d0c5e8.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/184/675/526/993/627/original/55ad5e175e593f42.png",
+    "url": "https://fosstodon.org/@MineClone2",
+    "note": "<p>Fosstodon Account for the MineClone2 Game. Account operated by <span class=\"h-card\"><a href=\"https://fosstodon.org/@PrairieWind\" class=\"u-url mention\">@<span>PrairieWind</span></a></span></p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "Minetest",
     "acct": "Minetest@fosstodon.org",
     "display_name": "Minetest",
@@ -368,6 +428,16 @@
     "url": "https://fosstodon.org/@peppermintos",
     "note": "<p>The Peppermint OS Development Team</p>",
     "domain": "fosstodon.org"
+  },
+  {
+    "username": "pygame",
+    "acct": "pygame@mastodon.social",
+    "display_name": "pygame",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/250/754/776/876/104/original/8d48838f5ac65559.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/250/754/776/876/104/original/9d183f2efccef011.png",
+    "url": "https://mastodon.social/@pygame",
+    "note": "<p>For making ga🌈mes, fart animations &amp; robot controllers.  I've had this joypad in my mouth for twenty two years.  Someone please fix my eyes. Us/them.</p>",
+    "domain": "mastodon.social"
   },
   {
     "username": "qgis",
@@ -466,7 +536,7 @@
     "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/328/392/729/834/441/original/46924a4084204bf7.png",
     "header": "https://cdn.fosstodon.org/accounts/headers/109/328/392/729/834/441/original/555dc526fe5aeac1.png",
     "url": "https://fosstodon.org/@keepassxc",
-    "note": "<p>KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information.</p><p>You can run KeePassXC on Windows, macOS, and Linux systems. KeePassXC is for people with extremely high demands of secure personal data management. It saves many different types of information, such as usernames, passwords, URLs, attachments, and notes in an offline, encrypted file that can be stored in any location, including private and public cloud solutions.</p>",
+    "note": "<p>KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information.</p><p>You can run KeePassXC on Windows, macOS, and Linux systems. KeePassXC saves many different types of information, such as usernames, passwords, URLs, attachments, and notes in an offline, encrypted file that can be stored in any location, including private and public cloud solutions.</p><p>Team email PGP key: 105D 8D57 BB97 46BD</p>",
     "domain": "fosstodon.org"
   },
   {
@@ -498,6 +568,16 @@
     "url": "https://mastodon.online/@thunderbird",
     "note": "<p>Your all-in-one communications command center that puts YOU in control, not a corporation. Manage multiple email accounts, calendars, tasks, RSS feeds and newsgroups. </p><p><a href=\"https://mastodon.online/tags/OpenSource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>OpenSource</span></a> and respectful of your privacy.</p><p>Read about Thunderbird 102 here: <a href=\"https://mzla.link/3hjVSMQ\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/3hjVSMQ</span><span class=\"invisible\"></span></a></p><p>Get involved with Thunderbird here: <a href=\"https://mzla.link/3Ur3BXu\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/3Ur3BXu</span><span class=\"invisible\"></span></a></p><p>Get help with Thunderbird here: <a href=\"https://mzla.link/thunderbirdhelp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/thunderbirdhelp</span><span class=\"invisible\"></span></a></p>",
     "domain": "mastodon.online"
+  },
+  {
+    "username": "vala_lang",
+    "acct": "vala_lang@mastodon.social",
+    "display_name": "Vala",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/108/583/244/286/924/834/original/03d54ba58d59b30b.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/108/583/244/286/924/834/original/38bdc6dd4c992ffd.png",
+    "url": "https://mastodon.social/@vala_lang",
+    "note": "<p>A Familiar Way To Develop Applications</p><p>Vala is an object-oriented programming language with a self-hosting compiler that generates C code and uses the GObject type system.</p><p>Account is run by: <span class=\"h-card\"><a href=\"https://merveilles.town/@colinkiama\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>colinkiama</span></a></span></p><p><a href=\"https://mastodon.social/tags/vala\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>vala</span></a> <a href=\"https://mastodon.social/tags/valalang\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>valalang</span></a> <a href=\"https://mastodon.social/tags/gnome\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>gnome</span></a> <a href=\"https://mastodon.social/tags/elementaryos\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>elementaryos</span></a> <a href=\"https://mastodon.social/tags/linux\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>linux</span></a> <a href=\"https://mastodon.social/tags/foss\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>foss</span></a> <a href=\"https://mastodon.social/tags/opensource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>opensource</span></a> <a href=\"https://mastodon.social/tags/programming\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>programming</span></a> <a href=\"https://mastodon.social/tags/programminglanguages\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>programminglanguages</span></a></p>",
+    "domain": "mastodon.social"
   },
   {
     "username": "veloren",
