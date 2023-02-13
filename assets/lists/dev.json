@@ -60,6 +60,16 @@
     "domain": "fosstodon.org"
   },
   {
+    "username": "poliastro",
+    "acct": "poliastro@fosstodon.org",
+    "display_name": "poliastro",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/311/791/413/319/566/original/fa958eadc450d1df.jpg",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/311/791/413/319/566/original/612b6bc848177334.jpeg",
+    "url": "https://fosstodon.org/@poliastro",
+    "note": "<p>Python library for interactive Astrodynamics and Orbital Mechanics 🚀</p><p>Toots by <span class=\"h-card\"><a href=\"https://social.juanlu.space/@astrojuanlu\" class=\"u-url mention\">@<span>astrojuanlu</span></a></span></p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "pygame",
     "acct": "pygame@mastodon.social",
     "display_name": "pygame",

@@ -36,7 +36,7 @@
     "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/393/135/857/799/187/original/06de99feb868ed0a.png",
     "header": "https://cdn.fosstodon.org/accounts/headers/109/393/135/857/799/187/original/793b4771d3ad5eff.png",
     "url": "https://fosstodon.org/@alpinelinux",
-    "note": "<p>Alpine Linux announcements</p>",
+    "note": "<p>Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.</p>",
     "domain": "fosstodon.org"
   },
   {
@@ -74,7 +74,7 @@
     "acct": "elementary@mastodon.social",
     "display_name": "elementary",
     "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/024/157/original/ce63dcb3cf5204d0.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/024/157/original/a09cd7c0d39edde2.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/024/157/original/37bb2bc6bec5d496.jpg",
     "url": "https://mastodon.social/@elementary",
     "note": "<p>The thoughtful, capable, and ethical replacement for Windows and macOS—plus AppCenter, the pay-what-you-can app store.</p>",
     "domain": "mastodon.social"
@@ -430,6 +430,16 @@
     "domain": "fosstodon.org"
   },
   {
+    "username": "poliastro",
+    "acct": "poliastro@fosstodon.org",
+    "display_name": "poliastro",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/311/791/413/319/566/original/fa958eadc450d1df.jpg",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/311/791/413/319/566/original/612b6bc848177334.jpeg",
+    "url": "https://fosstodon.org/@poliastro",
+    "note": "<p>Python library for interactive Astrodynamics and Orbital Mechanics 🚀</p><p>Toots by <span class=\"h-card\"><a href=\"https://social.juanlu.space/@astrojuanlu\" class=\"u-url mention\">@<span>astrojuanlu</span></a></span></p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "pygame",
     "acct": "pygame@mastodon.social",
     "display_name": "pygame",
@@ -566,7 +576,7 @@
     "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/108/195/923/590/464/143/original/78954586a915a74b.png",
     "header": "https://cdn.fosstodon.org/cache/accounts/headers/108/195/923/590/464/143/original/540fe5a3112c1963.png",
     "url": "https://mastodon.online/@thunderbird",
-    "note": "<p>Your all-in-one communications command center that puts YOU in control, not a corporation. Manage multiple email accounts, calendars, tasks, RSS feeds and newsgroups. </p><p><a href=\"https://mastodon.online/tags/OpenSource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>OpenSource</span></a> and respectful of your privacy.</p><p>Read about Thunderbird 102 here: <a href=\"https://mzla.link/3hjVSMQ\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/3hjVSMQ</span><span class=\"invisible\"></span></a></p><p>Get involved with Thunderbird here: <a href=\"https://mzla.link/3Ur3BXu\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/3Ur3BXu</span><span class=\"invisible\"></span></a></p><p>Get help with Thunderbird here: <a href=\"https://mzla.link/thunderbirdhelp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/thunderbirdhelp</span><span class=\"invisible\"></span></a></p>",
+    "note": "<p>Your all-in-one communications command center that puts YOU in control, not a corporation. Manage multiple email accounts, calendars, tasks, RSS feeds and newsgroups. </p><p><a href=\"https://mastodon.online/tags/OpenSource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>OpenSource</span></a> and respectful of your privacy.</p><p>Read about Thunderbird 102 here: <a href=\"https://mzla.link/3hjVSMQ\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/3hjVSMQ</span><span class=\"invisible\"></span></a></p><p>Explore our roadmap: Roadmap: <a href=\"https://developer.thunderbird.net/planning/roadmap\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">developer.thunderbird.net/plan</span><span class=\"invisible\">ning/roadmap</span></a></p><p>Get involved with Thunderbird here: <a href=\"https://mzla.link/3Ur3BXu\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/3Ur3BXu</span><span class=\"invisible\"></span></a></p><p>Get help with Thunderbird here: <a href=\"https://mzla.link/thunderbirdhelp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/thunderbirdhelp</span><span class=\"invisible\"></span></a></p>",
     "domain": "mastodon.online"
   },
   {

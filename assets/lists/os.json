@@ -6,7 +6,7 @@
     "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/393/135/857/799/187/original/06de99feb868ed0a.png",
     "header": "https://cdn.fosstodon.org/accounts/headers/109/393/135/857/799/187/original/793b4771d3ad5eff.png",
     "url": "https://fosstodon.org/@alpinelinux",
-    "note": "<p>Alpine Linux announcements</p>",
+    "note": "<p>Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.</p>",
     "domain": "fosstodon.org"
   },
   {
@@ -14,7 +14,7 @@
     "acct": "elementary@mastodon.social",
     "display_name": "elementary",
     "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/024/157/original/ce63dcb3cf5204d0.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/024/157/original/a09cd7c0d39edde2.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/024/157/original/37bb2bc6bec5d496.jpg",
     "url": "https://mastodon.social/@elementary",
     "note": "<p>The thoughtful, capable, and ethical replacement for Windows and macOS—plus AppCenter, the pay-what-you-can app store.</p>",
     "domain": "mastodon.social"
