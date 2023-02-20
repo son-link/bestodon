@@ -130,6 +130,16 @@
     "domain": "mastodon.social"
   },
   {
+    "username": "ideckia",
+    "acct": "ideckia@fosstodon.org",
+    "display_name": "ideckia",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/788/646/270/428/447/original/3ce92c73d541b68d.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/788/646/270/428/447/original/2111663c52fddb44.png",
+    "url": "https://fosstodon.org/@ideckia",
+    "note": "<p>Control your computer from a centralized panel (smartphone, desktop...)</p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "inkscape",
     "acct": "inkscape@mastodon.art",
     "display_name": "Inkscape",
