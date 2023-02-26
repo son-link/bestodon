@@ -50,6 +50,16 @@
     "domain": "floss.social"
   },
   {
+    "username": "ioquake3",
+    "acct": "ioquake3@mastodon.social",
+    "display_name": "ioquake3",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/893/182/463/865/784/original/a94162342072692f.jpeg",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/893/182/463/865/784/original/263867bf8e0672b6.jpeg",
+    "url": "https://mastodon.social/@ioquake3",
+    "note": "<p>free software FPS engine. Play Quake 3, make new games, run servers. Have fun!</p>",
+    "domain": "mastodon.social"
+  },
+  {
     "username": "kicad",
     "acct": "kicad@fosstodon.org",
     "display_name": "KiCad",

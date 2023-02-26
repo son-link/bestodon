@@ -280,6 +280,16 @@
     "domain": "mastodon.art"
   },
   {
+    "username": "ioquake3",
+    "acct": "ioquake3@mastodon.social",
+    "display_name": "ioquake3",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/893/182/463/865/784/original/a94162342072692f.jpeg",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/893/182/463/865/784/original/263867bf8e0672b6.jpeg",
+    "url": "https://mastodon.social/@ioquake3",
+    "note": "<p>free software FPS engine. Play Quake 3, make new games, run servers. Have fun!</p>",
+    "domain": "mastodon.social"
+  },
+  {
     "username": "Jami",
     "acct": "Jami@mstdn.io",
     "display_name": "Jami",
@@ -356,7 +366,7 @@
     "avatar": "https://cdn.fosstodon.org/accounts/avatars/000/110/553/original/e9da2214352e3029.jpg",
     "header": "https://cdn.fosstodon.org/accounts/headers/000/110/553/original/d70c657d8fcb1db2.png",
     "url": "https://fosstodon.org/@libreoffice",
-    "note": "<p>Free open source office suite by The Document Foundation and a worldwide community. LibreOffice was based on <a href=\"http://OpenOffice.org\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">http://</span><span class=\"\">OpenOffice.org</span><span class=\"invisible\"></span></a>. <a href=\"https://fosstodon.org/tags/foss\" class=\"mention hashtag\" rel=\"tag\">#<span>foss</span></a> <a href=\"https://fosstodon.org/tags/opensource\" class=\"mention hashtag\" rel=\"tag\">#<span>opensource</span></a></p>",
+    "note": "<p>Free open source office suite by <span class=\"h-card\"><a href=\"https://fosstodon.org/@tdforg\" class=\"u-url mention\">@<span>tdforg</span></a></span> and a worldwide community. LibreOffice was based on <a href=\"http://OpenOffice.org\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">http://</span><span class=\"\">OpenOffice.org</span><span class=\"invisible\"></span></a>. <a href=\"https://fosstodon.org/tags/foss\" class=\"mention hashtag\" rel=\"tag\">#<span>foss</span></a> <a href=\"https://fosstodon.org/tags/opensource\" class=\"mention hashtag\" rel=\"tag\">#<span>opensource</span></a></p>",
     "domain": "fosstodon.org"
   },
   {
@@ -488,6 +498,16 @@
     "url": "https://mastodon.social/@rpginabox",
     "note": "<p>RPG in a Box is a fun, easy-to-use game creation tool that allows anyone to bring a story or idea to life! <a href=\"https://mastodon.social/tags/rpginabox\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>rpginabox</span></a></p><p>\"Let all that you do be done in love.\"</p><p>日本語を勉強しています。</p>",
     "domain": "mastodon.social"
+  },
+  {
+    "username": "scummvm",
+    "acct": "scummvm@corteximplant.com",
+    "display_name": "ScummVM",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/873/581/966/802/129/original/fe503f564172db35.png",
+    "header": "https://fosstodon.org/headers/original/missing.png",
+    "url": "https://corteximplant.com/@scummvm",
+    "note": "<p>ScummVM is a program which allows you to run certain classic graphical point-and-click adventure games and RPGs.</p>",
+    "domain": "corteximplant.com"
   },
   {
     "username": "simutrans",
