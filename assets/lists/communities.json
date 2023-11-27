@@ -3,8 +3,8 @@
     "username": "gnulinuxvalencia",
     "acct": "gnulinuxvalencia@floss.social",
     "display_name": "GNU/Linux Valencia",
-    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/054/607/original/8ab7a9113ccdc37b.jpg",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/054/607/original/fb0ee224e5f546f6.jpg",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/372/251/original/55dd9d99f5cd32ef.jpg",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/372/251/original/e390a5441740b4d2.jpg",
     "url": "https://floss.social/@gnulinuxvalencia",
     "note": "<p>El objeto de esta Asociación es la difusión de GNU/Linux y el Software/Cultura Libre.</p>",
     "domain": "floss.social"
@@ -13,8 +13,8 @@
     "username": "kde_espana",
     "acct": "kde_espana@floss.social",
     "display_name": "KDE España",
-    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/144/461/452/085/124/original/6e0c1816d4fad0f6.jpg",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/144/461/452/085/124/original/d4cc47b26b834e98.png",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/144/461/156/338/805/original/8fdfb24573360f61.jpg",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/144/461/156/338/805/original/5ff2cb0db923d0c5.png",
     "url": "https://floss.social/@kde_espana",
     "note": "<p>KDE España es una asociación que está formada por un grupo de personas que desarrollan y contribuyen al proyecto KDE con la intención de dinamizar el desarrollo y uso del entorno del escritorio KDE en particular y el software libre en general</p>",
     "domain": "floss.social"
@@ -23,10 +23,10 @@
     "username": "todogodot",
     "acct": "todogodot@mastodon.gamedev.place",
     "display_name": "Todogodot",
-    "avatar": "https://fosstodon.org/avatars/original/missing.png",
-    "header": "https://fosstodon.org/headers/original/missing.png",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/111/246/743/302/487/233/original/948c37072845b150.jpg",
+    "header": "https://mastodon.social/headers/original/missing.png",
     "url": "https://mastodon.gamedev.place/@todogodot",
-    "note": "",
+    "note": "<p>¡Aprende a crear juegos con <a href=\"https://mastodon.gamedev.place/tags/GodotEngine\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>GodotEngine</span></a>, comparte tus proyectos y forma parte de esta comunidad creativa!</p><p>YouTube: <a href=\"https://youtube.com/@todogodot\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">youtube.com/@todogodot</span><span class=\"invisible\"></span></a><br>Twitch: <a href=\"https://twitch.tv/rafalagoon\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">twitch.tv/rafalagoon</span><span class=\"invisible\"></span></a></p><p>Ven a Telegram: <a href=\"http://t.me/@todogodot\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">t.me/@todogodot</span><span class=\"invisible\"></span></a></p>",
     "domain": "mastodon.gamedev.place"
   }
 ]
