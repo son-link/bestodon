@@ -18,5 +18,15 @@
     "url": "https://floss.social/@kde_espana",
     "note": "<p>KDE España es una asociación que está formada por un grupo de personas que desarrollan y contribuyen al proyecto KDE con la intención de dinamizar el desarrollo y uso del entorno del escritorio KDE en particular y el software libre en general</p>",
     "domain": "floss.social"
+  },
+  {
+    "username": "todogodot",
+    "acct": "todogodot@mastodon.gamedev.place",
+    "display_name": "Todogodot",
+    "avatar": "https://fosstodon.org/avatars/original/missing.png",
+    "header": "https://fosstodon.org/headers/original/missing.png",
+    "url": "https://mastodon.gamedev.place/@todogodot",
+    "note": "",
+    "domain": "mastodon.gamedev.place"
   }
 ]

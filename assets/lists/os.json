@@ -22,11 +22,11 @@
   {
     "username": "fedora",
     "acct": "fedora@fosstodon.org",
-    "display_name": "Fedora Project",
+    "display_name": "Fedora Project :fedora:",
     "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/509/696/036/420/221/original/db69fa5b8afc3f12.jpg",
-    "header": "https://cdn.fosstodon.org/accounts/headers/109/509/696/036/420/221/original/aa2f2d0e7027e968.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/509/696/036/420/221/original/bc9222fdddb8647a.png",
     "url": "https://fosstodon.org/@fedora",
-    "note": "<p>This is the official (experimental) feed for the Fedora Project, a global free software community sponsored by Red Hat.</p>",
+    "note": "<p>This is the official feed for the Fedora Project, a global free &amp; open source software community sponsored by Red Hat.</p><p>We make Fedora Linux - an innovative free &amp; open source operating system for computers, clouds, containers, and other hardware platforms.</p>",
     "domain": "fosstodon.org"
   },
   {
@@ -46,15 +46,15 @@
     "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/275/157/721/230/148/original/5ba43c1eac68bbfb.png",
     "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/275/157/721/230/148/original/a80ce8e93bbbb29f.png",
     "url": "https://floss.social/@opensuse_es",
-    "note": "<p>openSUSE es un sistema operativo abierto, gratuito y seguro basado en Linux para PC, computadoras portátiles, servidores y dispositivos ARM.<br>Esta cuenta reproduce las notas compartidas en <a href=\"https://planet.opensuse.org/es/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">planet.opensuse.org/es/</span><span class=\"invisible\"></span></a>, entre otras cosas.</p>",
+    "note": "<p>openSUSE es un sistema operativo abierto, gratuito y seguro basado en Linux para PC, computadoras portátiles, servidores y dispositivos ARM.<br>Esta cuenta reproduce las notas compartidas en <a href=\"https://planet.opensuse.org/es/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">planet.opensuse.org/es/</span><span class=\"invisible\"></span></a>, entre otras cosas.</p>",
     "domain": "floss.social"
   },
   {
     "username": "peppermintos",
     "acct": "peppermintos@fosstodon.org",
-    "display_name": "PeppermintOS :peppermintos:",
-    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/133/018/532/080/029/original/191139730a6fba10.png",
-    "header": "https://cdn.fosstodon.org/accounts/headers/109/133/018/532/080/029/original/c1f02586dbf4a211.png",
+    "display_name": "PeppermintOS",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/133/018/532/080/029/original/f5ddb69f7aa8e271.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/133/018/532/080/029/original/33a81443036ef295.png",
     "url": "https://fosstodon.org/@peppermintos",
     "note": "<p>The Peppermint OS Development Team</p>",
     "domain": "fosstodon.org"

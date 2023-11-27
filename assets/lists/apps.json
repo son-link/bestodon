@@ -2,9 +2,9 @@
   {
     "username": "Blender",
     "acct": "Blender@mastodon.social",
-    "display_name": "Blender",
+    "display_name": "Blender 🔶",
     "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/032/886/original/14e978facd3295f5.jpg",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/032/886/original/2439169e87a47676.jpg",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/032/886/original/309bda36770c24cc.jpg",
     "url": "https://mastodon.social/@Blender",
     "note": "<p>Official account for the Free and Open Source 3D creation suite. Free to use for any purpose, forever.</p>",
     "domain": "mastodon.social"
@@ -16,14 +16,14 @@
     "avatar": "https://cdn.fosstodon.org/accounts/avatars/000/234/076/original/2626831a5a3c3ec2.jpg",
     "header": "https://fosstodon.org/headers/original/missing.png",
     "url": "https://fosstodon.org/@briar",
-    "note": "<p>Our goal is to enable people in any country to create safe spaces where they can debate any topic, plan events, and organise social movements.<br /><a href=\"https://briarproject.org/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">briarproject.org/</span><span class=\"invisible\"></span></a></p><p>(not-yet-official account. On the request if Briar likes to join the fediverse, the response was: Time is rare, but go for it)</p>",
+    "note": "<p>Our goal is to enable people in any country to create safe spaces where they can debate any topic, plan events, and organise social movements.<br /><a href=\"https://briarproject.org/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">briarproject.org/</span><span class=\"invisible\"></span></a></p><p>(not-yet-official account. On the request if Briar likes to join the fediverse, the response was: Time is rare, but go for it)</p>",
     "domain": "fosstodon.org"
   },
   {
     "username": "fdroidorg",
     "acct": "fdroidorg@floss.social",
     "display_name": "F-Droid",
-    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/177/208/564/891/358/original/50b534f3f8aa1689.png",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/177/208/564/891/358/original/01eb4bf86f84d27c.png",
     "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/177/208/564/891/358/original/aafa1a9f78354c69.jpg",
     "url": "https://floss.social/@fdroidorg",
     "note": "<p>F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.</p>",
@@ -66,7 +66,7 @@
     "avatar": "https://cdn.fosstodon.org/accounts/avatars/000/302/046/original/cb0db7ccbb15dd0a.png",
     "header": "https://cdn.fosstodon.org/accounts/headers/000/302/046/original/12288fa223f86f60.png",
     "url": "https://fosstodon.org/@gajim",
-    "note": "<p>Gajim is a fully-featured XMPP chat client.</p><p><a href=\"https://fosstodon.org/tags/chat\" class=\"mention hashtag\" rel=\"tag\">#<span>chat</span></a> <a href=\"https://fosstodon.org/tags/xmpp\" class=\"mention hashtag\" rel=\"tag\">#<span>xmpp</span></a> <a href=\"https://fosstodon.org/tags/gajim\" class=\"mention hashtag\" rel=\"tag\">#<span>gajim</span></a></p><p>Please join <a href=\"xmpp:gajim@conference.gajim.org?join\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">xmpp:</span><span class=\"ellipsis\">gajim@conference.gajim.org?joi</span><span class=\"invisible\">n</span></a> for help.</p>",
+    "note": "<p>Gajim is a fully-featured XMPP chat client.</p><p><a href=\"https://fosstodon.org/tags/chat\" class=\"mention hashtag\" rel=\"tag\">#<span>chat</span></a> <a href=\"https://fosstodon.org/tags/xmpp\" class=\"mention hashtag\" rel=\"tag\">#<span>xmpp</span></a> <a href=\"https://fosstodon.org/tags/gajim\" class=\"mention hashtag\" rel=\"tag\">#<span>gajim</span></a></p><p>Please join <a href=\"xmpp:gajim@conference.gajim.org?join\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">xmpp:</span><span class=\"ellipsis\">gajim@conference.gajim.org?joi</span><span class=\"invisible\">n</span></a> for support.</p>",
     "domain": "fosstodon.org"
   },
   {
@@ -113,7 +113,7 @@
     "username": "gnome",
     "acct": "gnome@floss.social",
     "display_name": "GNOME",
-    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/034/814/original/3e64edaa91ade48b.jpg",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/034/814/original/ca5543a04bd4ced2.jpg",
     "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/034/814/original/249d97de6e8379ce.jpg",
     "url": "https://floss.social/@gnome",
     "note": "<p>GNOME is a free and open-source software environment project supported by a non-profit foundation. Together, the community of contributors and the Foundation create a computing platform and software ecosystem, composed entirely of free software, that is designed to be elegant, efficient, and easy to use.</p>",
@@ -144,9 +144,9 @@
     "acct": "inkscape@mastodon.art",
     "display_name": "Inkscape",
     "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/023/687/original/c7340f101b3108af.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/023/687/original/af5debed264c4e91.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/023/687/original/975cb29ad055f061.png",
     "url": "https://mastodon.art/@inkscape",
-    "note": "<p>A vector drawing app for Windows, MacOS &amp; GNU/Linux. Free and open source, available to everyone! Profile header CC BY-SA 4.0 Chris Hildenbrand</p>",
+    "note": "<p>A vector drawing app for Windows, MacOS &amp; GNU/Linux. Free and open source, available to everyone! Profile header CC BY-SA 4.0 Denis Kuznetzky</p>",
     "domain": "mastodon.art"
   },
   {
@@ -154,9 +154,9 @@
     "acct": "Jami@mstdn.io",
     "display_name": "Jami",
     "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/084/267/original/89a2c293a56b5cd8.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/084/267/original/6b71f17650be90e4.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/084/267/original/8b77bf6fae723a6c.jpg",
     "url": "https://mstdn.io/@Jami",
-    "note": "<p>The distributed universal and secure Free Software for multimedia communications by Savoir-faire Linux and the GNU community.<br>Download Jami on <a href=\"https://jami.net\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">jami.net</span><span class=\"invisible\"></span></a></p>",
+    "note": "<p>The distributed universal and secure Free Software for multimedia communications by Savoir-faire Linux and the GNU community.<br>Download Jami on <a href=\"https://jami.net\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">jami.net</span><span class=\"invisible\"></span></a></p>",
     "domain": "mstdn.io"
   },
   {
@@ -173,8 +173,8 @@
     "username": "kde",
     "acct": "kde@floss.social",
     "display_name": "KDE",
-    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/134/754/228/441/563/original/935c36a1c9e19069.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/134/754/228/441/563/original/aa05b90242523b1c.png",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/134/754/228/441/563/original/472050888df2462c.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/134/754/228/441/563/original/e4f62fc2abcdd4fe.jpg",
     "url": "https://floss.social/@kde",
     "note": "<p>A worldwide technology community 🌍 Creators of the Plasma desktop &amp; a variety of Free and open source applications that let you control your digital life.</p>",
     "domain": "floss.social"
@@ -203,10 +203,10 @@
     "username": "libreoffice",
     "acct": "libreoffice@fosstodon.org",
     "display_name": "LibreOffice",
-    "avatar": "https://cdn.fosstodon.org/accounts/avatars/000/110/553/original/e9da2214352e3029.jpg",
-    "header": "https://cdn.fosstodon.org/accounts/headers/000/110/553/original/d70c657d8fcb1db2.png",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/000/110/553/original/37157bcdf75a784c.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/000/110/553/original/2fef067884a4d5f4.png",
     "url": "https://fosstodon.org/@libreoffice",
-    "note": "<p>Free open source office suite by <span class=\"h-card\"><a href=\"https://fosstodon.org/@tdforg\" class=\"u-url mention\">@<span>tdforg</span></a></span> and a worldwide community. LibreOffice was based on <a href=\"http://OpenOffice.org\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">http://</span><span class=\"\">OpenOffice.org</span><span class=\"invisible\"></span></a>. <a href=\"https://fosstodon.org/tags/foss\" class=\"mention hashtag\" rel=\"tag\">#<span>foss</span></a> <a href=\"https://fosstodon.org/tags/opensource\" class=\"mention hashtag\" rel=\"tag\">#<span>opensource</span></a></p>",
+    "note": "<p>Free open source office suite by <span class=\"h-card\" translate=\"no\"><a href=\"https://fosstodon.org/@tdforg\" class=\"u-url mention\">@<span>tdforg</span></a></span> and a worldwide community. LibreOffice was based on <a href=\"http://OpenOffice.org\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">http://</span><span class=\"\">OpenOffice.org</span><span class=\"invisible\"></span></a>. <a href=\"https://fosstodon.org/tags/foss\" class=\"mention hashtag\" rel=\"tag\">#<span>foss</span></a> <a href=\"https://fosstodon.org/tags/opensource\" class=\"mention hashtag\" rel=\"tag\">#<span>opensource</span></a></p>",
     "domain": "fosstodon.org"
   },
   {
@@ -223,28 +223,18 @@
     "username": "LXQt",
     "acct": "LXQt@mastodon.social",
     "display_name": "LXQt-Project",
-    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/302/864/755/853/477/original/7f84ce552d01773c.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/302/864/755/853/477/original/6dba4678d57dba1e.png",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/109/302/864/755/853/477/original/48b74f46ecd4d2b1.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/109/302/864/755/853/477/original/280aceffaa2aff10.png",
     "url": "https://mastodon.social/@LXQt",
     "note": "<p>The lightweight and modular Desktop Environment based on Qt</p>",
     "domain": "mastodon.social"
-  },
-  {
-    "username": "matrix",
-    "acct": "matrix@mastodon.matrix.org",
-    "display_name": "Matrix.org",
-    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/001/396/original/def145802f013bf0.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/001/396/original/e871ba3e907b3da9.jpg",
-    "url": "https://mastodon.matrix.org/@matrix",
-    "note": "<p>An open standard for decentralised persistent communication. Crossposts from the birdsite 'cos bridges rock. We monitor the mastodon side too though.</p>",
-    "domain": "mastodon.matrix.org"
   },
   {
     "username": "qgis",
     "acct": "qgis@fosstodon.org",
     "display_name": "QGIS",
     "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/267/502/436/106/673/original/84afdbe495898b6d.png",
-    "header": "https://cdn.fosstodon.org/accounts/headers/109/267/502/436/106/673/original/380eb9b84e584db7.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/109/267/502/436/106/673/original/b3e0bf695f549ed0.png",
     "url": "https://fosstodon.org/@qgis",
     "note": "<p>Official account of QGIS - the user friendly Open Source Geographic Information System</p>",
     "domain": "fosstodon.org"
@@ -256,25 +246,35 @@
     "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/394/545/843/904/570/original/ab4292f9ccfcf075.png",
     "header": "https://cdn.fosstodon.org/accounts/headers/109/394/545/843/904/570/original/85ccdb732ad16a7e.png",
     "url": "https://fosstodon.org/@readthedocs",
-    "note": "<p>🌎 We host the world&#39;s docs<br />💗 Fully open source<br />🔨 Sphinx, Mkdocs, and your tool of choice<br />🔑 Public &amp; private docs<br />🐦 <a href=\"https://twitter.com/readthedocs\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/readthedocs</span><span class=\"invisible\"></span></a></p>",
+    "note": "<p>🌎 We host the world&#39;s docs<br />💗 Fully open source<br />🔨 Sphinx, Mkdocs, and your tool of choice<br />🔑 Public &amp; private docs<br />🐦 <a href=\"https://twitter.com/readthedocs\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/readthedocs</span><span class=\"invisible\"></span></a></p>",
     "domain": "fosstodon.org"
   },
   {
     "username": "keepassxc",
     "acct": "keepassxc@fosstodon.org",
     "display_name": "Team KeePassXC",
-    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/328/392/729/834/441/original/46924a4084204bf7.png",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/109/328/392/729/834/441/original/499bf9ac75dae150.png",
     "header": "https://cdn.fosstodon.org/accounts/headers/109/328/392/729/834/441/original/555dc526fe5aeac1.png",
     "url": "https://fosstodon.org/@keepassxc",
     "note": "<p>KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information.</p><p>You can run KeePassXC on Windows, macOS, and Linux systems. KeePassXC saves many different types of information, such as usernames, passwords, URLs, attachments, and notes in an offline, encrypted file that can be stored in any location, including private and public cloud solutions.</p><p>Team email PGP key: 105D 8D57 BB97 46BD</p>",
     "domain": "fosstodon.org"
   },
   {
+    "username": "matrix",
+    "acct": "matrix@mastodon.matrix.org",
+    "display_name": "The Matrix.org Foundation",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/001/396/original/4c37d791f22a3324.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/001/396/original/ba247d2e20a5b34b.png",
+    "url": "https://mastodon.matrix.org/@matrix",
+    "note": "<p>Matrix is an open protocol for decentralised, secure communications. The Matrix.org Foundation exists to act as a neutral custodian for Matrix and to nurture it as efficiently as possible as a single unfragmented standard.</p><p>📣  We're currently seeking individual and organizational members to fund our work: <a href=\"https://matrix.org/membership\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">matrix.org/membership</span><span class=\"invisible\"></span></a></p>",
+    "domain": "mastodon.matrix.org"
+  },
+  {
     "username": "torproject",
     "acct": "torproject@mastodon.social",
     "display_name": "The Tor Project",
-    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/010/731/original/1385cf084af0dfb8.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/010/731/original/b1332b6359523bdf.png",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/000/010/731/original/634b4275824bfc0c.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/000/010/731/original/d7ba7f38f0a4ef9d.png",
     "url": "https://mastodon.social/@torproject",
     "note": "<p>We advance human rights and defend your privacy online through free software and open networks.</p>",
     "domain": "mastodon.social"
@@ -282,11 +282,11 @@
   {
     "username": "thunderbird",
     "acct": "thunderbird@mastodon.online",
-    "display_name": "Thunderbird",
-    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/108/195/923/590/464/143/original/78954586a915a74b.png",
-    "header": "https://cdn.fosstodon.org/cache/accounts/headers/108/195/923/590/464/143/original/540fe5a3112c1963.png",
+    "display_name": "Thunderbird: Free Your Inbox",
+    "avatar": "https://cdn.fosstodon.org/cache/accounts/avatars/108/195/923/590/464/143/original/3a464c2319f78f22.png",
+    "header": "https://cdn.fosstodon.org/cache/accounts/headers/108/195/923/590/464/143/original/ec53c6f4ca45042c.png",
     "url": "https://mastodon.online/@thunderbird",
-    "note": "<p>Your all-in-one communications command center that puts YOU in control, not a corporation. Manage multiple email accounts, calendars, tasks, RSS feeds and newsgroups. </p><p><a href=\"https://mastodon.online/tags/OpenSource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>OpenSource</span></a> and respectful of your privacy.</p><p>Read about Thunderbird 102 here: <a href=\"https://mzla.link/3hjVSMQ\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/3hjVSMQ</span><span class=\"invisible\"></span></a></p><p>Explore our roadmap: Roadmap: <a href=\"https://developer.thunderbird.net/planning/roadmap\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">developer.thunderbird.net/plan</span><span class=\"invisible\">ning/roadmap</span></a></p><p>Get involved with Thunderbird here: <a href=\"https://mzla.link/3Ur3BXu\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/3Ur3BXu</span><span class=\"invisible\"></span></a></p><p>Get help with Thunderbird here: <a href=\"https://mzla.link/thunderbirdhelp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/thunderbirdhelp</span><span class=\"invisible\"></span></a></p>",
+    "note": "<p>Your all-in-one communications command center that puts YOU in control, not a corporation. Manage multiple email accounts, calendars, tasks, RSS feeds and newsgroups. </p><p><a href=\"https://mastodon.online/tags/OpenSource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>OpenSource</span></a> and respectful of your privacy.</p><p>What's New In v115: <a href=\"https://mzla.link/whatsnew115\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/whatsnew115</span><span class=\"invisible\"></span></a></p><p>Get involved with Thunderbird here: <a href=\"https://mzla.link/3Ur3BXu\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/3Ur3BXu</span><span class=\"invisible\"></span></a></p><p>Get help with Thunderbird here: <a href=\"https://mzla.link/thunderbirdhelp\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/thunderbirdhelp</span><span class=\"invisible\"></span></a></p>",
     "domain": "mastodon.online"
   },
   {
