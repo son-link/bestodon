@@ -13,7 +13,8 @@ const accts2merge = {};
 
 lists.forEach( (list) => accts2merge[list] = []);
 
-const api_url = 'https://fosstodon.org/api/v1';
+//const api_url = 'https://fosstodon.org/api/v1';
+const api_url = 'https://mastodon.social/api/v1';
 //axios.defaults.baseURL = 'https://mastodon.social/api/v1';
 axios.defaults.baseURL = api_url;
 
