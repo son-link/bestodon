@@ -1,0 +1,99 @@
+- acct: GIMP@floss.social
+  langs:
+    - en
+  tags:
+    - image
+    - image_editor
+
+- acct: fdroidorg@floss.social
+  langs:
+    - en
+  tags:
+    - android
+    - shop
+
+- acct: thunderbird@mastodon.online
+  langs:
+    - en
+  tags:
+    - internet
+    - email
+    - calendar
+    - tasks
+
+- acct: inkscape@mastodon.art
+  langs:
+    - en
+  tags:
+    - image
+    - vectorial
+    - image_editor
+
+- acct: krita@mastodon.art
+  langs:
+    - en
+  tags:
+    - image
+    - image_editor
+
+- acct: Blender@mastodon.social
+  langs:
+    - en
+  tags:
+    - images
+    - 3d_render
+
+- acct: kde@floss.social
+  langs:
+    - en
+  tags:
+    - desktop
+
+- acct: kdenlive@floss.social
+  langs:
+    - en
+  tags:
+    - video
+    - video_edit
+
+- acct: gnome@floss.social
+  langs:
+    - en
+  tags:
+    - desktop
+
+- acct: videolan@floss.social
+  langs:
+    - en
+  tags:
+    - multimedia
+    - video_player
+    - audio_player
+
+- acct: qgis@fosstodon.org
+  langs:
+    - en
+  tags:
+    - geographic
+
+- acct: libreoffice@fosstodon.org
+  langs:
+    - en
+  tags:
+    - office
+    - word
+    - excel
+    - powerpoint
+
+- acct: FreeCAD@fosstodon.org
+  langs:
+    - en
+  tags:
+    - design
+    - 3d_design
+
+- acct: LXQt@mastodon.social
+  langs:
+    - en
+  tags:
+    - desktop

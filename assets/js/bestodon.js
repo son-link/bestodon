@@ -57,7 +57,7 @@ const drawPagination = () => {
 
 	for (i = 0; i < totalPages; i++) {
 		if (page == i+1)
-			$('#pagination').append(`<span class="rounded-full bg-gray-100 w-8 h-8 items-center justify-center hidden md:flex">${i+1}</span>`);
+			$('#pagination').append(`<span class="rounded-full bg-gray-100 text-neutral-900 w-8 h-8 items-center justify-center hidden md:flex">${i+1}</span>`);
 		else
 			$('#pagination').append(`<a class="page rounded-full text-white w-8 h-8 items-center justify-center hidden md:flex" href="#page-${i+1}">${i+1}</a>`);
 	}

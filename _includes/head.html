@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
+
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -9,10 +10,12 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/styles.css" | absolute_url }}">
   </head>
-  <body class="bg-neutral-900">
+
+  <body class="bg-neutral-900 text-white">
     <div class="fixed bottom-4 right-4 z-20 flex flex-wrap gap-2">
       <button class="text-white bg-neutral-500 rounded p-2 hidden" id="backtotop">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
         </svg>
       </button>
@@ -23,99 +26,64 @@
         {% include icons/bookmark-slash.svg %}
       </button>
     </div>
-    
-    <div class="w-12 h-full fixed inset-0 top-0 bg-gray-700 text-white flex flex-columns justify-center z-10 md:hidden">
-      <nav class="my-2">
-        <a class="w-10 h-10 flex items-center justify-center" title="All" href="{{ "/" | absolute_url }}">
-          {% include icons/home.svg %}
-        </a>
-        <a class="w-10 h-10 flex items-center justify-center" href="{{ "/apps" | absolute_url }}" title="Applications">
-          {% include icons/apps.svg %}
-        </a>
-        <a class="w-10 h-10 flex items-center justify-center" href="{{ "/communities" | absolute_url }}" title="Communities">
-          {% include icons/communities.svg %}
-        </a>
-        <a class="w-10 h-10 flex items-center justify-center" href="{{ "/dev" | absolute_url }}" title="Development">
-          {% include icons/dev.svg %}
-        </a>
-        <a class="w-10 h-10 flex items-center justify-center" href="{{ "/games" | absolute_url }}" title="Games">
-          {% include icons/games.svg %}
-        </a>
-        <a class="w-10 h-10 flex items-center justify-center" href="{{ "/os" | absolute_url }}" title="Operative Systems">
-          {% include icons/tux.svg %}
-        </a>
-        <div class="border-t-2 h-1 mt-2"></div>
-        <a class="w-10 h-10 flex items-center justify-center" href="{{ "/about" | absolute_url }}" title="About">
-          {% include icons/about.svg %}
-        </a>
-      </nav>
-    </div>
-    <header class="m-2 p-4 w-11/12 max-w-5xl mx-auto bg-gray-700 text-white rounded hidden md:block">
-      <nav class="flex flex-wrap gap-2 items-center justify-between">
-        <div class="flex flex-wrap gap-2 items-center">
-          <img src="{{ "/assets/bestodon.svg" | absolute_url }}" class="h-6" />
-        </div>
-        <div class="flex flex-wrap gap-2 items-center">
-          <a class="hover:underline" href="{{ "/" | absolute_url }}">
-            All
-          </a>
-          <a class="hover:underline" href="{{ "/apps" | absolute_url }}">
-            Applications
-          </a>
-          <a class="hover:underline" href="{{ "/communities" | absolute_url }}">
-            Communities
-          </a>
-          <a class="hover:underline" href="{{ "/dev" | absolute_url }}">
-            Development
-          </a>
-          <a class="hover:underline" href="{{ "/games" | absolute_url }}">
-            Games
-          </a>
-          <a class="hover:underline" href="{{ "/os" | absolute_url }}">
-            Operative Systems
-          </a>
-        </div>
-        <div class="flex flex-wrap gap-2">
-          <div class="flex items-center justify-end gap-2 relative">
-            <input type="text" id="search" class=" search bg-neutral-800 text-white rounded p-1" placeholder="Search...." />
-            <div class="absolute right-1 search-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-              </svg>
-            </div>
-            <button class="clear-search absolute right-1 rounded-full bg-neutral-500 p-1 hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
-                <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
-              </svg>
-            </button>
-          </div>
-          <div class="flex flex-wrap gap-2 items-center">
-            <a class="hover:underline" href="{{ "/about" | absolute_url }}">About</a>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <div class="w-full pl-14 pr-2 max-w-5xl text-center mt-2 md:mx-auto md:p-0 md:w-11/12">
-      <div class="bg-gray-700 text-white rounded p-2">
-        <img src="{{ "/assets/bestodon.svg" | absolute_url }}" class="h-18 mx-auto my-2" />
-        <p>
-          Welcome to this list of Mastodon accounts.
-        </p>
-        <p>
-          Here you can find accounts dedicated to Free and Open Source Software, such as games, applications, Linux distributions, etc.
-        </p>
-        <div class="flex items-center gap-2 relative w-full mt-2 md:hidden">
-          <input type="text" id="search" class="search bg-neutral-800 text-white rounded p-1 w-full" placeholder="Search...." />
+
+    <div class="container flex h-screen mx-auto">
+      <sidebar class="w-14 lg:w-2/12 h-full flex-col items-center lg:items-start gap-2 fixed">
+        <img src="{{ "/assets/bestodon.svg" | absolute_url }}" class="h-12 my-4 hidden lg:inline-block" />
+        <img src="{{ "/assets/icon.svg" | absolute_url }}" class="h-8 my-4 mx-auto lg:hidden" />
+        <div class="items-center gap-2 relative w-full hidden lg:flex my-4">
+          <input type="text" id="search" class=" search bg-neutral-800 text-white rounded p-1 w-full" placeholder="Search...." />
           <div class="absolute right-1 search-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6 ">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
             </svg>
           </div>
           <button class="clear-search absolute right-1 rounded-full bg-neutral-500 p-1 hidden">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
-              <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+              <path
+                d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
             </svg>
           </button>
         </div>
-      </div>
-    </div>
+        <!-- End search div -->
+        <nav class="my-2 w-full flex flex-col items-center lg:items-start">
+          <a class="flex items-center gap-2" title="All" href="{{ "/" | absolute_url }}">
+            <i class="w-8 h-8 flex items-center justify-center">{% include icons/home.svg %}</i>
+            <span class="hidden lg:inline">Home</span>
+          </a>
+          <a class="flex items-center gap-2" href="{{ "/apps" | absolute_url }}" title="Applications">
+            <i class="w-8 h-8 flex items-center justify-center">{% include icons/apps.svg %}</i>
+            <span class="hidden lg:inline">Applications</span>
+          </a>
+          <a class="flex items-center gap-2" href="{{ "/communities" | absolute_url }}"
+            title="Communities">
+            <i class="w-8 h-8 flex items-center justify-center">{% include icons/communities.svg %}</i>
+            <span class="hidden lg:inline">Communities</span>
+          </a>
+          <a class="flex items-center gap-2" href="{{ "/dev" | absolute_url }}" title="Development">
+            <i class="w-8 h-8 flex items-center justify-center">{% include icons/dev.svg %}</i>
+            <span class="hidden lg:inline">Development</span>
+          </a>
+          <a class="flex items-center gap-2" href="{{ "/games" | absolute_url }}" title="Games">
+            <i class="w-8 h-8 flex items-center justify-center">{% include icons/games.svg %}</i>
+            <span class="hidden lg:inline">Games</span>
+          </a>
+          <a class="flex items-center gap-2" href="{{ "/os" | absolute_url }}"
+            title="Operative Systems">
+            <i class="w-8 h-8 flex items-center justify-center">{% include icons/tux.svg %}</i>
+            <span class="hidden lg:inline">Operative Systems</span>
+          </a>
+          <div class="border-solid border-white border-t-2 h-1 my-2 w-full"></div>
+          <a class="flex items-center gap-2" href="{{ "/about" | absolute_url }}" title="About">
+            <i class="w-8 h-8 flex items-center justify-center">{% include icons/about.svg %}</i>
+            <span class="hidden lg:inline">About</span>
+          </a>
+        </nav>
+        <!-- End nav -->
+      </sidebar>
+      <!-- End left sidevar-->
+      <content id="content" class="w-auto lg:w-10/12">
+        <!-- List -->
+      

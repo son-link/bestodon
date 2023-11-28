@@ -1,36 +1,39 @@
-	<div id="no-results" class="hidden w-full max-w-5xl pl-14 pr-2 md:mx-auto md:grid-cols-2 md:p-0 md:w-11/1">
-		<div class="rounded-lg w-full bg-neutral-800 font-bold p-2 text-xl text-white">
-			No results
-		</div>
-	</div>
-	<div class="text-white text-center w-full max-w-5xl pl-14 pr-2 mt-2 md:mx-auto md:grid-cols-2 md:p-0 md:w-11/1">
-		<div class="p-2" id="total-pages">
-			View 1/1 of 1
-		</div>
-	</div>
-	<div id="pagination" class="flex flex-wrap justify-center gap-4 my-4"></div>
-	<div class="w-full pl-14 pr-2 max-w-5xl mt-2 m-4 p-2 max-w-5xl mx-auto text-neutral-500 flex-wrap gap-8 md:flex md:mx-auto md:p-0">
-		<div>
-			<p class="text-white font-bold mb-2">
+		<!-- End list -->
+		<div class="w-full pl-14 pr-2 text-center mt-2 md:p-0 md:w-11/12">
+			<div id="no-results" class="hidden w-full pl-14 pr-2 md:mx-auto md:grid-cols-2 md:p-0 md:w-11/1">
+			<div class="rounded-lg w-full bg-neutral-800 font-bold p-2 text-xl text-white">
+				No results
+			</div>
+			</div>
+			<div class="text-white text-center w-full pl-14 pr-2 mt-2 md:mx-auto md:grid-cols-2 md:p-0 md:w-11/1">
+			<div class="p-2" id="total-pages">
+				View 1/1 of 1
+			</div>
+			</div>
+			<div id="pagination" class="flex flex-wrap justify-center gap-4 my-4"></div>
+			<div
+			class="w-full pl-14 pr-2 mt-2 m-4 p-2 mx-auto text-neutral-500 flex-wrap gap-8 md:flex md:mx-auto md:p-0">
+			<div>
+				<p class="text-white font-bold mb-2">
 				Bestodon
-			</p>
-			<p>
+				</p>
+				<p>
 				Under the GNU/GPLv3 or newer license.
-			</p>
-		</div>
-		<div>
-			<p class="text-white font-bold my-2 md:mt-0">
+				</p>
+			</div>
+			<div>
+				<p class="text-white font-bold my-2 md:mt-0">
 				Powered by
-			</p>
-			<p>
+				</p>
+				<p>
 				{% include icons/gh-pages.svg %}
-			</p>
-		</div>
-		<div>
-			<p class="text-white font-bold my-2 md:mt-0">
+				</p>
+			</div>
+			<div>
+				<p class="text-white font-bold my-2 md:mt-0">
 				Make with
-			</p>
-			<div class="grid grid-cols-2 gap-2 w-full md:mx-auto md:grid-cols-3 md:px-0">
+				</p>
+				<div class="grid grid-cols-2 gap-2 w-full md:mx-auto md:grid-cols-3 md:px-0">
 				<a href="https://jekyllrb.com" target="_blank" class="hover:text-white">
 					Jekyll
 				</a>
@@ -49,80 +52,83 @@
 				<a href="https://simpleicons.org/" target="_blank" class="hover:text-white">
 					Simple Icons
 				</a>
+				</div>
+			</div>
+			<div>
+				<p class="text-white font-bold my-2 md:mt-0">
+				Links
+				</p>
+				<p>
+				<ul>
+				<li>
+					<a href="https://github.com/son-link/bestodon" target="_blank" class="hover:text-white">
+					Source code
+					</a>
+				</li>
+				<li>
+					<a href="https://joinmastodon.org/" target="_blank" class="hover:text-white">
+					Join Mastodon
+					</a>
+				</li>
+				</ul>
+				</p>
+			</div>
 			</div>
 		</div>
-		<div>
-			<p class="text-white font-bold my-2 md:mt-0">
-				Links
-			</p>
-			<p>
-				<ul>
-					<li>
-						<a href="https://github.com/son-link/bestodon" target="_blank" class="hover:text-white">
-							Source code
-						</a>
-					</li>
-					<li>
-						<a href="https://joinmastodon.org/" target="_blank" class="hover:text-white">
-							Join Mastodon
-						</a>
-					</li>
-				</ul>
-			</p>
+		</content>
 		</div>
-	</div>
-	<script type="text/html" id="account-tpl">
+		<script type="text/html" id="account-tpl">
 		<% items.forEach( (item) => { %>
-			<% 
-				let remote_follow = `https://${item.domain}/users/${item.username}/remote_follow`;
-				if (item.domain == 'mastodon.social') remote_follow = item.url;
-			%> 
+		<% 
+			let remote_follow = `https://${item.domain}/users/${item.username}/remote_follow`;
+			if (item.domain == 'mastodon.social') remote_follow = item.url;
+		%> 
 			<div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
-				<a href="<%= item.url %>" target="_blank">
-					<div>
-						<img src="<%= item.header %>" class="object-cover h-32 w-full rounded bg-neutral-900" />
-					</div>
-					<div class="px-2 flex flex-wrap gap-2">
-						<div class="-translate-y-2">
-							<img src="<%= item.avatar %>" class="rounded-lg w-16 h-16 bg-neutral-900" />
-						</div>
-						<div class="mt-2">
-							<p><%= item.display_name %></p>
-							<p class="text-neutral-500">
-								@<%= item.username %>@<%= item.domain %>
-							</p>
-						</div>
-					</div>
+			<a href="<%= item.url %>" target="_blank">
+				<div>
+				<img src="<%= item.header %>" class="object-cover h-32 w-full rounded bg-neutral-900" />
+				</div>
+				<div class="px-2 flex flex-wrap gap-2">
+				<div class="-translate-y-2">
+					<img src="<%= item.avatar %>" class="rounded-lg w-16 h-16 bg-neutral-900" />
+				</div>
+				<div class="mt-2">
+					<p><%= item.display_name %></p>
+					<p class="text-neutral-500">
+					@<%= item.username %>@<%= item.domain %>
+					</p>
+				</div>
+				</div>
+			</a>
+			<div class="p-2 h-20 overflow-hidden mb-4">
+				<%- item.note %>
+			</div>
+			<div class="flex flex-wrap gap-2 items-center">
+			<a
+				class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+				href="<%= remote_follow %>"
+				target="_blank"
+			>
+				{% include icons/mastodon.svg %}
+				Follow
+			</a>
+			<% let found = bookmarks.find( mark => mark == item.acct ) %>
+				<% if (found) { %>
+				<a class="bookmark marked" data-acct="<%= item.acct %>">
+					{% include icons/bookmark.svg %}
 				</a>
-				<div class="p-2 h-20 overflow-hidden mb-4">
-					<%- item.note %>
-				</div>
-				<div class="flex flex-wrap gap-2 items-center">
-					<a
-						class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
-						href="<%= remote_follow %>"
-						target="_blank"
-					>
-						{% include icons/mastodon.svg %}
-						Follow
-					</a>
-					<% let found = bookmarks.find( mark => mark == item.acct ) %>
-					<% if (found) { %>
-						<a class="bookmark marked" data-acct="<%= item.acct %>">
-							{% include icons/bookmark.svg %}
-						</a>
-					<% } else { %>
-						<a class="bookmark" data-acct="<%= item.acct %>">
-							{% include icons/bookmark.svg %}
-						</a>
-					<% } %>
-				</div>
+				<% } else { %>
+				<a class="bookmark" data-acct="<%= item.acct %>">
+					{% include icons/bookmark.svg %}
+				</a>
+				<% } %>
+			</div>
 			</div>
 		<% }); %> 
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <script src="{{ "/assets/js/pequejs.min.js" | absolute_url }}"></script>
-    <script src="{{ "/assets/js/ejs.min.js" | absolute_url }}"></script>
-    <script src="{{ "/assets/js/bestodon.js" | absolute_url }}" defer></script>
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+		<script src="{{ "/assets/js/pequejs.min.js" | absolute_url }}"></script>
+		<script src="{{ "/assets/js/ejs.min.js" | absolute_url }}"></script>
+		<script src="{{ "/assets/js/bestodon.js" | absolute_url }}" defer></script>
 	</body>
 </html>
