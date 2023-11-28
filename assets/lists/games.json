@@ -70,6 +70,16 @@
     "domain": "fosstodon.org"
   },
   {
+    "username": "openttd",
+    "acct": "openttd@fosstodon.org",
+    "display_name": "OpenTTD",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/615/814/490/783/979/original/1040bb217407d6b3.gif",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/615/814/490/783/979/original/9fc56604b7239edd.png",
+    "url": "https://fosstodon.org/@openttd",
+    "note": "<p>OpenTTD is a free and open source transport simulation game.</p><p>This account is unofficial but developer-run.</p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "scummvm",
     "acct": "scummvm@corteximplant.com",
     "display_name": "ScummVM",

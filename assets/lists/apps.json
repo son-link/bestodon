@@ -1,5 +1,15 @@
 [
   {
+    "username": "AntennaPod",
+    "acct": "AntennaPod@fosstodon.org",
+    "display_name": "AntennaPod",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/106/478/889/279/423/676/original/094753568187f8ae.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/106/478/889/279/423/676/original/e6d6405c318980fa.png",
+    "url": "https://fosstodon.org/@AntennaPod",
+    "note": "<p>Open-Source Podcast Manager for Android. Support or feature requests: <a href=\"http://forum.antennapod.org\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">forum.antennapod.org</span><span class=\"invisible\"></span></a></p>",
+    "domain": "fosstodon.org"
+  },
+  {
     "username": "Blender",
     "acct": "Blender@mastodon.social",
     "display_name": "Blender 🔶",
@@ -30,6 +40,16 @@
     "domain": "floss.social"
   },
   {
+    "username": "FirefoxNightly",
+    "acct": "FirefoxNightly@mozilla.social",
+    "display_name": "Firefox Nightly",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/110/040/339/253/633/804/original/b1d1530586a3ceb3.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/110/040/339/253/633/804/original/84afea7586b6d284.jpeg",
+    "url": "https://mozilla.social/@FirefoxNightly",
+    "note": "<p>Latest Firefox for Desktop development, live from Bugzilla!</p><p><a href=\"https://nightly.mozilla.org\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nightly.mozilla.org</span><span class=\"invisible\"></span></a></p>",
+    "domain": "mozilla.social"
+  },
+  {
     "username": "FlatpakApps",
     "acct": "FlatpakApps@fosstodon.org",
     "display_name": "Flatpak",
@@ -48,6 +68,16 @@
     "url": "https://fosstodon.org/@FreeCAD",
     "note": "<p>This is the official account of the FreeCAD project. FreeCAD is a free and open source multiplatform 3D parametric modeler.</p>",
     "domain": "fosstodon.org"
+  },
+  {
+    "username": "XOrgFoundation",
+    "acct": "XOrgFoundation@floss.social",
+    "display_name": "freedesktop.org",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/110/173/605/614/026/723/original/90252f9caa0846c8.png",
+    "header": "https://mastodon.social/headers/original/missing.png",
+    "url": "https://floss.social/@XOrgFoundation",
+    "note": "<p>Home of the free desktop: XDG, Wayland, Mesa, PipeWire, and more. Front for the X.Org Foundation. they/them. 🐧</p>",
+    "domain": "floss.social"
   },
   {
     "username": "funkwhale",
@@ -270,6 +300,16 @@
     "domain": "mastodon.matrix.org"
   },
   {
+    "username": "matrix",
+    "acct": "matrix@mastodon.matrix.org",
+    "display_name": "The Matrix.org Foundation",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/125/788/original/8b20df64e7258aa1.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/125/788/original/c67f53e842f601f0.png",
+    "url": "https://mastodon.matrix.org/@matrix",
+    "note": "<p>Matrix is an open protocol for decentralised, secure communications. The Matrix.org Foundation exists to act as a neutral custodian for Matrix and to nurture it as efficiently as possible as a single unfragmented standard.</p><p>📣  We're currently seeking individual and organizational members to fund our work: <a href=\"https://matrix.org/membership\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">matrix.org/membership</span><span class=\"invisible\"></span></a></p>",
+    "domain": "mastodon.matrix.org"
+  },
+  {
     "username": "torproject",
     "acct": "torproject@mastodon.social",
     "display_name": "The Tor Project",
@@ -287,6 +327,16 @@
     "header": "https://files.mastodon.social/cache/accounts/headers/108/194/863/260/762/493/original/8fe1c706f4f79064.png",
     "url": "https://mastodon.online/@thunderbird",
     "note": "<p>Your all-in-one communications command center that puts YOU in control, not a corporation. Manage multiple email accounts, calendars, tasks, RSS feeds and newsgroups. </p><p><a href=\"https://mastodon.online/tags/OpenSource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>OpenSource</span></a> and respectful of your privacy.</p><p>What's New In v115: <a href=\"https://mzla.link/whatsnew115\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/whatsnew115</span><span class=\"invisible\"></span></a></p><p>Get involved with Thunderbird here: <a href=\"https://mzla.link/3Ur3BXu\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/3Ur3BXu</span><span class=\"invisible\"></span></a></p><p>Get help with Thunderbird here: <a href=\"https://mzla.link/thunderbirdhelp\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/thunderbirdhelp</span><span class=\"invisible\"></span></a></p>",
+    "domain": "mastodon.online"
+  },
+  {
+    "username": "usebottles",
+    "acct": "usebottles@mastodon.online",
+    "display_name": "usebottles",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/108/200/741/348/287/764/original/d577ec0c288adfca.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/108/200/741/348/287/764/original/611383fddd652ebf.jpeg",
+    "url": "https://mastodon.online/@usebottles",
+    "note": "<p>Run Windows software on Linux with Bottles.</p>",
     "domain": "mastodon.online"
   },
   {

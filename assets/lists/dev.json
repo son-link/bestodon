@@ -10,6 +10,16 @@
     "domain": "fosstodon.org"
   },
   {
+    "username": "gbstudiocentral",
+    "acct": "gbstudiocentral@pocketpixels.club",
+    "display_name": "GB Studio Central",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/558/504/330/158/815/original/2ce245d679927b89.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/558/504/330/158/815/original/325265e642ee461e.png",
+    "url": "https://pocketpixels.club/@gbstudiocentral",
+    "note": "<p>Official site dedicated to all things GB Studio Dev<br> - the free, open source and easy to use tool for making real Game Boy Games.</p>",
+    "domain": "pocketpixels.club"
+  },
+  {
     "username": "gdevelop",
     "acct": "gdevelop@mastodon.gamedev.place",
     "display_name": "GDevelop",
@@ -67,6 +77,16 @@
     "header": "https://files.mastodon.social/cache/accounts/headers/108/279/792/945/982/549/original/c9b9c886eeb646f0.jpeg",
     "url": "https://fosstodon.org/@kicad",
     "note": "<p>Official account of the KiCad EDA suite.</p>",
+    "domain": "fosstodon.org"
+  },
+  {
+    "username": "mariadb",
+    "acct": "mariadb@fosstodon.org",
+    "display_name": "MariaDB",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/706/272/original/06e7316b349eb17c.jpeg",
+    "header": "https://mastodon.social/headers/original/missing.png",
+    "url": "https://fosstodon.org/@mariadb",
+    "note": "<p>We are the company behind <a href=\"https://fosstodon.org/tags/MariaDB\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>MariaDB</span></a>, the fastest growing <a href=\"https://fosstodon.org/tags/opensource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>opensource</span></a> <a href=\"https://fosstodon.org/tags/database\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>database</span></a>. Download MariaDB at <a href=\"http://mariadb.com/downloads\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">mariadb.com/downloads</span><span class=\"invisible\"></span></a>.</p>",
     "domain": "fosstodon.org"
   },
   {

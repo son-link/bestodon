@@ -30,6 +30,16 @@
     "domain": "fosstodon.org"
   },
   {
+    "username": "mxlinux",
+    "acct": "mxlinux@mastodon.social",
+    "display_name": "MX Linux",
+    "avatar": "https://files.mastodon.social/accounts/avatars/000/296/330/original/2f6ae937d8cc03d6.png",
+    "header": "https://files.mastodon.social/accounts/headers/000/296/330/original/a2e3f04324f3d6af.png",
+    "url": "https://mastodon.social/@mxlinux",
+    "note": "<p>The official MX Linux Mastodon.</p><p>Midweight Linux OS based on Debian stable. Using core antiX components +additional software created / packaged by the MX community.</p><p>Please follow the spare account also: <a href=\"https://linuxrocks.online/@MXLinux\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">linuxrocks.online/@MXLinux</span><span class=\"invisible\"></span></a></p>",
+    "domain": "mastodon.social"
+  },
+  {
     "username": "openmandriva",
     "acct": "openmandriva@linuxrocks.online",
     "display_name": "OpenMandriva",
