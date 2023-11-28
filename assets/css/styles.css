@@ -18,4 +18,8 @@
 
 .bookmark.marked svg { fill: #dc2626; }
 
+#content { margin-left: 4rem; }
+
+@media (min-width: 1024px) { #content { margin-left: 20%; } }
+
 /*# sourceMappingURL=styles.css.map */
