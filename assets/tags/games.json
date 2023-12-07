@@ -118,29 +118,6 @@
     "web": "https://heroicgameslauncher.com"
   },
   {
-    "username": "heroiclauncher",
-    "acct": "heroiclauncher@mastodon.social",
-    "display_name": "Heroic Games Launcher",
-    "avatar": "https://files.mastodon.social/accounts/avatars/109/358/416/994/843/667/original/55d8da7d62e87b8e.png",
-    "header": "https://files.mastodon.social/accounts/headers/109/358/416/994/843/667/original/dc3455f54fea025d.png",
-    "url": "https://mastodon.social/@heroiclauncher",
-    "note": "<p>An Open source GOG and Epic Games Launcher for Linux, Windows, and macOS.</p>",
-    "domain": "mastodon.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "games",
-      "launcher"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-3.0-only"
-    ],
-    "repo": "https://github.com/Heroic-Games-Launcher",
-    "web": "https://heroicgameslauncher.com"
-  },
-  {
     "username": "ioquake3",
     "acct": "ioquake3@mastodon.social",
     "display_name": "ioquake3",

@@ -21,28 +21,5 @@
     ],
     "repo": "https://framagit.org/les/gancio",
     "web": "https://gancio.org"
-  },
-  {
-    "username": "gancio",
-    "acct": "gancio@mastodon.cisti.org",
-    "display_name": "Gancio",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/761/998/original/2bb78606b064d926.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/000/761/998/original/a05e97bbd19e354b.png",
-    "url": "https://mastodon.cisti.org/@gancio",
-    "note": "<p>A shared agenda for local communities with AP support.</p>",
-    "domain": "mastodon.cisti.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "agenda",
-      "share"
-    ],
-    "base": null,
-    "licenses": [
-      "AGPL-3.0-only"
-    ],
-    "repo": "https://framagit.org/les/gancio",
-    "web": "https://gancio.org"
   }
 ]

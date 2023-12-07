@@ -21,28 +21,5 @@
     ],
     "repo": "https://hg.mozilla.org/mozilla-central",
     "web": "https://nightly.mozilla.org/"
-  },
-  {
-    "username": "FirefoxNightly",
-    "acct": "FirefoxNightly@mozilla.social",
-    "display_name": "Firefox Nightly",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/110/040/339/253/633/804/original/b1d1530586a3ceb3.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/110/040/339/253/633/804/original/84afea7586b6d284.jpeg",
-    "url": "https://mozilla.social/@FirefoxNightly",
-    "note": "<p>Latest Firefox for Desktop development, live from Bugzilla!</p><p><a href=\"https://nightly.mozilla.org\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nightly.mozilla.org</span><span class=\"invisible\"></span></a></p>",
-    "domain": "mozilla.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "internet",
-      "browser"
-    ],
-    "base": null,
-    "licenses": [
-      "MPL-2.0"
-    ],
-    "repo": "https://hg.mozilla.org/mozilla-central",
-    "web": "https://nightly.mozilla.org/"
   }
 ]

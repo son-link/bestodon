@@ -24,30 +24,6 @@
     "web": "https://gajim.org"
   },
   {
-    "username": "gajim",
-    "acct": "gajim@fosstodon.org",
-    "display_name": "Gajim",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/001/370/866/original/671d11294692001b.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/001/370/866/original/e300d551af2caa7e.png",
-    "url": "https://fosstodon.org/@gajim",
-    "note": "<p>Gajim is a fully-featured XMPP chat client.</p><p><a href=\"https://fosstodon.org/tags/chat\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>chat</span></a> <a href=\"https://fosstodon.org/tags/xmpp\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>xmpp</span></a> <a href=\"https://fosstodon.org/tags/gajim\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>gajim</span></a></p><p>Please join <a href=\"xmpp:gajim@conference.gajim.org?join\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">xmpp:</span><span class=\"ellipsis\">gajim@conference.gajim.org?joi</span><span class=\"invisible\">n</span></a> for support.</p>",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "instant_messaging",
-      "xmpp",
-      "chat"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-3.0-only"
-    ],
-    "repo": "https://dev.gajim.org/gajim/gajim",
-    "web": "https://gajim.org"
-  },
-  {
     "username": "matrix",
     "acct": "matrix@mastodon.matrix.org",
     "display_name": "The Matrix.org Foundation",

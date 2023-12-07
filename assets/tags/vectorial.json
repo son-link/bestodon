@@ -22,29 +22,5 @@
     ],
     "repo": "https://gitlab.com/inkscape/inkscape/",
     "web": "https://inkscape.org"
-  },
-  {
-    "username": "inkscape",
-    "acct": "inkscape@mastodon.art",
-    "display_name": "Inkscape",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/318/492/original/4b8e41b84f165cf6.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/000/318/492/original/c4a18e0ada1b6f5a.png",
-    "url": "https://mastodon.art/@inkscape",
-    "note": "<p>A vector drawing app for Windows, MacOS &amp; GNU/Linux. Free and open source, available to everyone! Profile header CC BY-SA 4.0 Denis Kuznetzky</p>",
-    "domain": "mastodon.art",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "image",
-      "image_editor",
-      "vectorial"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-2.0-or-later"
-    ],
-    "repo": "https://gitlab.com/inkscape/inkscape/",
-    "web": "https://inkscape.org"
   }
 ]

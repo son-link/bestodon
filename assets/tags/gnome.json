@@ -23,52 +23,6 @@
     "web": "https://wiki.gnome.org/Apps/Geary"
   },
   {
-    "username": "geary",
-    "acct": "geary@floss.social",
-    "display_name": "Geary",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/001/234/433/original/389ad8f6ccdda31c.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/001/234/433/original/557a44c240ce5aa2.png",
-    "url": "https://floss.social/@geary",
-    "note": "<p>Geary is an email application built around conversations, for the <span class=\"h-card\" translate=\"no\"><a href=\"https://floss.social/@gnome\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>gnome</span></a></span> desktop.</p><p>Account managed by <span class=\"h-card\" translate=\"no\"><a href=\"https://octodon.social/@mjog\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>mjog</span></a></span></p>",
-    "domain": "floss.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "email",
-      "gnome"
-    ],
-    "base": null,
-    "licenses": [
-      "LGPL-2.1"
-    ],
-    "repo": "https://gitlab.gnome.org/GNOME/geary",
-    "web": "https://wiki.gnome.org/Apps/Geary"
-  },
-  {
-    "username": "gnome",
-    "acct": "gnome@floss.social",
-    "display_name": "GNOME",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/387/544/original/06299f83e816cf6f.jpg",
-    "header": "https://files.mastodon.social/cache/accounts/headers/000/387/544/original/c591dcb56c4e99ff.jpg",
-    "url": "https://floss.social/@gnome",
-    "note": "<p>GNOME is a free and open-source software environment project supported by a non-profit foundation. Together, the community of contributors and the Foundation create a computing platform and software ecosystem, composed entirely of free software, that is designed to be elegant, efficient, and easy to use.</p>",
-    "domain": "floss.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "desktop",
-      "gnome"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-2.0-or-later"
-    ],
-    "repo": "https://gitlab.gnome.org/GNOME/",
-    "web": "https://gitlab.gnome.org/GNOME/gimp"
-  },
-  {
     "username": "gnome",
     "acct": "gnome@floss.social",
     "display_name": "GNOME",
