@@ -21,5 +21,28 @@
     ],
     "repo": "https://github.com/FreeCAD/FreeCAD",
     "web": "https://freecad.org"
+  },
+  {
+    "username": "FreeCAD",
+    "acct": "FreeCAD@fosstodon.org",
+    "display_name": "FreeCAD :freecad:",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/671/743/original/440c8dc0dddd0194.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/671/743/original/9122b4f2ec102d70.jpg",
+    "url": "https://fosstodon.org/@FreeCAD",
+    "note": "<p>This is the official account of the FreeCAD project. FreeCAD is a free and open source multiplatform 3D parametric modeler.</p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "3d_design",
+      "design"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-only"
+    ],
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "web": "https://freecad.org"
   }
 ]

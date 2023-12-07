@@ -23,5 +23,30 @@
     ],
     "repo": "https://github.com/0ad/0ad",
     "web": "https://play0ad.com/"
+  },
+  {
+    "username": "play0ad",
+    "acct": "play0ad@mastodon.social",
+    "display_name": "0 A.D.  ✅",
+    "avatar": "https://files.mastodon.social/accounts/avatars/001/074/531/original/b44a56304572cb09.png",
+    "header": "https://files.mastodon.social/accounts/headers/001/074/531/original/3b4e13bda23047d9.jpg",
+    "url": "https://mastodon.social/@play0ad",
+    "note": "<p>0 A.D. is a free and open-source, historical Real Time Strategy game, focused on the period from 500 B.C. to 1 B.C., under development by Wildfire Games. It&#39;s cross-platform, playable on Windows, macOS, FreeBSD, Linux, and OpenBSD. Choose from 13 different civilizations, a multitude of maps, game modes, single player or multiplayer.</p>",
+    "domain": "mastodon.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "2d",
+      "rts",
+      "strategy"
+    ],
+    "base": null,
+    "licenses": [
+      "CC-BY-SA-3.0",
+      "GPL-2.0-only"
+    ],
+    "repo": "https://github.com/0ad/0ad",
+    "web": "https://play0ad.com/"
   }
 ]

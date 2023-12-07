@@ -23,6 +23,29 @@
     "web": "https://freedesktop.org"
   },
   {
+    "username": "XOrgFoundation",
+    "acct": "XOrgFoundation@floss.social",
+    "display_name": "freedesktop.org",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/110/173/605/614/026/723/original/90252f9caa0846c8.png",
+    "header": "https://mastodon.social/headers/original/missing.png",
+    "url": "https://floss.social/@XOrgFoundation",
+    "note": "<p>Home of the free desktop: XDG, Wayland, Mesa, PipeWire, and more. Front for the X.Org Foundation. they/them. 🐧</p>",
+    "domain": "floss.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "linux",
+      "desktop"
+    ],
+    "base": null,
+    "licenses": [
+      "many"
+    ],
+    "repo": "https://cgit.freedesktop.org/",
+    "web": "https://freedesktop.org"
+  },
+  {
     "username": "gnome",
     "acct": "gnome@floss.social",
     "display_name": "GNOME",

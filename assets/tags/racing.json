@@ -22,5 +22,29 @@
     ],
     "repo": "https://sourceforge.net/projects/speed-dreams",
     "web": "https://www.speed-dreams.net"
+  },
+  {
+    "username": "speed_dreams_official",
+    "acct": "speed_dreams_official@mastodon.social",
+    "display_name": "Speed Dreams",
+    "avatar": "https://files.mastodon.social/accounts/avatars/107/311/769/943/706/862/original/ad764378da7aa584.png",
+    "header": "https://files.mastodon.social/accounts/headers/107/311/769/943/706/862/original/38c7b149ceb8873d.png",
+    "url": "https://mastodon.social/@speed_dreams_official",
+    "note": "<p>Speed Dreams is an Open Source Motorsport Simulator featuring high-quality 3D graphics and an accurate physics engine, all targeting maximum realism.</p>",
+    "domain": "mastodon.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "3d",
+      "racing",
+      "simulation"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-only"
+    ],
+    "repo": "https://sourceforge.net/projects/speed-dreams",
+    "web": "https://www.speed-dreams.net"
   }
 ]

@@ -23,6 +23,54 @@
     "web": "https://antennapod.org"
   },
   {
+    "username": "AntennaPod",
+    "acct": "AntennaPod@fosstodon.org",
+    "display_name": "AntennaPod",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/106/478/889/279/423/676/original/094753568187f8ae.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/106/478/889/279/423/676/original/e6d6405c318980fa.png",
+    "url": "https://fosstodon.org/@AntennaPod",
+    "note": "<p>Open-Source Podcast Manager for Android. Support or feature requests: <a href=\"http://forum.antennapod.org\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">forum.antennapod.org</span><span class=\"invisible\"></span></a></p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "podcast",
+      "android"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-3.0-only"
+    ],
+    "repo": "https://github.com/AntennaPod/AntennaPod",
+    "web": "https://antennapod.org"
+  },
+  {
+    "username": "fdroidorg",
+    "acct": "fdroidorg@floss.social",
+    "display_name": "F-Droid",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/177/208/527/248/350/original/11de015ff9c8e66f.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/177/208/527/248/350/original/49e6db773f97348c.jpg",
+    "url": "https://floss.social/@fdroidorg",
+    "note": "<p>F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.</p>",
+    "domain": "floss.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "android",
+      "app_store"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-3.0-or-later",
+      "CC-BY-3.0",
+      "CC-BY-4.0"
+    ],
+    "repo": "https://gitlab.com/fdroid",
+    "web": "https://f-droid.org"
+  },
+  {
     "username": "fdroidorg",
     "acct": "fdroidorg@floss.social",
     "display_name": "F-Droid",

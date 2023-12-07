@@ -22,5 +22,29 @@
     ],
     "repo": "https://code.videolan.org/explore/projects/starred",
     "web": "https://www.videolan.org"
+  },
+  {
+    "username": "videolan",
+    "acct": "videolan@floss.social",
+    "display_name": "VideoLAN",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/280/338/679/697/439/original/1d7bc163452a5402.jpg",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/280/338/679/697/439/original/4dac80ca9f4cceb3.jpg",
+    "url": "https://floss.social/@videolan",
+    "note": "<p>Official account of the <a href=\"https://floss.social/tags/VideoLAN\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>VideoLAN</span></a> project, <a href=\"https://floss.social/tags/VLC\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>VLC</span></a> and the community. Open Source Multimedia ftw.</p>",
+    "domain": "floss.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "audio_player",
+      "multimedia",
+      "video_player"
+    ],
+    "base": null,
+    "licenses": [
+      "LGPL-2.1"
+    ],
+    "repo": "https://code.videolan.org/explore/projects/starred",
+    "web": "https://www.videolan.org"
   }
 ]
