@@ -1,0 +1,175 @@
+- acct: circuitpython@fosstodon.org
+  langs:
+    - en
+  licenses:
+    - MIT
+  repo: https://github.com/adafruit/Adafruit_CircuitPython_Dash_Display
+  tags:
+    - microcontrollers
+    - python
+  web: https://circuitpython.org
+- acct: gdevelop@mastodon.gamedev.place
+  langs:
+    - en
+  licenses:
+    - MIT
+  repo: https://github.com/4ian/GDevelop
+  tags:
+    - 2d
+    - 3d
+    - game_engine
+    - games
+  web: https://gdevelop.io
+- acct: gitea@social.gitea.io
+  langs:
+    - en
+  licenses:
+    - MIT
+  repo: https://github.com/go-gitea/gitea
+  tags:
+    - development
+    - devops
+    - git
+    - version_control
+  web: https://about.gitea.com/
+- acct: godotengine@mastodon.gamedev.place
+  langs:
+    - en
+  licenses:
+    - MIT
+  repo: https://github.com/godotengine/godot
+  tags:
+    - 2d
+    - 3d
+    - development
+    - game_engine
+    - games
+  web: https://godotengine.org/
+- acct: GTK@floss.social
+  langs:
+    - en
+  licenses:
+    - GPL-2.0-only
+  repo: https://gitlab.gnome.org/GNOME/gtk/
+  tags:
+    - apps
+    - development
+    - gui
+  web: https://www.gtk.org/
+- acct: ioquake3@mastodon.social
+  langs:
+    - en
+  licenses:
+    - GPL-2.0-only
+  repo: https://github.com/ioquake/ioq3/
+  tags:
+    - 3d
+    - development
+    - game_engine
+    - games
+  web: https://ioquake3.org/
+- acct: kicad@fosstodon.org
+  langs:
+    - en
+  licenses:
+    - GPL-3.0-or-later
+  repo: https://gitlab.com/kicad
+  tags:
+    - electronic
+    - pcb
+    - schematic
+  web: https://www.kicad.org/
+- acct: mariadb@fosstodon.org
+  langs:
+    - en
+  licenses:
+    - GPL-2.0-only
+  repo: https://github.com/mariadb
+  tags:
+    - databases
+    - schematic
+    - sql
+  web: https://mariadb.com/
+- acct: Minetest@fosstodon.org
+  langs:
+    - en
+  tags:
+    - 3d
+    - games
+    - voxel
+  licenses:
+    - MIT
+    - CC-BY-SA-3.0
+  web: https://www.minetest.net/
+  repo: https://github.com/minetest/minetest
+- acct: poliastro@fosstodon.org
+  langs:
+    - en
+  licenses:
+    - MIT
+  repo: https://github.com/poliastro/poliastro
+  tags:
+    - astrodynamics
+    - orbital
+    - python
+    - space
+  web: https://www.poliastro.space/
+- acct: pygame@mastodon.social
+  langs:
+    - en
+  licenses:
+    - LGPL-2.0
+  repo: https://github.com/pygame/pygame
+  tags:
+    - 2d
+    - game_engine
+    - games
+    - python
+  web: https://www.pygame.org
+- acct: readthedocs@fosstodon.org
+  langs:
+    - en
+  tags:
+    - documentation
+    - development
+  web: https://about.readthedocs.com
+  repo: https://github.com/readthedocs
+  licenses:
+    - MIT
+- acct: solarus@mastodon.gamedev.place
+  langs:
+    - en
+  licenses:
+    - CC-BY-SA-4.0
+    - GPL-3.0-only
+  repo: https://gitlab.com/solarus-games
+  tags:
+    - 2d
+    - game_engine
+    - games
+    - lua
+    - rpg
+  web: https://www.solarus-games.org
+- acct: vala_lang@mastodon.social
+  langs:
+    - en
+  licenses:
+    - LGPL-2.1
+  repo: https://gitlab.gnome.org/GNOME/vala
+  tags:
+    - programming_lang
+    - vala
+  web: https://vala.dev/
+- acct: xenko@mastodon.gamedev.place
+  langs:
+    - en
+  licenses:
+    - MIT
+  repo: https://github.com/stride3d/stride
+  tags:
+    - 2d
+    - 3d
+    - c#
+    - game_engine
+    - games
+  web: https://vala.dev/

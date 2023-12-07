@@ -1,0 +1,105 @@
+- acct: freeciv@fosstodon.org
+  langs:
+    - en
+  licenses:
+    - GPL-2.0-only
+  repo: https://github.com/freeciv/freeciv
+  tags:
+    - 2d
+    - empire_building
+    - strategy
+  web: https://www.freeciv.org
+- acct: FreeRCT@floss.social
+  langs:
+    - en
+  licenses:
+    - GPL-2.0-only
+  repo: https://github.com/FreeRCT/FreeRCT
+  tags:
+    - 2d
+    - construction
+    - management_sim
+    - strategy
+  web: https://freerct.net/
+- acct: MineClone2@fosstodon.org
+  langs:
+    - en
+  licenses:
+    - GPL-3.0-only
+  repo: https://git.minetest.land/MineClone2/MineClone2
+  tags:
+    - 3d
+    - construction
+    - exploration
+    - voxel
+  web: https://content.minetest.net/packages/Wuzzy/mineclone2/
+- acct: openttd@fosstodon.org
+  langs:
+    - en
+  licenses:
+    - GPL-2.0-only
+  repo: https://github.com/OpenTTD/OpenTTD
+  tags:
+    - 2d
+    - construction
+    - simulation
+    - strategy
+  web: https://www.openttd.org/
+- acct: play0ad@mastodon.social
+  langs:
+    - en
+  licenses:
+    - CC-BY-SA-3.0
+    - GPL-2.0-only
+  repo: https://github.com/0ad/0ad
+  tags:
+    - 2d
+    - rts
+    - strategy
+  web: https://play0ad.com/
+- acct: scummvm@corteximplant.com
+  langs:
+    - en
+  licenses:
+    - GPL-3.0-only
+  repo: https://github.com/scummvm
+  tags:
+    - 2d
+    - engine
+    - graphical_adventure
+  web: https://www.scummvm.org
+- acct: speed_dreams_official@mastodon.social
+  langs:
+    - en
+  licenses:
+    - GPL-2.0-only
+  repo: https://sourceforge.net/projects/speed-dreams
+  tags:
+    - 3d
+    - racing
+    - simulation
+  web: https://www.speed-dreams.net
+- acct: veloren@floss.social
+  langs:
+    - en
+  licenses:
+    - GPL-3.0-only
+  repo: https://gitlab.com/veloren/veloren
+  tags:
+    - 3d
+    - exploration
+    - rpg
+    - voxel
+  web: https://veloren.net/
+- acct: wesnoth@fosstodon.org
+  langs:
+    - en
+  licenses:
+    - CC-BY-SA-4.0
+    - GPL-2.0-only
+  repo: https://github.com/wesnoth/wesnoth
+  tags:
+    - 2d
+    - strategy
+    - turns
+  web: https://www.wesnoth.org/

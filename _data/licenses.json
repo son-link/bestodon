@@ -1,0 +1,61 @@
+{
+	"MIT": {
+		"label": "MIT",
+		"url": "https://spdx.org/licenses/MIT.html"
+	},
+	"GPL-2.0-only": {
+		"label": "GNU General Public License v2.0",
+		"url": "https://spdx.org/licenses/GPL-2.0-only.html"
+	},
+	"GPL-2.0-or-later": {
+		"label": "GNU General Public License v2.0 or later",
+		"url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+	},
+	"GPL-3.0-only": {
+		"label": "GNU General Public License v3.0",
+		"url": "https://spdx.org/licenses/GPL-3.0-only.html"
+	},
+	"GPL-3.0-or-later": {
+		"label": "GNU General Public License v3.0 or later",
+		"url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+	},
+	"CC-BY-SA-3.0": {
+		"label": "Creative Commons Attribution Share Alike 3.0 Unported",
+		"url": "https://spdx.org/licenses/CC-BY-SA-3.0.html"
+	},
+	"CC-BY-3.0": {
+		"label": "Creative Commons Attribution 3.0 Unported",
+		"url": "https://spdx.org/licenses/CC-SA-3.0.html"
+	},
+	"CC-BY-SA-4.0": {
+		"label": "Creative Commons Attribution Share Alike 4.0 Unported",
+		"url": "https://spdx.org/licenses/CC-BY-SA-4.0.html"
+	},
+	"CC-BY-4.0": {
+		"label": "Creative Commons Attribution 4.0 Unported",
+		"url": "https://spdx.org/licenses/CC-BY-4.0.html"
+	},
+	"MPL-2.0": {
+		"label": "Mozilla Public License 2.0",
+		"url": "https://spdx.org/licenses/MPL-2.0.html"
+	},
+	"LGPL-2.0": {
+		"label": "GNU Lesser General Public License v2.1 only",
+		"url": "https://spdx.org/licenses/LGPL-2.0.html"
+	},
+	"LGPL-2.1": {
+		"label": "GNU Lesser General Public License v2.1 only",
+		"url": "https://spdx.org/licenses/LGPL-2.1.html"
+	},
+	"AGPL-3.0-only": {
+		"label": "GNU Affero General Public License v3.0 only",
+		"url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+	},
+	"Apache-2.0": {
+		"label": "Apache License 2.0",
+		"url": "https://spdx.org/licenses/Apache-2.0.html"
+	},
+	"many": {
+		"label": "Many licenses"
+	}
+}

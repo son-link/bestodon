@@ -1,0 +1,27 @@
+---
+- acct: kde_espana@floss.social
+  langs:
+    - es
+  tags:
+    - desktop
+    - kde
+    - linux
+- acct: gbstudiocentral@pocketpixels.club
+  langs:
+    - en
+  tags:
+    - development
+    - gameboy
+    - games
+- acct: gnulinuxvalencia@floss.social
+  langs:
+    - es
+  tags:
+    - linux
+- acct: todogodot@mastodon.gamedev.place
+  langs:
+    - es
+  tags:
+    - development
+    - games
+    - godot

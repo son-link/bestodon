@@ -1,0 +1,93 @@
+- acct: alpinelinux@fosstodon.org
+  base: BusyBox
+  langs:
+    - en
+  repo: https://gitlab.alpinelinux.org/alpine
+  tags:
+    - linux
+  web: https://alpinelinux.org
+- acct: elementary@mastodon.social
+  base: Ubuntu
+  langs:
+    - en
+  repo: https://github.com/elementary
+  tags:
+    - linux
+  web: https://elementary.io
+- acct: fedora@fosstodon.org
+  base: Red Hat
+  langs:
+    - en
+  repo: https://gitlab.com/fedora
+  tags:
+    - linux
+  web: https://fedoraproject.org
+- acct: freedosproject@fosstodon.org
+  langs:
+    - en
+  repo: freedosproject@fosstodon.org
+  tags:
+    - ms-dos
+  web: https://www.freedos.org
+- acct: mxlinux@mastodon.social
+  base: Debian
+  langs:
+    - en
+  repo: https://github.com/MX-Linux
+  tags:
+    - linux
+  web: https://mxlinux.org
+- acct: openmandriva@linuxrocks.online
+  base: Mandriva
+  langs:
+    - en
+  repo: https://github.com/OpenMandrivaSoftware
+  tags:
+    - linux
+  web: https://www.openmandriva.org/
+- acct: nixos_org@chaos.social
+  langs:
+    - en
+  repo: https://github.com/nixos
+  tags:
+    - linux
+  web: https://nixos.org/
+- acct: opensuse@fosstodon.org
+  base: SUSE
+  langs:
+    - en
+  repo: https://github.com/openSUSE
+  tags:
+    - linux
+  web: https://www.opensuse.org
+- acct: opensuse_es@floss.social
+  base: SUSE
+  langs:
+    - es
+  repo: https://github.com/openSUSE
+  tags:
+    - linux
+  web: https://www.opensuse.org
+- acct: peppermintos@fosstodon.org
+  base: Debian
+  langs:
+    - en
+  repo: https://codeberg.org/Peppermint_OS
+  tags:
+    - linux
+  web: https://peppermintos.com
+- acct: snowflakelinux@floss.social
+  base: NixOS
+  langs:
+    - en
+  repo: https://github.com/snowflakelinux
+  tags:
+    - linux
+  web: https://snowflakeos.org
+- acct: SUSE@fosstodon.org
+  langs:
+    - en
+  repo: https://github.com/SUSE
+  tags:
+    - linux
+  web: https://www.suse.com

@@ -82,49 +82,128 @@
 		<% 
 			let remote_follow = `https://${item.domain}/users/${item.username}/remote_follow`;
 			if (item.domain == 'mastodon.social') remote_follow = item.url;
+			const lang_emojis = {
+				en: '🇬🇧',
+				es: '🇪🇸'
+			}
 		%> 
 			<div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
-			<a href="<%= item.url %>" target="_blank">
-				<div>
-				<img src="<%= item.header %>" class="object-cover h-32 w-full rounded bg-neutral-900" />
-				</div>
-				<div class="px-2 flex flex-wrap gap-2">
-				<div class="-translate-y-2">
-					<img src="<%= item.avatar %>" class="rounded-lg w-16 h-16 bg-neutral-900" />
-				</div>
-				<div class="mt-2">
-					<p><%= item.display_name %></p>
-					<p class="text-neutral-500">
-					@<%= item.username %>@<%= item.domain %>
-					</p>
-				</div>
-				</div>
-			</a>
-			<div class="p-2 h-20 overflow-hidden mb-4">
-				<%- item.note %>
-			</div>
-			<div class="flex flex-wrap gap-2 items-center">
-			<a
-				class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
-				href="<%= remote_follow %>"
-				target="_blank"
-			>
-				{% include icons/mastodon.svg %}
-				Follow
-			</a>
-			<% let found = bookmarks.find( mark => mark == item.acct ) %>
-				<% if (found) { %>
-				<a class="bookmark marked" data-acct="<%= item.acct %>">
-					{% include icons/bookmark.svg %}
+				<a href="<%= item.url %>" target="_blank">
+					<div>
+						<img src="<%= item.header %>" class="object-cover h-32 w-full rounded bg-neutral-900" />
+					</div>
+					<div class="px-2 flex flex-wrap gap-2">
+						<div class="-translate-y-2">
+							<img src="<%= item.avatar %>" class="rounded-lg w-16 h-16 bg-neutral-900" />
+						</div>
+						<div class="mt-2">
+							<p><%= item.display_name %></p>
+							<p class="text-neutral-500">
+								@<%= item.username %>@<%= item.domain %>
+							</p>
+						</div>
+					</div>
 				</a>
-				<% } else { %>
-				<a class="bookmark" data-acct="<%= item.acct %>">
-					{% include icons/bookmark.svg %}
-				</a>
+				<div class="p-2 h-20 overflow-hidden mb-4">
+					<%- item.note %>
+				</div>
+
+				<div class="flex tags gap-1 pb-4">
+					<span class="font-bold">Tags:</span>
+					<% item.tags.forEach( (tag, index) => { %>
+						<a href="/tag/<%= tag %>" class="text-blue-400 hover:text-white transition-colors">
+							<%= getTagLabel(tag) %>
+						</a>
+						<%= (index < item.tags.length -1) ? ',' : '' %>
+					<% }) %>
+				</div>
+
+				<div class="flex tags gap-1 pb-2 justify-between">
+					<div>
+						<span class="font-bold">Langs:</span>
+						<% item.langs.forEach( lang => { %>
+							<%- lang_emojis[lang] %>
+						<% }) %>
+					</div>
+					
+					<% if (item.base) { %>
+						<div>
+							<span class="font-bold">Based on:</span>
+							<span><%= item.base %></span>
+						</div>
+					<% } %>
+				</div>
+
+				<% if (item.licenses && item.licenses.length > 0) { %>
+					<div class="mb-2">
+						<p class="font-bold">Licenses:</p>
+						<ul>
+							<% item.licenses.forEach( license => { %>
+								<% console.log(license) %>
+								<% if (license == 'many') { %>
+									<li class="text-blue-400 hover:text-white transition-colors">
+										<%- licenses[license].label %>
+									</li>
+								<% } else { %>
+									<li>
+										<a
+											href="<%- licenses[license].url %>"
+											class="text-blue-400 hover:text-white transition-colors"
+										>
+											<%- licenses[license].label %>
+										</a>
+									</li>
+								<% } %>
+						<% }) %>
+						</ul>
+						
+					</div>
 				<% } %>
-			</div>
+
+				<div class="flex flex-wrap gap-2 items-center">
+					<a
+						class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+						href="<%= remote_follow %>"
+						target="_blank"
+					>
+						{% include icons/mastodon.svg %}
+						Follow
+					</a>
+					<% const found = bookmarks.find( mark => mark == item.acct ) %>
+					<% if (found) { %>
+						<a class="bookmark marked cursor-pointer" data-acct="<%= item.acct %>">
+							{% include icons/bookmark.svg %}
+						</a>
+					<% } else { %>
+						<a class="bookmark cursor-pointer" data-acct="<%= item.acct %>">
+							{% include icons/bookmark.svg %}
+						</a>
+					<% } %>
+					<% if (item.web) { %>
+						<a
+							class="text-blue-400 hover:text-white transition-colors"
+							href="<%= item.web %>"
+							title="Website"
+						>
+							{% include icons/web.svg %}
+						</a>
+					<% } %>
+					<% if (item.repo) { %>
+						<a
+							class="text-blue-400 hover:text-white transition-colors"
+							href="<%= item.repo %>"
+							title="Source code"
+						>
+							{% include icons/dev.svg %}
+						</a>
+					<% } %>
+				</div>
 			</div>
 		<% }); %> 
+		</script>
+		<script>
+			const tags_labels = JSON.parse('{{ site.data.tags_labels | jsonify }}')
+			const licenses = JSON.parse('{{ site.data.licenses | jsonify }}')
 		</script>
 		<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 		<script src="{{ "/assets/js/pequejs.min.js" | absolute_url }}"></script>

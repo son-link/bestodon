@@ -1,99 +1,337 @@
+- acct: AntennaPod@fosstodon.org
+  langs:
+    - en
+  tags:
+    - podcast
+    - android
+  web: https://antennapod.org
+  repo: https://github.com/AntennaPod/AntennaPod
+  licenses:
+    - GPL-3.0-only
+- acct: Blender@mastodon.social
+  langs:
+    - en
+  tags:
+    - 3d_render
+    - image
+  web: https://www.blender.org
+  repo: https://projects.blender.org/blender/blender
+  licenses:
+   - GPL-2.0-or-later
+- acct: briar@fosstodon.org
+  langs:
+    - en
+  tags:
+    - messaging
+  web: https://briarproject.org/
+  repo: https://code.briarproject.org/briar/briar
+  licenses:
+    - GPL-3.0-only
+- acct: fdroidorg@floss.social
+  langs:
+    - en
+  tags:
+    - android
+    - app_store
+  web: https://f-droid.org
+  repo: https://gitlab.com/fdroid
+  licenses:
+    - GPL-3.0-or-later
+    - CC-BY-3.0
+    - CC-BY-4.0
+- acct: FirefoxNightly@mozilla.social
+  langs:
+    - en
+  tags:
+    - internet
+    - browser
+  web: https://nightly.mozilla.org/
+  repo: https://hg.mozilla.org/mozilla-central
+  licenses:
+    - MPL-2.0
+- acct: FlatpakApps@fosstodon.org
+  langs:
+    - en
+  tags:
+    - linux
+    - app_store
+  web: https://www.flatpak.org/
+  repo: https://github.com/flatpak/flatpak
+  licenses:
+    - LGPL-2.1
+- acct: FreeCAD@fosstodon.org
+  langs:
+    - en
+  tags:
+    - 3d_design
+    - design
+  web: https://freecad.org
+  repo: https://github.com/FreeCAD/FreeCAD
+  licenses:
+    - GPL-2.0-only
+- acct: funkwhale@social.funkwhale.audio 
+  langs:
+    - en
+  tags:
+    - music
+    - audio
+    - share
+  web: https://funkwhale.audio
+  repo: https://dev.funkwhale.audio/funkwhale/funkwhale
+  licenses:
+    - AGPL-3.0-only
+- acct: gajim@fosstodon.org
+  langs:
+    - en
+  tags:
+    - instant_messaging
+    - xmpp
+    - chat
+  web: https://gajim.org
+  repo: https://dev.gajim.org/gajim/gajim
+  licenses:
+    - GPL-3.0-only
+- acct: gancio@mastodon.cisti.org
+  langs:
+    - en
+  tags:
+    - agenda
+    - share
+  web: https://gancio.org
+  repo: https://framagit.org/les/gancio
+  licenses:
+    - AGPL-3.0-only
+- acct: gcompris@mastodon.social
+  langs:
+    - en
+  tags:
+    - child
+    - education
+  web: https://www.gcompris.net/
+  repo: https://github.com/gcompris
+  licenses:
+    - AGPL-3.0-only
+- acct: geary@floss.social
+  langs:
+    - en
+  tags:
+    - email
+    - gnome
+  web: https://wiki.gnome.org/Apps/Geary
+  repo: https://gitlab.gnome.org/GNOME/geary
+  licenses:
+    - LGPL-2.1
 - acct: GIMP@floss.social
   langs:
     - en
   tags:
     - image
     - image_editor
-
-- acct: fdroidorg@floss.social
+  web: https://www.gimp.org/
+  repo: https://gitlab.gnome.org/GNOME/gimp
+  licenses:
+    - GPL-3.0-only
+- acct: gnome@floss.social
   langs:
     - en
   tags:
-    - android
-    - shop
-
-- acct: thunderbird@mastodon.online
+    - desktop
+    - gnome
+  web: https://gitlab.gnome.org/GNOME/gimp
+  repo: https://gitlab.gnome.org/GNOME/
+  licenses:
+    - GPL-2.0-or-later
+- acct: heroiclauncher@mastodon.social
   langs:
     - en
   tags:
-    - internet
-    - email
-    - calendar
-    - tasks
-
+    - games
+    - launcher
+  web: https://heroicgameslauncher.com
+  repo: https://github.com/Heroic-Games-Launcher
+  licenses:
+    - GPL-3.0-only
+- acct: ideckia@fosstodon.org
+  langs:
+    - en
+  tags:
+    - remote_control
+  web: https://ideckia.github.io
+  repo: https://github.com/ideckia
+  licenses:
+    - GPL-2.0-only
 - acct: inkscape@mastodon.art
   langs:
     - en
   tags:
     - image
+    - image_editor
     - vectorial
-    - image_editor
-
-- acct: krita@mastodon.art
+  web: https://inkscape.org
+  repo: https://gitlab.com/inkscape/inkscape/
+  licenses:
+    - GPL-2.0-or-later
+- acct: Jami@mstdn.io
   langs:
     - en
   tags:
-    - image
-    - image_editor
-
-- acct: Blender@mastodon.social
+    - calls
+    - instant_messaging
+    - video_calls
+    - conferences
+  web: https://jami.net
+  repo: https://git.jami.net/savoirfairelinux
+  licenses:
+    - GPL-3.0-or-later
+- acct: k9mail@fosstodon.org
   langs:
     - en
   tags:
-    - images
-    - 3d_render
-
+    - email
+    - android
+  web: https://k9mail.app
+  repo: https://github.com/thunderbird/thunderbird-android
+  licenses:
+    - Apache-2.0
 - acct: kde@floss.social
   langs:
     - en
   tags:
     - desktop
-
+  web: https://kde.org
+  repo: https://github.com/KDE
+  licenses:
+    - many
 - acct: kdenlive@floss.social
   langs:
     - en
   tags:
     - video
     - video_edit
-
-- acct: gnome@floss.social
+  web: https://kdenlive.org
+  repo: https://github.com/KDE/kdenlive
+  licenses:
+    - GPL-3.0-only
+- acct: keepassxc@fosstodon.org
   langs:
     - en
   tags:
-    - desktop
-
-- acct: videolan@floss.social
+    - password_manager
+    - encryption
+  web: https://keepassxc.org
+  repo: https://github.com/keepassxreboot/keepassxc
+  licenses:
+    - GPL-2.0-or-later
+- acct: krita@mastodon.art
   langs:
     - en
   tags:
-    - multimedia
-    - video_player
-    - audio_player
-
-- acct: qgis@fosstodon.org
-  langs:
-    - en
-  tags:
-    - geographic
-
+    - image
+    - image_editor
+  web: https://krita.org
+  repo: https://github.com/KDE/krita
+  licenses:
+    - GPL-3.0-only
 - acct: libreoffice@fosstodon.org
   langs:
     - en
   tags:
-    - office
-    - word
     - excel
+    - office
     - powerpoint
-
-- acct: FreeCAD@fosstodon.org
+    - word
+  web: https://www.libreoffice.org
+  repo: https://git.libreoffice.org/core
+  licenses:
+    - MPL-2.0
+    - Apache-2.0
+- acct: lutris@fosstodon.org
   langs:
     - en
   tags:
-    - design
-    - 3d_design
-
+    - games
+    - launcher
+  web: https://lutris.net
+  repo: https://github.com/lutris
+  licenses:
+    - GPL-3.0-only
 - acct: LXQt@mastodon.social
   langs:
     - en
   tags:
     - desktop
+  web: https://lxqt-project.org
+  repo: https://github.com/lxqt
+  licenses:
+    - LGPL-2.1
+- acct: matrix@mastodon.matrix.org
+  langs:
+    - en
+  tags:
+    - instant_messaging
+    - chat
+  web: https://matrix.org
+  repo: https://github.com/matrix-org
+  licenses:
+    - Apache-2.0
+- acct: qgis@fosstodon.org
+  langs:
+    - en
+  tags:
+    - geographic
+  web: https://qgis.org
+  repo: https://github.com/qgis/
+  licenses:
+    - GPL-2.0-only
+- acct: thunderbird@mastodon.online
+  langs:
+    - en
+  tags:
+    - calendar
+    - email
+    - tasks
+  web: https://www.thunderbird.net
+  repo: https://hg.mozilla.org/comm-central
+  licenses:
+    - MPL-2.0
+- acct: torproject@mastodon.social
+  langs:
+    - en
+  tags:
+    - internet
+    - security
+  web: https://torproject.org/
+  repo: https://gitlab.torproject.org/tpo
+  licenses:
+    - many
+- acct: usebottles@mastodon.online
+  langs:
+    - en
+  tags:
+    - games
+    - launcher
+  web: https://usebottles.com
+  repo: https://github.com/bottlesdevs
+  licenses:
+    - GPL-3.0-only
+- acct: videolan@floss.social
+  langs:
+    - en
+  tags:
+    - audio_player
+    - multimedia
+    - video_player
+  web: https://www.videolan.org
+  repo: https://code.videolan.org/explore/projects/starred
+  licenses:
+    - LGPL-2.1
+- acct: XOrgFoundation@floss.social
+  langs:
+    - en
+  tags:
+    - linux
+    - desktop
+  web: https://freedesktop.org
+  repo: https://cgit.freedesktop.org/
+  licenses:
+    - many
