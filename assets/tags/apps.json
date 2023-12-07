@@ -1,0 +1,26 @@
+[
+  {
+    "username": "GTK",
+    "acct": "GTK@floss.social",
+    "display_name": "GTK",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/321/395/818/735/854/original/83eff5b58b341c17.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/321/395/818/735/854/original/1c6b18053469434a.png",
+    "url": "https://floss.social/@GTK",
+    "note": "<p>Official account of the GTK project.</p><p>GTK is a general purpose graphical toolkit for a wide variety of environments, from desktop to mobile platforms. You can use GTK to build beautiful applications on Linux, as well as Windows and macOS, using one of the many programming languages that support it.</p>",
+    "domain": "floss.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "apps",
+      "development",
+      "gui"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-only"
+    ],
+    "repo": "https://gitlab.gnome.org/GNOME/gtk/",
+    "web": "https://www.gtk.org/"
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "username": "heroiclauncher",
+    "acct": "heroiclauncher@mastodon.social",
+    "display_name": "Heroic Games Launcher",
+    "avatar": "https://files.mastodon.social/accounts/avatars/109/358/416/994/843/667/original/55d8da7d62e87b8e.png",
+    "header": "https://files.mastodon.social/accounts/headers/109/358/416/994/843/667/original/dc3455f54fea025d.png",
+    "url": "https://mastodon.social/@heroiclauncher",
+    "note": "<p>An Open source GOG and Epic Games Launcher for Linux, Windows, and macOS.</p>",
+    "domain": "mastodon.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "games",
+      "launcher"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-3.0-only"
+    ],
+    "repo": "https://github.com/Heroic-Games-Launcher",
+    "web": "https://heroicgameslauncher.com"
+  },
+  {
+    "username": "heroiclauncher",
+    "acct": "heroiclauncher@mastodon.social",
+    "display_name": "Heroic Games Launcher",
+    "avatar": "https://files.mastodon.social/accounts/avatars/109/358/416/994/843/667/original/55d8da7d62e87b8e.png",
+    "header": "https://files.mastodon.social/accounts/headers/109/358/416/994/843/667/original/dc3455f54fea025d.png",
+    "url": "https://mastodon.social/@heroiclauncher",
+    "note": "<p>An Open source GOG and Epic Games Launcher for Linux, Windows, and macOS.</p>",
+    "domain": "mastodon.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "games",
+      "launcher"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-3.0-only"
+    ],
+    "repo": "https://github.com/Heroic-Games-Launcher",
+    "web": "https://heroicgameslauncher.com"
+  },
+  {
+    "username": "lutris",
+    "acct": "lutris@fosstodon.org",
+    "display_name": "Lutris",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/541/658/807/718/039/original/e0447b599b5780a3.png",
+    "header": "https://mastodon.social/headers/original/missing.png",
+    "url": "https://fosstodon.org/@lutris",
+    "note": "<p>Video game preservation platform for Linux.<br>Play all your games, from all eras and platforms on Linux, keep your game collection playable for the years to come!</p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "games",
+      "launcher"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-3.0-only"
+    ],
+    "repo": "https://github.com/lutris",
+    "web": "https://lutris.net"
+  },
+  {
+    "username": "usebottles",
+    "acct": "usebottles@mastodon.online",
+    "display_name": "usebottles",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/108/200/741/348/287/764/original/d577ec0c288adfca.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/108/200/741/348/287/764/original/611383fddd652ebf.jpeg",
+    "url": "https://mastodon.online/@usebottles",
+    "note": "<p>Run Windows software on Linux with Bottles.</p>",
+    "domain": "mastodon.online",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "games",
+      "launcher"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-3.0-only"
+    ],
+    "repo": "https://github.com/bottlesdevs",
+    "web": "https://usebottles.com"
+  },
+  {
+    "username": "usebottles",
+    "acct": "usebottles@mastodon.online",
+    "display_name": "usebottles",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/108/200/741/348/287/764/original/d577ec0c288adfca.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/108/200/741/348/287/764/original/611383fddd652ebf.jpeg",
+    "url": "https://mastodon.online/@usebottles",
+    "note": "<p>Run Windows software on Linux with Bottles.</p>",
+    "domain": "mastodon.online",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "games",
+      "launcher"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-3.0-only"
+    ],
+    "repo": "https://github.com/bottlesdevs",
+    "web": "https://usebottles.com"
+  }
+]

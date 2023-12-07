@@ -1,0 +1,342 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> - Open Source projects on Mastodon</title>
+    <link rel="icon" type="image/svg" href="https://son-link.github.io/bestodon/assets/icon.svg">
+    <link rel="stylesheet" href="https://son-link.github.io/bestodon/assets/css/roboto.css">
+    <link rel="stylesheet" href="https://son-link.github.io/bestodon/assets/css/main.css">
+    <link rel="stylesheet" href="https://son-link.github.io/bestodon/assets/css/styles.css">
+  </head>
+
+  <body class="bg-neutral-900 text-white">
+    <div class="fixed bottom-4 right-4 z-20 flex flex-wrap gap-2">
+      <button class="text-white bg-neutral-500 rounded p-2 hidden" id="backtotop">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+        </svg>
+      </button>
+      <button class="text-white bg-neutral-500 rounded p-2 hidden" id="downmarked">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+	<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m.75 12l3 3m0 0l3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+</svg>  
+      </button>
+      <button class="text-white bg-neutral-500 rounded p-2 hidden" id="remove-marked">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+	<path stroke-linecap="round" stroke-linejoin="round" d="M3 3l1.664 1.664M21 21l-1.5-1.5m-5.485-1.242L12 17.25 4.5 21V8.742m.164-4.078a2.15 2.15 0 011.743-1.342 48.507 48.507 0 0111.186 0c1.1.128 1.907 1.077 1.907 2.185V19.5M4.664 4.664L19.5 19.5" />
+</svg>
+      </button>
+    </div>
+
+    <div class="container flex h-screen mx-auto">
+      <sidebar class="w-14 lg:w-2/12 h-full flex-col items-center lg:items-start gap-2 fixed">
+        <img src="https://son-link.github.io/bestodon/assets/bestodon.svg" class="h-12 my-4 hidden lg:inline-block" />
+        <img src="https://son-link.github.io/bestodon/assets/icon.svg" class="h-8 my-4 mx-auto lg:hidden" />
+        <div class="items-center gap-2 relative w-full hidden lg:flex my-4">
+          <input type="text" id="search" class=" search bg-neutral-800 text-white rounded p-1 w-full" placeholder="Search...." />
+          <div class="absolute right-1 search-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6 ">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+          </div>
+          <button class="clear-search absolute right-1 rounded-full bg-neutral-500 p-1 hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+              <path
+                d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+            </svg>
+          </button>
+        </div>
+        <!-- End search div -->
+        <nav class="my-2 w-full flex flex-col items-center lg:items-start">
+          <a class="flex items-center gap-2" title="All" href="https://son-link.github.io/bestodon/">
+            <i class="w-8 h-8 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+	<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+</svg></i>
+            <span class="hidden lg:inline">Home</span>
+          </a>
+          <a class="flex items-center gap-2" href="https://son-link.github.io/bestodon/apps" title="Applications">
+            <i class="w-8 h-8 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+	<path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+</svg></i>
+            <span class="hidden lg:inline">Applications</span>
+          </a>
+          <a class="flex items-center gap-2" href="https://son-link.github.io/bestodon/communities"
+            title="Communities">
+            <i class="w-8 h-8 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+	<path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+</svg></i>
+            <span class="hidden lg:inline">Communities</span>
+          </a>
+          <a class="flex items-center gap-2" href="https://son-link.github.io/bestodon/dev" title="Development">
+            <i class="w-8 h-8 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+	<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
+</svg></i>
+            <span class="hidden lg:inline">Development</span>
+          </a>
+          <a class="flex items-center gap-2" href="https://son-link.github.io/bestodon/games" title="Games">
+            <i class="w-8 h-8 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path d="M140-240q-24 0-42-18t-18-42v-360q0-24 18-42t42-18h680q24 0 42 18t18 42v360q0 24-18 42t-42 18H140Zm0-60h680v-360H140v360Zm150-46h60v-104h104v-60H350v-104h-60v104H186v60h104v104Zm303-18q18 0 31.5-13.5T638-409q0-18-13.5-31.5T593-454q-18 0-31.5 13.5T548-409q0 18 13.5 31.5T593-364Zm90-143q18 0 31.5-13.5T728-552q0-18-13.5-31.5T683-597q-18 0-31.5 13.5T638-552q0 18 13.5 31.5T683-507ZM140-300v-360 360Z"/></svg></i>
+            <span class="hidden lg:inline">Games</span>
+          </a>
+          <a class="flex items-center gap-2" href="https://son-link.github.io/bestodon/os"
+            title="Operative Systems">
+            <i class="w-8 h-8 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path d="M14.62,8.35C14.2,8.63 12.87,9.39 12.67,9.54C12.28,9.85 11.92,9.83 11.53,9.53C11.33,9.37 10,8.61 9.58,8.34C9.1,8.03 9.13,7.64 9.66,7.42C11.3,6.73 12.94,6.78 14.57,7.45C15.06,7.66 15.08,8.05 14.62,8.35M21.84,15.63C20.91,13.54 19.64,11.64 18,9.97C17.47,9.42 17.14,8.8 16.94,8.09C16.84,7.76 16.77,7.42 16.7,7.08C16.5,6.2 16.41,5.3 16,4.47C15.27,2.89 14,2.07 12.16,2C10.35,2.05 9,2.81 8.21,4.4C8,4.83 7.85,5.28 7.75,5.74C7.58,6.5 7.43,7.29 7.25,8.06C7.1,8.71 6.8,9.27 6.29,9.77C4.68,11.34 3.39,13.14 2.41,15.12C2.27,15.41 2.13,15.7 2.04,16C1.85,16.66 2.33,17.12 3.03,16.96C3.47,16.87 3.91,16.78 4.33,16.65C4.74,16.5 4.9,16.6 5,17C5.65,19.15 7.07,20.66 9.24,21.5C13.36,23.06 18.17,20.84 19.21,16.92C19.28,16.65 19.38,16.55 19.68,16.65C20.14,16.79 20.61,16.89 21.08,17C21.57,17.09 21.93,16.84 22,16.36C22.03,16.1 21.94,15.87 21.84,15.63" /></svg></i>
+            <span class="hidden lg:inline">Operative Systems</span>
+          </a>
+          <div class="border-solid border-white border-t-2 h-1 my-2 w-full"></div>
+          <a class="flex items-center gap-2" href="https://son-link.github.io/bestodon/about" title="About">
+            <i class="w-8 h-8 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+	<path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+ </svg>
+  </i>
+            <span class="hidden lg:inline">About</span>
+          </a>
+        </nav>
+        <!-- End nav -->
+      </sidebar>
+      <!-- End left sidevar-->
+      <content id="content" class="w-auto lg:w-10/12">
+        <!-- List -->
+      
+	<div class="w-full py-2">
+	<div class="grid grid-cols-1 gap-2 w-full pr-2 md:grid-cols-2 md:p-0" id="list">
+	</div>
+</div>
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+	  	getTags('microcontrollers');
+	});
+</script>
+            
+		<!-- End list -->
+		<div class="w-full pl-14 pr-2 text-center mt-2 md:p-0 md:w-11/12">
+			<div id="no-results" class="hidden w-full pl-14 pr-2 md:mx-auto md:grid-cols-2 md:p-0 md:w-11/1">
+			<div class="rounded-lg w-full bg-neutral-800 font-bold p-2 text-xl text-white">
+				No results
+			</div>
+			</div>
+			<div class="text-white text-center w-full pl-14 pr-2 mt-2 md:mx-auto md:grid-cols-2 md:p-0 md:w-11/1">
+			<div class="p-2" id="total-pages">
+				View 1/1 of 1
+			</div>
+			</div>
+			<div id="pagination" class="flex flex-wrap justify-center gap-4 my-4"></div>
+			<div
+			class="w-full pl-14 pr-2 mt-2 m-4 p-2 mx-auto text-neutral-500 flex-wrap gap-8 md:flex md:mx-auto md:p-0">
+			<div>
+				<p class="text-white font-bold mb-2">
+				Bestodon
+				</p>
+				<p>
+				Under the GNU/GPLv3 or newer license.
+				</p>
+			</div>
+			<div>
+				<p class="text-white font-bold my-2 md:mt-0">
+				Powered by
+				</p>
+				<p>
+				<svg role="img" viewBox="0 0 24 5" xmlns="http://www.w3.org/2000/svg" class="fill-current h-6">
+	<path d="M 14.088,3.3849713 H 13.792 V 0.11697131 h 0.998 c 0.815,0 1.094,0.47 1.094,0.97999999 0,0.51 -0.28,0.98 -1.094,0.98 h -0.701 v 1.308 z m 0,-1.582 h 0.74 a 0.642,0.642 0 0 0 0.733,-0.705 0.642,0.642 0 0 0 -0.732,-0.70599999 h -0.741 z m 2.881,-0.37 a 1.913,1.913 0 0 0 -0.653,0.11 v -0.262 a 1.756,1.756 0 0 1 0.653,-0.118 c 0.654,0 0.824,0.297 0.824,0.732 v 1.49 h -0.17 l -0.066,-0.174 a 1.143,1.143 0 0 1 -0.657,0.218 0.663,0.663 0 0 1 -0.763,-0.702 c 0,-0.37 0.205,-0.645 0.776,-0.68 l 0.575,-0.035 v -0.122 c 0,-0.318 -0.113,-0.457 -0.519,-0.457 z m -0.078,0.85 c -0.31,0.03 -0.445,0.192 -0.445,0.445 0,0.196 0.048,0.431 0.462,0.431 a 1.056,1.056 0 0 0 0.58,-0.174 v -0.758 z m 1.86,0.493 a 0.252,0.252 0 0 0 -0.083,0.16 c 0,0.11 0.053,0.158 0.166,0.17 l 0.74,0.088 c 0.41,0.044 0.598,0.205 0.598,0.584 0,0.532 -0.532,0.74 -1.133,0.74 -0.61,0 -0.976,-0.178 -0.976,-0.657 a 0.609,0.609 0 0 1 0.449,-0.575 v -0.005 a 0.321,0.321 0 0 1 -0.14,-0.287 0.392,0.392 0 0 1 0.166,-0.297 0.746,0.746 0 0 1 -0.349,-0.714 c 0,-0.449 0.192,-0.82 0.85,-0.82 a 1.36,1.36 0 0 1 0.349,0.044 h 0.74 v 0.165 l -0.365,0.105 a 0.908,0.908 0 0 1 0.126,0.505 c 0,0.449 -0.192,0.82 -0.85,0.82 a 1.397,1.397 0 0 1 -0.288,-0.027 z m 0.127,0.588 c -0.288,0.065 -0.532,0.2 -0.532,0.48 0,0.322 0.244,0.413 0.693,0.413 0.435,0 0.845,-0.109 0.845,-0.48 0,-0.221 -0.105,-0.309 -0.37,-0.34 z m 0.727,-1.381 c 0,-0.288 -0.056,-0.554 -0.566,-0.554 -0.51,0 -0.567,0.266 -0.567,0.554 0,0.288 0.057,0.553 0.567,0.553 0.51,0 0.566,-0.266 0.566,-0.554 z m 1.637,-0.82 c 0.74,0 0.828,0.506 0.828,1.133 v 0.14 h -1.438 c 0.018,0.379 0.118,0.723 0.61,0.723 a 1.665,1.665 0 0 0 0.719,-0.122 v 0.261 a 1.765,1.765 0 0 1 -0.719,0.131 c -0.736,0 -0.915,-0.505 -0.915,-1.133 0,-0.628 0.179,-1.133 0.915,-1.133 z m -0.61,1.024 h 1.133 c 0,-0.387 -0.022,-0.753 -0.523,-0.753 -0.506,0 -0.597,0.36 -0.61,0.753 z m 2.601,-0.052 c 0.619,0.057 0.767,0.266 0.767,0.623 0,0.336 -0.213,0.671 -0.876,0.671 a 2.147,2.147 0 0 1 -0.649,-0.109 v -0.261 a 1.924,1.924 0 0 0 0.654,0.1 c 0.453,0 0.575,-0.192 0.575,-0.397 0,-0.2 -0.061,-0.34 -0.492,-0.374 -0.632,-0.057 -0.763,-0.28 -0.763,-0.58 0,-0.31 0.2,-0.645 0.815,-0.645 a 1.627,1.627 0 0 1 0.627,0.11 v 0.26 a 1.799,1.799 0 0 0 -0.631,-0.1 c -0.432,0 -0.523,0.162 -0.523,0.376 0,0.19 0.078,0.29 0.496,0.326 z m -20.787,-0.659 H 1.38 a 0.05,0.05 0 0 0 -0.05,0.05 v 0.522 a 0.05,0.05 0 0 0 0.05,0.05 h 0.416 v 0.649 a 1.267,1.267 0 0 1 -0.351,0.032 c -0.305,0 -0.731,-0.112 -0.731,-1.048 0,-0.93599999 0.443,-1.05999999 0.86,-1.05999999 a 1.69,1.69 0 0 1 0.614,0.094 0.05,0.05 0 0 0 0.06,-0.05 l 0.12,-0.504 a 0.047,0.047 0 0 0 -0.02,-0.039 1.715,1.715 0 0 0 -0.903,-0.165 c -0.715,0 -1.445,0.302 -1.445,1.75999999 0,1.458 0.837,1.675 1.542,1.675 a 1.736,1.736 0 0 0 0.938,-0.25 0.043,0.043 0 0 0 0.016,-0.038 v -1.628 a 0.05,0.05 0 0 0 -0.05,-0.05 z M 7.991,0.18197131 a 0.05,0.05 0 0 0 -0.05,-0.05 H 7.34 a 0.05,0.05 0 0 0 -0.05,0.05 V 1.3429713 H 6.354 V 0.18197131 a 0.05,0.05 0 0 0 -0.05,-0.05 h -0.6 a 0.05,0.05 0 0 0 -0.05,0.05 V 3.3269713 a 0.05,0.05 0 0 0 0.05,0.05 h 0.6 a 0.05,0.05 0 0 0 0.05,-0.05 v -1.345 h 0.937 l -0.002,1.345 a 0.05,0.05 0 0 0 0.05,0.05 h 0.603 a 0.05,0.05 0 0 0 0.05,-0.05 z m -4.389,0.412 a 0.388,0.388 0 1 0 -0.387,0.392 0.39,0.39 0 0 0 0.387,-0.392 z M 3.56,2.6619713 v -1.451 a 0.05,0.05 0 0 0 -0.05,-0.05 h -0.6 a 0.057,0.057 0 0 0 -0.051,0.056 v 2.08 c 0,0.06 0.038,0.079 0.087,0.079 h 0.54 c 0.06,0 0.074,-0.03 0.074,-0.08 z m 6.764,-1.497 H 9.727 a 0.05,0.05 0 0 0 -0.05,0.05 v 1.542 a 0.673,0.673 0 0 1 -0.367,0.11 c -0.215,0 -0.272,-0.097 -0.272,-0.307 v -1.344 a 0.05,0.05 0 0 0 -0.05,-0.05 H 8.384 a 0.05,0.05 0 0 0 -0.05,0.05 v 1.446 c 0,0.626 0.348,0.779 0.828,0.779 a 1.398,1.398 0 0 0 0.71,-0.217 1.274,1.274 0 0 0 0.022,0.128 0.052,0.052 0 0 0 0.044,0.027 l 0.385,-0.002 a 0.05,0.05 0 0 0 0.05,-0.05 v -2.112 a 0.05,0.05 0 0 0 -0.05,-0.05 z m 1.662,-0.07 a 1.121,1.121 0 0 0 -0.569,0.15 V 0.18197131 a 0.05,0.05 0 0 0 -0.05,-0.05 h -0.602 a 0.05,0.05 0 0 0 -0.05,0.05 V 3.3269713 a 0.05,0.05 0 0 0 0.05,0.05 h 0.418 a 0.05,0.05 0 0 0 0.044,-0.027 0.973,0.973 0 0 0 0.025,-0.144 1.08,1.08 0 0 0 0.713,0.233 c 0.548,0 0.862,-0.278 0.862,-1.248 0,-0.97 -0.502,-1.095 -0.841,-1.095 z m -0.235,1.771 a 0.716,0.716 0 0 1 -0.347,-0.1 v -0.996 a 0.793,0.793 0 0 1 0.308,-0.1 c 0.215,-0.019 0.422,0.046 0.422,0.558 0,0.54 -0.094,0.647 -0.383,0.639 z m -6.475,-1.706 H 4.826 L 4.824,0.56497131 c 0,-0.023 -0.011,-0.034 -0.037,-0.034 H 4.172 c -0.024,0 -0.036,0.01 -0.036,0.033 V 1.1789713 l -0.33,0.08 a 0.05,0.05 0 0 0 -0.035,0.048 v 0.387 a 0.05,0.05 0 0 0 0.05,0.05 h 0.315 v 0.93 c 0,0.692 0.484,0.76 0.812,0.76 a 1.375,1.375 0 0 0 0.357,-0.06 0.046,0.046 0 0 0 0.028,-0.044 l 10e-4,-0.426 a 0.05,0.05 0 0 0 -0.05,-0.05 c -0.026,0 -0.094,0.01 -0.163,0.01 -0.221,0 -0.296,-0.102 -0.296,-0.236 v -0.884 h 0.451 a 0.05,0.05 0 0 0 0.05,-0.05 v -0.484 a 0.05,0.05 0 0 0 -0.05,-0.05 z"/>
+</svg>
+				</p>
+			</div>
+			<div>
+				<p class="text-white font-bold my-2 md:mt-0">
+				Make with
+				</p>
+				<div class="grid grid-cols-2 gap-2 w-full md:mx-auto md:grid-cols-3 md:px-0">
+				<a href="https://jekyllrb.com" target="_blank" class="hover:text-white">
+					Jekyll
+				</a>
+				<a href="https://tailwindcss.com/" target="_blank" class="hover:text-white">
+					Tailwind CSS
+				</a>
+				<a href="https://axios-http.com/" target="_blank" class="hover:text-white">
+					Axios
+				</a>
+				<a href="https://son-link.github.io/pequejs/" target="_blank" class="hover:text-white">
+					PequeJS
+				</a>
+				<a href="https://heroicons.com/" target="_blank" class="hover:text-white">
+					Heroicons
+				</a>
+				<a href="https://simpleicons.org/" target="_blank" class="hover:text-white">
+					Simple Icons
+				</a>
+				</div>
+			</div>
+			<div>
+				<p class="text-white font-bold my-2 md:mt-0">
+					Links
+				</p>
+				<p>
+					<ul>
+						<li>
+							<a href="https://github.com/son-link/bestodon" target="_blank" class="hover:text-white">
+							Source code
+							</a>
+						</li>
+						<li>
+							<a href="https://joinmastodon.org/" target="_blank" class="hover:text-white">
+							Join Mastodon
+							</a>
+						</li>
+					</ul>
+				</p>
+			</div>
+			</div>
+		</div>
+		</content>
+		</div>
+		<script type="text/html" id="account-tpl">
+		<% items.forEach( (item) => { %>
+		<% 
+			let remote_follow = `https://${item.domain}/users/${item.username}/remote_follow`;
+			if (item.domain == 'mastodon.social') remote_follow = item.url;
+			const lang_emojis = {
+				en: '🇬🇧',
+				es: '🇪🇸'
+			}
+		%> 
+			<div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
+				<a href="<%= item.url %>" target="_blank">
+					<div>
+						<img src="<%= item.header %>" class="object-cover h-32 w-full rounded bg-neutral-900" />
+					</div>
+					<div class="px-2 flex flex-wrap gap-2">
+						<div class="-translate-y-2">
+							<img src="<%= item.avatar %>" class="rounded-lg w-16 h-16 bg-neutral-900" />
+						</div>
+						<div class="mt-2">
+							<p><%= item.display_name %></p>
+							<p class="text-neutral-500">
+								@<%= item.username %>@<%= item.domain %>
+							</p>
+						</div>
+					</div>
+				</a>
+				<div class="p-2 h-20 overflow-hidden mb-4">
+					<%- item.note %>
+				</div>
+
+				<div class="flex tags gap-1 pb-4">
+					<span class="font-bold">Tags:</span>
+					<% item.tags.forEach( (tag, index) => { %>
+						<a href="/tag/<%= tag %>" class="text-blue-400 hover:text-white transition-colors">
+							<%= getTagLabel(tag) %>
+						</a>
+						<%= (index < item.tags.length -1) ? ',' : '' %>
+					<% }) %>
+				</div>
+
+				<div class="flex tags gap-1 pb-2 justify-between">
+					<div>
+						<span class="font-bold">Langs:</span>
+						<% item.langs.forEach( lang => { %>
+							<%- lang_emojis[lang] %>
+						<% }) %>
+					</div>
+					
+					<% if (item.base) { %>
+						<div>
+							<span class="font-bold">Based on:</span>
+							<span><%= item.base %></span>
+						</div>
+					<% } %>
+				</div>
+
+				<% if (item.licenses && item.licenses.length > 0) { %>
+					<div class="mb-2">
+						<p class="font-bold">Licenses:</p>
+						<ul>
+							<% item.licenses.forEach( license => { %>
+								<% console.log(license) %>
+								<% if (license == 'many') { %>
+									<li class="text-blue-400 hover:text-white transition-colors">
+										<%- licenses[license].label %>
+									</li>
+								<% } else { %>
+									<li>
+										<a
+											href="<%- licenses[license].url %>"
+											class="text-blue-400 hover:text-white transition-colors"
+										>
+											<%- licenses[license].label %>
+										</a>
+									</li>
+								<% } %>
+						<% }) %>
+						</ul>
+						
+					</div>
+				<% } %>
+
+				<div class="flex flex-wrap gap-2 items-center">
+					<a
+						class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+						href="<%= remote_follow %>"
+						target="_blank"
+					>
+						<svg role="img" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="none" class="w-6 h-6">
+	<path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+</svg>
+						Follow
+					</a>
+					<% const found = bookmarks.find( mark => mark == item.acct ) %>
+					<% if (found) { %>
+						<a class="bookmark marked cursor-pointer" data-acct="<%= item.acct %>">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="none" class="w-6 h-6 fill-neutral-500">
+	<path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+</svg>  
+						</a>
+					<% } else { %>
+						<a class="bookmark cursor-pointer" data-acct="<%= item.acct %>">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="none" class="w-6 h-6 fill-neutral-500">
+	<path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+</svg>  
+						</a>
+					<% } %>
+					<% if (item.web) { %>
+						<a
+							class="text-blue-400 hover:text-white transition-colors"
+							href="<%= item.web %>"
+							title="Website"
+						>
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+</svg>
+
+						</a>
+					<% } %>
+					<% if (item.repo) { %>
+						<a
+							class="text-blue-400 hover:text-white transition-colors"
+							href="<%= item.repo %>"
+							title="Source code"
+						>
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+	<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
+</svg>
+						</a>
+					<% } %>
+				</div>
+			</div>
+		<% }); %> 
+		</script>
+		<script>
+			const tags_labels = JSON.parse('{"2d":"2D","3d_design":"3D design","3d_render":"3D render","3d":"3D","agenda":"Agenda","android":"Android","app_store":"App store","apps":"Applications","astrodynamics":"Astrodynamics","audio_player":"Audio player","audio":"Audio","browser":"Browser","c#":"C#","calendar":"Calendar","calls":"Calls","chat":"Chat","child":"Child","conferences":"Conferences","construction":"Construction","databases":"Databases","design":"Desing","desktop":"Desktop","development":"Development","devops":"DevOps","documentation":"Documentation","education":"Education","electronic":"electronic","email":"Email","empire_building":"Empire_building","encryption":"Encryption","engine":"Engine","excel":"Excel","exploration":"Exploration","game_engine":"Game engine","gameboy":"Gameboy","games":"Games","geographic":"Geographic","git":"Git","godot":"Godot","graphical_adventure":"Graphical adventure","gui":"GUI","image_editor":"Image editor","image":"Image","images":"images","instant_messaging":"Instant messaging","internet":"Internet","kde":"KDE","launcher":"Launcher","linux":"GNU/Linux","lua":"LUA","management_sim":"Management simulator","messaging":"Messaging","microcontrollers":"Micro-controllers","ms-dos":"MS-DOS","multimedia":"Multimedia","music":"Music","office":"Office","orbital":"Orbital","password_manager":"Password manager","pcb":"PCB","podcast":"Podcast","powerpoint":"Powerpoint","programming_lang":"Programming language","python":"Python","racing":"Racing","remote_control":"Remote control","rpg":"RPG","rts":"RTS","schematic":"Schematic","security":"Security","share":"Share","shop":"Shop","simulation":"Simulation","space":"Space","sql":"SQL","strategy":"Strategy","task":"Task","tasks":"Tasks","turns":"Turns","vala":"Vala","vectorial":"Vectorial","version_control":"Version control","video_calls":"Video calls","video_edit":"Video edit","video_player":"Video Player","video":"Video","voxel":"Voxel","word":"Word","xmpp":"XMPP"}')
+			const licenses = JSON.parse('{"MIT":{"label":"MIT","url":"https://spdx.org/licenses/MIT.html"},"GPL-2.0-only":{"label":"GNU General Public License v2.0","url":"https://spdx.org/licenses/GPL-2.0-only.html"},"GPL-2.0-or-later":{"label":"GNU General Public License v2.0 or later","url":"https://spdx.org/licenses/GPL-2.0-or-later.html"},"GPL-3.0-only":{"label":"GNU General Public License v3.0","url":"https://spdx.org/licenses/GPL-3.0-only.html"},"GPL-3.0-or-later":{"label":"GNU General Public License v3.0 or later","url":"https://spdx.org/licenses/GPL-3.0-or-later.html"},"CC-BY-SA-3.0":{"label":"Creative Commons Attribution Share Alike 3.0 Unported","url":"https://spdx.org/licenses/CC-BY-SA-3.0.html"},"CC-BY-3.0":{"label":"Creative Commons Attribution 3.0 Unported","url":"https://spdx.org/licenses/CC-SA-3.0.html"},"CC-BY-SA-4.0":{"label":"Creative Commons Attribution Share Alike 4.0 Unported","url":"https://spdx.org/licenses/CC-BY-SA-4.0.html"},"CC-BY-4.0":{"label":"Creative Commons Attribution 4.0 Unported","url":"https://spdx.org/licenses/CC-BY-4.0.html"},"MPL-2.0":{"label":"Mozilla Public License 2.0","url":"https://spdx.org/licenses/MPL-2.0.html"},"LGPL-2.0":{"label":"GNU Lesser General Public License v2.1 only","url":"https://spdx.org/licenses/LGPL-2.0.html"},"LGPL-2.1":{"label":"GNU Lesser General Public License v2.1 only","url":"https://spdx.org/licenses/LGPL-2.1.html"},"AGPL-3.0-only":{"label":"GNU Affero General Public License v3.0 only","url":"https://spdx.org/licenses/AGPL-3.0-only.html"},"Apache-2.0":{"label":"Apache License 2.0","url":"https://spdx.org/licenses/Apache-2.0.html"},"many":{"label":"Many licenses"}}')
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+		<script src="https://son-link.github.io/bestodon/assets/js/pequejs.min.js"></script>
+		<script src="https://son-link.github.io/bestodon/assets/js/ejs.min.js"></script>
+		<script src="https://son-link.github.io/bestodon/assets/js/bestodon.js" defer></script>
+	</body>
+</html>

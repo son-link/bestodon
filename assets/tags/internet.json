@@ -1,0 +1,71 @@
+[
+  {
+    "username": "FirefoxNightly",
+    "acct": "FirefoxNightly@mozilla.social",
+    "display_name": "Firefox Nightly",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/110/040/339/253/633/804/original/b1d1530586a3ceb3.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/110/040/339/253/633/804/original/84afea7586b6d284.jpeg",
+    "url": "https://mozilla.social/@FirefoxNightly",
+    "note": "<p>Latest Firefox for Desktop development, live from Bugzilla!</p><p><a href=\"https://nightly.mozilla.org\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nightly.mozilla.org</span><span class=\"invisible\"></span></a></p>",
+    "domain": "mozilla.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "internet",
+      "browser"
+    ],
+    "base": null,
+    "licenses": [
+      "MPL-2.0"
+    ],
+    "repo": "https://hg.mozilla.org/mozilla-central",
+    "web": "https://nightly.mozilla.org/"
+  },
+  {
+    "username": "FirefoxNightly",
+    "acct": "FirefoxNightly@mozilla.social",
+    "display_name": "Firefox Nightly",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/110/040/339/253/633/804/original/b1d1530586a3ceb3.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/110/040/339/253/633/804/original/84afea7586b6d284.jpeg",
+    "url": "https://mozilla.social/@FirefoxNightly",
+    "note": "<p>Latest Firefox for Desktop development, live from Bugzilla!</p><p><a href=\"https://nightly.mozilla.org\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nightly.mozilla.org</span><span class=\"invisible\"></span></a></p>",
+    "domain": "mozilla.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "internet",
+      "browser"
+    ],
+    "base": null,
+    "licenses": [
+      "MPL-2.0"
+    ],
+    "repo": "https://hg.mozilla.org/mozilla-central",
+    "web": "https://nightly.mozilla.org/"
+  },
+  {
+    "username": "torproject",
+    "acct": "torproject@mastodon.social",
+    "display_name": "The Tor Project",
+    "avatar": "https://files.mastodon.social/accounts/avatars/000/039/583/original/6376546e99fa00ad.png",
+    "header": "https://files.mastodon.social/accounts/headers/000/039/583/original/06382ab6dfa3f739.png",
+    "url": "https://mastodon.social/@torproject",
+    "note": "<p>We advance human rights and defend your privacy online through free software and open networks.</p>",
+    "domain": "mastodon.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "internet",
+      "security"
+    ],
+    "base": null,
+    "licenses": [
+      "many"
+    ],
+    "repo": "https://gitlab.torproject.org/tpo",
+    "web": "https://torproject.org/"
+  }
+]

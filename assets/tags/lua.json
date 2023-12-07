@@ -1,0 +1,56 @@
+[
+  {
+    "username": "solarus",
+    "acct": "solarus@mastodon.gamedev.place",
+    "display_name": "Solarus",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/662/487/original/1795d3803f9d6333.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/662/487/original/e71bae8c8136f051.jpg",
+    "url": "https://mastodon.gamedev.place/@solarus",
+    "note": "<p>⚙️ Free and open-source  2D game engine, licensed under GPL, and written in C++/Lua. Primarly aimed for Action-RPGs but can do much more!</p><p>🛠️ It supports Lua scripting, and includes a game editor and a game launcher, both written in C++/Qt.</p><p>🎮 We also make games to showcase our engine!</p>",
+    "domain": "mastodon.gamedev.place",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "2d",
+      "game_engine",
+      "games",
+      "lua",
+      "rpg"
+    ],
+    "base": null,
+    "licenses": [
+      "CC-BY-SA-4.0",
+      "GPL-3.0-only"
+    ],
+    "repo": "https://gitlab.com/solarus-games",
+    "web": "https://www.solarus-games.org"
+  },
+  {
+    "username": "solarus",
+    "acct": "solarus@mastodon.gamedev.place",
+    "display_name": "Solarus",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/662/487/original/1795d3803f9d6333.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/662/487/original/e71bae8c8136f051.jpg",
+    "url": "https://mastodon.gamedev.place/@solarus",
+    "note": "<p>⚙️ Free and open-source  2D game engine, licensed under GPL, and written in C++/Lua. Primarly aimed for Action-RPGs but can do much more!</p><p>🛠️ It supports Lua scripting, and includes a game editor and a game launcher, both written in C++/Qt.</p><p>🎮 We also make games to showcase our engine!</p>",
+    "domain": "mastodon.gamedev.place",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "2d",
+      "game_engine",
+      "games",
+      "lua",
+      "rpg"
+    ],
+    "base": null,
+    "licenses": [
+      "CC-BY-SA-4.0",
+      "GPL-3.0-only"
+    ],
+    "repo": "https://gitlab.com/solarus-games",
+    "web": "https://www.solarus-games.org"
+  }
+]

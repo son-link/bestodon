@@ -1,0 +1,96 @@
+[
+  {
+    "username": "funkwhale",
+    "acct": "funkwhale@social.funkwhale.audio",
+    "display_name": "Funkwhale",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/111/249/575/512/241/364/original/d3a52a0f87cb920b.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/111/249/575/512/241/364/original/187d395706f16ab6.png",
+    "url": "https://social.funkwhale.audio/@funkwhale",
+    "note": "<p>Funkwhale is a community-driven project that lets you listen and share music and audio within a decentralized, open network.</p><p>🐳</p><p>Sadly we cannot provide support or take reports here. Please let us know on our forum or issue tracker!</p>",
+    "domain": "social.funkwhale.audio",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "music",
+      "audio",
+      "share"
+    ],
+    "base": null,
+    "licenses": [
+      "AGPL-3.0-only"
+    ],
+    "repo": "https://dev.funkwhale.audio/funkwhale/funkwhale",
+    "web": "https://funkwhale.audio"
+  },
+  {
+    "username": "funkwhale",
+    "acct": "funkwhale@social.funkwhale.audio",
+    "display_name": "Funkwhale",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/111/249/575/512/241/364/original/d3a52a0f87cb920b.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/111/249/575/512/241/364/original/187d395706f16ab6.png",
+    "url": "https://social.funkwhale.audio/@funkwhale",
+    "note": "<p>Funkwhale is a community-driven project that lets you listen and share music and audio within a decentralized, open network.</p><p>🐳</p><p>Sadly we cannot provide support or take reports here. Please let us know on our forum or issue tracker!</p>",
+    "domain": "social.funkwhale.audio",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "music",
+      "audio",
+      "share"
+    ],
+    "base": null,
+    "licenses": [
+      "AGPL-3.0-only"
+    ],
+    "repo": "https://dev.funkwhale.audio/funkwhale/funkwhale",
+    "web": "https://funkwhale.audio"
+  },
+  {
+    "username": "gancio",
+    "acct": "gancio@mastodon.cisti.org",
+    "display_name": "Gancio",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/761/998/original/2bb78606b064d926.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/761/998/original/a05e97bbd19e354b.png",
+    "url": "https://mastodon.cisti.org/@gancio",
+    "note": "<p>A shared agenda for local communities with AP support.</p>",
+    "domain": "mastodon.cisti.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "agenda",
+      "share"
+    ],
+    "base": null,
+    "licenses": [
+      "AGPL-3.0-only"
+    ],
+    "repo": "https://framagit.org/les/gancio",
+    "web": "https://gancio.org"
+  },
+  {
+    "username": "gancio",
+    "acct": "gancio@mastodon.cisti.org",
+    "display_name": "Gancio",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/761/998/original/2bb78606b064d926.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/761/998/original/a05e97bbd19e354b.png",
+    "url": "https://mastodon.cisti.org/@gancio",
+    "note": "<p>A shared agenda for local communities with AP support.</p>",
+    "domain": "mastodon.cisti.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "agenda",
+      "share"
+    ],
+    "base": null,
+    "licenses": [
+      "AGPL-3.0-only"
+    ],
+    "repo": "https://framagit.org/les/gancio",
+    "web": "https://gancio.org"
+  }
+]

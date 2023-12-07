@@ -1,0 +1,48 @@
+[
+  {
+    "username": "gcompris",
+    "acct": "gcompris@mastodon.social",
+    "display_name": "GCompris",
+    "avatar": "https://files.mastodon.social/accounts/avatars/000/192/822/original/4bc19696536ea077.png",
+    "header": "https://files.mastodon.social/accounts/headers/000/192/822/original/2520ca63fbbed0ab.png",
+    "url": "https://mastodon.social/@gcompris",
+    "note": "<p>Educational software for children from 2 to 10 years old.<br /><a href=\"https://www.gcompris.net/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">gcompris.net/</span><span class=\"invisible\"></span></a></p>",
+    "domain": "mastodon.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "child",
+      "education"
+    ],
+    "base": null,
+    "licenses": [
+      "AGPL-3.0-only"
+    ],
+    "repo": "https://github.com/gcompris",
+    "web": "https://www.gcompris.net/"
+  },
+  {
+    "username": "gcompris",
+    "acct": "gcompris@mastodon.social",
+    "display_name": "GCompris",
+    "avatar": "https://files.mastodon.social/accounts/avatars/000/192/822/original/4bc19696536ea077.png",
+    "header": "https://files.mastodon.social/accounts/headers/000/192/822/original/2520ca63fbbed0ab.png",
+    "url": "https://mastodon.social/@gcompris",
+    "note": "<p>Educational software for children from 2 to 10 years old.<br /><a href=\"https://www.gcompris.net/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">gcompris.net/</span><span class=\"invisible\"></span></a></p>",
+    "domain": "mastodon.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "child",
+      "education"
+    ],
+    "base": null,
+    "licenses": [
+      "AGPL-3.0-only"
+    ],
+    "repo": "https://github.com/gcompris",
+    "web": "https://www.gcompris.net/"
+  }
+]

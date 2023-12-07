@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -250,55 +252,139 @@
 		<% 
 			let remote_follow = `https://${item.domain}/users/${item.username}/remote_follow`;
 			if (item.domain == 'mastodon.social') remote_follow = item.url;
+			const lang_emojis = {
+				en: '🇬🇧',
+				es: '🇪🇸'
+			}
 		%> 
 			<div class="rounded-lg w-full bg-neutral-800 text-white p-2 relative">
-			<a href="<%= item.url %>" target="_blank">
-				<div>
-				<img src="<%= item.header %>" class="object-cover h-32 w-full rounded bg-neutral-900" />
+				<a href="<%= item.url %>" target="_blank">
+					<div>
+						<img src="<%= item.header %>" class="object-cover h-32 w-full rounded bg-neutral-900" />
+					</div>
+					<div class="px-2 flex flex-wrap gap-2">
+						<div class="-translate-y-2">
+							<img src="<%= item.avatar %>" class="rounded-lg w-16 h-16 bg-neutral-900" />
+						</div>
+						<div class="mt-2">
+							<p><%= item.display_name %></p>
+							<p class="text-neutral-500">
+								@<%= item.username %>@<%= item.domain %>
+							</p>
+						</div>
+					</div>
+				</a>
+				<div class="p-2 h-20 overflow-hidden mb-4">
+					<%- item.note %>
 				</div>
-				<div class="px-2 flex flex-wrap gap-2">
-				<div class="-translate-y-2">
-					<img src="<%= item.avatar %>" class="rounded-lg w-16 h-16 bg-neutral-900" />
+
+				<div class="flex tags gap-1 pb-4">
+					<span class="font-bold">Tags:</span>
+					<% item.tags.forEach( (tag, index) => { %>
+						<a href="/tag/<%= tag %>" class="text-blue-400 hover:text-white transition-colors">
+							<%= getTagLabel(tag) %>
+						</a>
+						<%= (index < item.tags.length -1) ? ',' : '' %>
+					<% }) %>
 				</div>
-				<div class="mt-2">
-					<p><%= item.display_name %></p>
-					<p class="text-neutral-500">
-					@<%= item.username %>@<%= item.domain %>
-					</p>
+
+				<div class="flex tags gap-1 pb-2 justify-between">
+					<div>
+						<span class="font-bold">Langs:</span>
+						<% item.langs.forEach( lang => { %>
+							<%- lang_emojis[lang] %>
+						<% }) %>
+					</div>
+					
+					<% if (item.base) { %>
+						<div>
+							<span class="font-bold">Based on:</span>
+							<span><%= item.base %></span>
+						</div>
+					<% } %>
 				</div>
-				</div>
-			</a>
-			<div class="p-2 h-20 overflow-hidden mb-4">
-				<%- item.note %>
-			</div>
-			<div class="flex flex-wrap gap-2 items-center">
-			<a
-				class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
-				href="<%= remote_follow %>"
-				target="_blank"
-			>
-				<svg role="img" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="none" class="w-6 h-6">
+
+				<% if (item.licenses && item.licenses.length > 0) { %>
+					<div class="mb-2">
+						<p class="font-bold">Licenses:</p>
+						<ul>
+							<% item.licenses.forEach( license => { %>
+								<% console.log(license) %>
+								<% if (license == 'many') { %>
+									<li class="text-blue-400 hover:text-white transition-colors">
+										<%- licenses[license].label %>
+									</li>
+								<% } else { %>
+									<li>
+										<a
+											href="<%- licenses[license].url %>"
+											class="text-blue-400 hover:text-white transition-colors"
+										>
+											<%- licenses[license].label %>
+										</a>
+									</li>
+								<% } %>
+						<% }) %>
+						</ul>
+						
+					</div>
+				<% } %>
+
+				<div class="flex flex-wrap gap-2 items-center">
+					<a
+						class="rounded bg-blue-600 text-white w-24 h-9 flex flex-wrap items-center justify-center gap-2 mastodon-btn hover:bg-blue-500"
+						href="<%= remote_follow %>"
+						target="_blank"
+					>
+						<svg role="img" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="none" class="w-6 h-6">
 	<path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
 </svg>
-				Follow
-			</a>
-			<% let found = bookmarks.find( mark => mark == item.acct ) %>
-				<% if (found) { %>
-				<a class="bookmark marked" data-acct="<%= item.acct %>">
-					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="none" class="w-6 h-6 fill-neutral-500">
+						Follow
+					</a>
+					<% const found = bookmarks.find( mark => mark == item.acct ) %>
+					<% if (found) { %>
+						<a class="bookmark marked cursor-pointer" data-acct="<%= item.acct %>">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="none" class="w-6 h-6 fill-neutral-500">
 	<path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
 </svg>  
-				</a>
-				<% } else { %>
-				<a class="bookmark" data-acct="<%= item.acct %>">
-					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="none" class="w-6 h-6 fill-neutral-500">
+						</a>
+					<% } else { %>
+						<a class="bookmark cursor-pointer" data-acct="<%= item.acct %>">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="none" class="w-6 h-6 fill-neutral-500">
 	<path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
 </svg>  
-				</a>
-				<% } %>
-			</div>
+						</a>
+					<% } %>
+					<% if (item.web) { %>
+						<a
+							class="text-blue-400 hover:text-white transition-colors"
+							href="<%= item.web %>"
+							title="Website"
+						>
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+</svg>
+
+						</a>
+					<% } %>
+					<% if (item.repo) { %>
+						<a
+							class="text-blue-400 hover:text-white transition-colors"
+							href="<%= item.repo %>"
+							title="Source code"
+						>
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+	<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
+</svg>
+						</a>
+					<% } %>
+				</div>
 			</div>
 		<% }); %> 
+		</script>
+		<script>
+			const tags_labels = JSON.parse('{"2d":"2D","3d_design":"3D design","3d_render":"3D render","3d":"3D","agenda":"Agenda","android":"Android","app_store":"App store","apps":"Applications","astrodynamics":"Astrodynamics","audio_player":"Audio player","audio":"Audio","browser":"Browser","c#":"C#","calendar":"Calendar","calls":"Calls","chat":"Chat","child":"Child","conferences":"Conferences","construction":"Construction","databases":"Databases","design":"Desing","desktop":"Desktop","development":"Development","devops":"DevOps","documentation":"Documentation","education":"Education","electronic":"electronic","email":"Email","empire_building":"Empire_building","encryption":"Encryption","engine":"Engine","excel":"Excel","exploration":"Exploration","game_engine":"Game engine","gameboy":"Gameboy","games":"Games","geographic":"Geographic","git":"Git","godot":"Godot","graphical_adventure":"Graphical adventure","gui":"GUI","image_editor":"Image editor","image":"Image","images":"images","instant_messaging":"Instant messaging","internet":"Internet","kde":"KDE","launcher":"Launcher","linux":"GNU/Linux","lua":"LUA","management_sim":"Management simulator","messaging":"Messaging","microcontrollers":"Micro-controllers","ms-dos":"MS-DOS","multimedia":"Multimedia","music":"Music","office":"Office","orbital":"Orbital","password_manager":"Password manager","pcb":"PCB","podcast":"Podcast","powerpoint":"Powerpoint","programming_lang":"Programming language","python":"Python","racing":"Racing","remote_control":"Remote control","rpg":"RPG","rts":"RTS","schematic":"Schematic","security":"Security","share":"Share","shop":"Shop","simulation":"Simulation","space":"Space","sql":"SQL","strategy":"Strategy","task":"Task","tasks":"Tasks","turns":"Turns","vala":"Vala","vectorial":"Vectorial","version_control":"Version control","video_calls":"Video calls","video_edit":"Video edit","video_player":"Video Player","video":"Video","voxel":"Voxel","word":"Word","xmpp":"XMPP"}')
+			const licenses = JSON.parse('{"MIT":{"label":"MIT","url":"https://spdx.org/licenses/MIT.html"},"GPL-2.0-only":{"label":"GNU General Public License v2.0","url":"https://spdx.org/licenses/GPL-2.0-only.html"},"GPL-2.0-or-later":{"label":"GNU General Public License v2.0 or later","url":"https://spdx.org/licenses/GPL-2.0-or-later.html"},"GPL-3.0-only":{"label":"GNU General Public License v3.0","url":"https://spdx.org/licenses/GPL-3.0-only.html"},"GPL-3.0-or-later":{"label":"GNU General Public License v3.0 or later","url":"https://spdx.org/licenses/GPL-3.0-or-later.html"},"CC-BY-SA-3.0":{"label":"Creative Commons Attribution Share Alike 3.0 Unported","url":"https://spdx.org/licenses/CC-BY-SA-3.0.html"},"CC-BY-3.0":{"label":"Creative Commons Attribution 3.0 Unported","url":"https://spdx.org/licenses/CC-SA-3.0.html"},"CC-BY-SA-4.0":{"label":"Creative Commons Attribution Share Alike 4.0 Unported","url":"https://spdx.org/licenses/CC-BY-SA-4.0.html"},"CC-BY-4.0":{"label":"Creative Commons Attribution 4.0 Unported","url":"https://spdx.org/licenses/CC-BY-4.0.html"},"MPL-2.0":{"label":"Mozilla Public License 2.0","url":"https://spdx.org/licenses/MPL-2.0.html"},"LGPL-2.0":{"label":"GNU Lesser General Public License v2.1 only","url":"https://spdx.org/licenses/LGPL-2.0.html"},"LGPL-2.1":{"label":"GNU Lesser General Public License v2.1 only","url":"https://spdx.org/licenses/LGPL-2.1.html"},"AGPL-3.0-only":{"label":"GNU Affero General Public License v3.0 only","url":"https://spdx.org/licenses/AGPL-3.0-only.html"},"Apache-2.0":{"label":"Apache License 2.0","url":"https://spdx.org/licenses/Apache-2.0.html"},"many":{"label":"Many licenses"}}')
 		</script>
 		<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 		<script src="https://son-link.github.io/bestodon/assets/js/pequejs.min.js"></script>

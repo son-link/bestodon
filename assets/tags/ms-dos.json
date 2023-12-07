@@ -1,0 +1,22 @@
+[
+  {
+    "username": "freedosproject",
+    "acct": "freedosproject@fosstodon.org",
+    "display_name": "The FreeDOS Project",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/303/325/525/419/226/original/4fabb7af0fe4e680.jpg",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/303/325/525/419/226/original/6290281d3ff44862.jpeg",
+    "url": "https://fosstodon.org/@freedosproject",
+    "note": "<p>FreeDOS is an open source DOS-compatible operating system that you can use to play classic DOS games, run legacy business software, or develop embedded systems. Any program that works on MS-DOS should also run on FreeDOS.</p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "ms-dos"
+    ],
+    "base": null,
+    "licenses": null,
+    "repo": "freedosproject@fosstodon.org",
+    "web": "https://www.freedos.org"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "username": "mariadb",
+    "acct": "mariadb@fosstodon.org",
+    "display_name": "MariaDB",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/706/272/original/06e7316b349eb17c.jpeg",
+    "header": "https://mastodon.social/headers/original/missing.png",
+    "url": "https://fosstodon.org/@mariadb",
+    "note": "<p>We are the company behind <a href=\"https://fosstodon.org/tags/MariaDB\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>MariaDB</span></a>, the fastest growing <a href=\"https://fosstodon.org/tags/opensource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>opensource</span></a> <a href=\"https://fosstodon.org/tags/database\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>database</span></a>. Download MariaDB at <a href=\"http://mariadb.com/downloads\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">mariadb.com/downloads</span><span class=\"invisible\"></span></a>.</p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "databases",
+      "schematic",
+      "sql"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-only"
+    ],
+    "repo": "https://github.com/mariadb",
+    "web": "https://mariadb.com/"
+  }
+]

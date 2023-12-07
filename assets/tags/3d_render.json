@@ -1,0 +1,48 @@
+[
+  {
+    "username": "Blender",
+    "acct": "Blender@mastodon.social",
+    "display_name": "Blender 🔶",
+    "avatar": "https://files.mastodon.social/accounts/avatars/000/284/692/original/0f4af7efb7b7c853.jpg",
+    "header": "https://files.mastodon.social/accounts/headers/000/284/692/original/a19e20597adba1dc.jpg",
+    "url": "https://mastodon.social/@Blender",
+    "note": "<p>Official account for the Free and Open Source 3D creation suite. Free to use for any purpose, forever.</p>",
+    "domain": "mastodon.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "3d_render",
+      "image"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-or-later"
+    ],
+    "repo": "https://projects.blender.org/blender/blender",
+    "web": "https://www.blender.org"
+  },
+  {
+    "username": "Blender",
+    "acct": "Blender@mastodon.social",
+    "display_name": "Blender 🔶",
+    "avatar": "https://files.mastodon.social/accounts/avatars/000/284/692/original/0f4af7efb7b7c853.jpg",
+    "header": "https://files.mastodon.social/accounts/headers/000/284/692/original/a19e20597adba1dc.jpg",
+    "url": "https://mastodon.social/@Blender",
+    "note": "<p>Official account for the Free and Open Source 3D creation suite. Free to use for any purpose, forever.</p>",
+    "domain": "mastodon.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "3d_render",
+      "image"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-or-later"
+    ],
+    "repo": "https://projects.blender.org/blender/blender",
+    "web": "https://www.blender.org"
+  }
+]

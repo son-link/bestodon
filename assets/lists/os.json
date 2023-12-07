@@ -7,7 +7,17 @@
     "header": "https://files.mastodon.social/cache/accounts/headers/109/393/527/699/355/976/original/50343cba9e2b1c5d.png",
     "url": "https://fosstodon.org/@alpinelinux",
     "note": "<p>Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.</p>",
-    "domain": "fosstodon.org"
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "linux"
+    ],
+    "base": "BusyBox",
+    "licenses": null,
+    "repo": "https://gitlab.alpinelinux.org/alpine",
+    "web": "https://alpinelinux.org"
   },
   {
     "username": "elementary",
@@ -17,7 +27,17 @@
     "header": "https://files.mastodon.social/accounts/headers/000/321/397/original/c9f1ec67dfb23e8a.jpg",
     "url": "https://mastodon.social/@elementary",
     "note": "<p>The thoughtful, capable, and ethical replacement for Windows and macOS—plus AppCenter, the pay-what-you-can app store.</p>",
-    "domain": "mastodon.social"
+    "domain": "mastodon.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "linux"
+    ],
+    "base": "Ubuntu",
+    "licenses": null,
+    "repo": "https://github.com/elementary",
+    "web": "https://elementary.io"
   },
   {
     "username": "fedora",
@@ -27,7 +47,17 @@
     "header": "https://files.mastodon.social/cache/accounts/headers/109/512/519/380/277/288/original/e2ca30320d15ca65.png",
     "url": "https://fosstodon.org/@fedora",
     "note": "<p>This is the official feed for the Fedora Project, a global free &amp; open source software community sponsored by Red Hat.</p><p>We make Fedora Linux - an innovative free &amp; open source operating system for computers, clouds, containers, and other hardware platforms.</p>",
-    "domain": "fosstodon.org"
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "linux"
+    ],
+    "base": "Red Hat",
+    "licenses": null,
+    "repo": "https://gitlab.com/fedora",
+    "web": "https://fedoraproject.org"
   },
   {
     "username": "mxlinux",
@@ -37,7 +67,37 @@
     "header": "https://files.mastodon.social/accounts/headers/000/296/330/original/a2e3f04324f3d6af.png",
     "url": "https://mastodon.social/@mxlinux",
     "note": "<p>The official MX Linux Mastodon.</p><p>Midweight Linux OS based on Debian stable. Using core antiX components +additional software created / packaged by the MX community.</p><p>Please follow the spare account also: <a href=\"https://linuxrocks.online/@MXLinux\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">linuxrocks.online/@MXLinux</span><span class=\"invisible\"></span></a></p>",
-    "domain": "mastodon.social"
+    "domain": "mastodon.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "linux"
+    ],
+    "base": "Debian",
+    "licenses": null,
+    "repo": "https://github.com/MX-Linux",
+    "web": "https://mxlinux.org"
+  },
+  {
+    "username": "nixos_org",
+    "acct": "nixos_org@chaos.social",
+    "display_name": "NixOS",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/107/904/182/504/156/586/original/5a0d05b23bf48f36.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/107/904/182/504/156/586/original/9ac0b3633832ff60.png",
+    "url": "https://chaos.social/@nixos_org",
+    "note": "<p>Nix is a tool that takes a unique approach to package management and system configuration. Use it to build reproducible, declarative and reliable systems.</p><p>Posts mostly in English.</p><p>Account monitored by <span class=\"h-card\" translate=\"no\"><a href=\"https://merveilles.town/@raboof\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>raboof</span></a></span></p>",
+    "domain": "chaos.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "linux"
+    ],
+    "base": null,
+    "licenses": null,
+    "repo": "https://github.com/nixos",
+    "web": "https://nixos.org/"
   },
   {
     "username": "openmandriva",
@@ -47,7 +107,17 @@
     "header": "https://files.mastodon.social/cache/accounts/headers/001/391/758/original/149317b76e4d06d9.jpeg",
     "url": "https://linuxrocks.online/@openmandriva",
     "note": "<p>OpenMandriva Lx is a unique and independent distribution and direct descendant of Mandriva Linux</p>",
-    "domain": "linuxrocks.online"
+    "domain": "linuxrocks.online",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "linux"
+    ],
+    "base": "Mandriva",
+    "licenses": null,
+    "repo": "https://github.com/OpenMandrivaSoftware",
+    "web": "https://www.openmandriva.org/"
   },
   {
     "username": "opensuse_es",
@@ -57,7 +127,37 @@
     "header": "https://files.mastodon.social/cache/accounts/headers/109/275/200/482/424/927/original/b7b2da077dc745e1.png",
     "url": "https://floss.social/@opensuse_es",
     "note": "<p>openSUSE es un sistema operativo abierto, gratuito y seguro basado en Linux para PC, computadoras portátiles, servidores y dispositivos ARM.<br>Esta cuenta reproduce las notas compartidas en <a href=\"https://planet.opensuse.org/es/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">planet.opensuse.org/es/</span><span class=\"invisible\"></span></a>, entre otras cosas.</p>",
-    "domain": "floss.social"
+    "domain": "floss.social",
+    "langs": [
+      "es"
+    ],
+    "tags": [
+      "linux"
+    ],
+    "base": "SUSE",
+    "licenses": null,
+    "repo": "https://github.com/openSUSE",
+    "web": "https://www.opensuse.org"
+  },
+  {
+    "username": "opensuse",
+    "acct": "opensuse@fosstodon.org",
+    "display_name": "openSUSE Linux",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/682/754/original/24279b6b797aaafd.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/682/754/original/6e4d1526509ce412.png",
+    "url": "https://fosstodon.org/@opensuse",
+    "note": "<p>openSUSE makes Linux-based operating systems and tools to support developers and sysadmins. openSUSE provides a feature-rich environment that’s ideal for everything from desktop use to a server set up. Get it at <a href=\"https://software.opensuse.org\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">software.opensuse.org</span><span class=\"invisible\"></span></a></p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "linux"
+    ],
+    "base": "SUSE",
+    "licenses": null,
+    "repo": "https://github.com/openSUSE",
+    "web": "https://www.opensuse.org"
   },
   {
     "username": "peppermintos",
@@ -67,7 +167,17 @@
     "header": "https://files.mastodon.social/cache/accounts/headers/109/136/337/706/446/039/original/40111313002ff8ad.png",
     "url": "https://fosstodon.org/@peppermintos",
     "note": "<p>The Peppermint OS Development Team</p>",
-    "domain": "fosstodon.org"
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "linux"
+    ],
+    "base": "Debian",
+    "licenses": null,
+    "repo": "https://codeberg.org/Peppermint_OS",
+    "web": "https://peppermintos.com"
   },
   {
     "username": "snowflakelinux",
@@ -77,7 +187,17 @@
     "header": "https://mastodon.social/headers/original/missing.png",
     "url": "https://floss.social/@snowflakelinux",
     "note": "<p>SnowflakeOS is a NixOS based Linux distribution focused on beginner friendliness and ease of use</p>",
-    "domain": "floss.social"
+    "domain": "floss.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "linux"
+    ],
+    "base": "NixOS",
+    "licenses": null,
+    "repo": "https://github.com/snowflakelinux",
+    "web": "https://snowflakeos.org"
   },
   {
     "username": "SUSE",
@@ -87,7 +207,17 @@
     "header": "https://mastodon.social/headers/original/missing.png",
     "url": "https://fosstodon.org/@SUSE",
     "note": "",
-    "domain": "fosstodon.org"
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "linux"
+    ],
+    "base": null,
+    "licenses": null,
+    "repo": "https://github.com/SUSE",
+    "web": "https://www.suse.com"
   },
   {
     "username": "freedosproject",
@@ -97,6 +227,16 @@
     "header": "https://files.mastodon.social/cache/accounts/headers/109/303/325/525/419/226/original/6290281d3ff44862.jpeg",
     "url": "https://fosstodon.org/@freedosproject",
     "note": "<p>FreeDOS is an open source DOS-compatible operating system that you can use to play classic DOS games, run legacy business software, or develop embedded systems. Any program that works on MS-DOS should also run on FreeDOS.</p>",
-    "domain": "fosstodon.org"
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "ms-dos"
+    ],
+    "base": null,
+    "licenses": null,
+    "repo": "freedosproject@fosstodon.org",
+    "web": "https://www.freedos.org"
   }
 ]
