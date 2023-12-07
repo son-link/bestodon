@@ -25,31 +25,6 @@
     "web": "https://content.minetest.net/packages/Wuzzy/mineclone2/"
   },
   {
-    "username": "MineClone2",
-    "acct": "MineClone2@fosstodon.org",
-    "display_name": "MineClone2",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/188/535/726/414/664/original/7a96436aa92efc3e.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/188/535/726/414/664/original/5c23bc09187a6554.png",
-    "url": "https://fosstodon.org/@MineClone2",
-    "note": "<p>Fosstodon Account for the MineClone2 Game. Account operated by <span class=\"h-card\" translate=\"no\"><a href=\"https://fosstodon.org/@PrairieWind\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>PrairieWind</span></a></span></p>",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "3d",
-      "construction",
-      "exploration",
-      "voxel"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-3.0-only"
-    ],
-    "repo": "https://git.minetest.land/MineClone2/MineClone2",
-    "web": "https://content.minetest.net/packages/Wuzzy/mineclone2/"
-  },
-  {
     "username": "Minetest",
     "acct": "Minetest@fosstodon.org",
     "display_name": "Minetest",
@@ -73,31 +48,6 @@
     ],
     "repo": "https://github.com/minetest/minetest",
     "web": "https://www.minetest.net/"
-  },
-  {
-    "username": "veloren",
-    "acct": "veloren@floss.social",
-    "display_name": "Veloren",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/265/828/876/545/746/original/636b0034293b2b52.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/265/828/876/545/746/original/c1928b206f286768.png",
-    "url": "https://floss.social/@veloren",
-    "note": "<p>Official Veloren account<br>Veloren is a multiplayer voxel RPG written in <a href=\"https://floss.social/tags/Rust\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Rust</span></a>. It is inspired by games such as Cube World, Legend of Zelda: Breath of the Wild, Dwarf Fortress and Minecraft.<br>Veloren is fully open-source, licensed under GPL 3. It uses original graphics, music and assets created by its community. Being contributor-driven, its development community and user community is one and the same: developers, players, artists and musicians come together to develop the game.</p>",
-    "domain": "floss.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "3d",
-      "exploration",
-      "rpg",
-      "voxel"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-3.0-only"
-    ],
-    "repo": "https://gitlab.com/veloren/veloren",
-    "web": "https://veloren.net/"
   },
   {
     "username": "veloren",

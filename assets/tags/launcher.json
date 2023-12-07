@@ -67,28 +67,5 @@
     ],
     "repo": "https://github.com/bottlesdevs",
     "web": "https://usebottles.com"
-  },
-  {
-    "username": "usebottles",
-    "acct": "usebottles@mastodon.online",
-    "display_name": "usebottles",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/108/200/741/348/287/764/original/d577ec0c288adfca.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/108/200/741/348/287/764/original/611383fddd652ebf.jpeg",
-    "url": "https://mastodon.online/@usebottles",
-    "note": "<p>Run Windows software on Linux with Bottles.</p>",
-    "domain": "mastodon.online",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "games",
-      "launcher"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-3.0-only"
-    ],
-    "repo": "https://github.com/bottlesdevs",
-    "web": "https://usebottles.com"
   }
 ]

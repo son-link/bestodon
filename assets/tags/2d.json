@@ -25,56 +25,6 @@
     "web": "https://play0ad.com/"
   },
   {
-    "username": "play0ad",
-    "acct": "play0ad@mastodon.social",
-    "display_name": "0 A.D.  ✅",
-    "avatar": "https://files.mastodon.social/accounts/avatars/001/074/531/original/b44a56304572cb09.png",
-    "header": "https://files.mastodon.social/accounts/headers/001/074/531/original/3b4e13bda23047d9.jpg",
-    "url": "https://mastodon.social/@play0ad",
-    "note": "<p>0 A.D. is a free and open-source, historical Real Time Strategy game, focused on the period from 500 B.C. to 1 B.C., under development by Wildfire Games. It&#39;s cross-platform, playable on Windows, macOS, FreeBSD, Linux, and OpenBSD. Choose from 13 different civilizations, a multitude of maps, game modes, single player or multiplayer.</p>",
-    "domain": "mastodon.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "rts",
-      "strategy"
-    ],
-    "base": null,
-    "licenses": [
-      "CC-BY-SA-3.0",
-      "GPL-2.0-only"
-    ],
-    "repo": "https://github.com/0ad/0ad",
-    "web": "https://play0ad.com/"
-  },
-  {
-    "username": "wesnoth",
-    "acct": "wesnoth@fosstodon.org",
-    "display_name": "Battle for Wesnoth",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/389/896/459/387/814/original/d80a8a1d618fad11.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/389/896/459/387/814/original/15735b376c1e995a.jpeg",
-    "url": "https://fosstodon.org/@wesnoth",
-    "note": "<p>Official Battle for Wesnoth Mastodon feed. Check our site's status at <a href=\"https://status.wesnoth.org\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">status.wesnoth.org</span><span class=\"invisible\"></span></a>.</p>",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "strategy",
-      "turns"
-    ],
-    "base": null,
-    "licenses": [
-      "CC-BY-SA-4.0",
-      "GPL-2.0-only"
-    ],
-    "repo": "https://github.com/wesnoth/wesnoth",
-    "web": "https://www.wesnoth.org/"
-  },
-  {
     "username": "wesnoth",
     "acct": "wesnoth@fosstodon.org",
     "display_name": "Battle for Wesnoth",
@@ -122,55 +72,6 @@
     ],
     "repo": "https://github.com/freeciv/freeciv",
     "web": "https://www.freeciv.org"
-  },
-  {
-    "username": "freeciv",
-    "acct": "freeciv@fosstodon.org",
-    "display_name": "freeciv",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/333/148/214/182/199/original/c7079c3909fd5001.png",
-    "header": "https://mastodon.social/headers/original/missing.png",
-    "url": "https://fosstodon.org/@freeciv",
-    "note": "",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "empire_building",
-      "strategy"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-2.0-only"
-    ],
-    "repo": "https://github.com/freeciv/freeciv",
-    "web": "https://www.freeciv.org"
-  },
-  {
-    "username": "FreeRCT",
-    "acct": "FreeRCT@floss.social",
-    "display_name": "FreeRCT",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/184/648/039/877/644/original/5a7d28ce1f8bf049.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/184/648/039/877/644/original/fbef260330f4391b.png",
-    "url": "https://floss.social/@FreeRCT",
-    "note": "<p>FreeRCT aims to be a free and open source game which captures the look, feel, and gameplay of the popular games RollerCoaster Tycoon 1 and 2. The game is still in an early alpha state, but it is already playable and offers a variety of features.</p>",
-    "domain": "floss.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "construction",
-      "management_sim",
-      "strategy"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-2.0-only"
-    ],
-    "repo": "https://github.com/FreeRCT/FreeRCT",
-    "web": "https://freerct.net/"
   },
   {
     "username": "FreeRCT",
@@ -274,31 +175,6 @@
     "web": "https://www.openttd.org/"
   },
   {
-    "username": "openttd",
-    "acct": "openttd@fosstodon.org",
-    "display_name": "OpenTTD",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/615/814/490/783/979/original/1040bb217407d6b3.gif",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/615/814/490/783/979/original/9fc56604b7239edd.png",
-    "url": "https://fosstodon.org/@openttd",
-    "note": "<p>OpenTTD is a free and open source transport simulation game.</p><p>This account is unofficial but developer-run.</p>",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "construction",
-      "simulation",
-      "strategy"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-2.0-only"
-    ],
-    "repo": "https://github.com/OpenTTD/OpenTTD",
-    "web": "https://www.openttd.org/"
-  },
-  {
     "username": "pygame",
     "acct": "pygame@mastodon.social",
     "display_name": "pygame",
@@ -322,55 +198,6 @@
     ],
     "repo": "https://github.com/pygame/pygame",
     "web": "https://www.pygame.org"
-  },
-  {
-    "username": "pygame",
-    "acct": "pygame@mastodon.social",
-    "display_name": "pygame",
-    "avatar": "https://files.mastodon.social/accounts/avatars/109/250/551/580/459/644/original/c97de4a9cd89369f.png",
-    "header": "https://files.mastodon.social/accounts/headers/109/250/551/580/459/644/original/ce0b1fc3b7eca34b.png",
-    "url": "https://mastodon.social/@pygame",
-    "note": "<p>For making ga🌈mes, fart animations &amp; robot controllers.  I&#39;ve had this joypad in my mouth for twenty two years.  Someone please fix my eyes. Us/them.</p>",
-    "domain": "mastodon.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "game_engine",
-      "games",
-      "python"
-    ],
-    "base": null,
-    "licenses": [
-      "LGPL-2.0"
-    ],
-    "repo": "https://github.com/pygame/pygame",
-    "web": "https://www.pygame.org"
-  },
-  {
-    "username": "scummvm",
-    "acct": "scummvm@corteximplant.com",
-    "display_name": "ScummVM",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/873/584/227/547/897/original/c0d079dbafb90391.png",
-    "header": "https://mastodon.social/headers/original/missing.png",
-    "url": "https://corteximplant.com/@scummvm",
-    "note": "<p>ScummVM is a program which allows you to run certain classic graphical point-and-click adventure games and RPGs.</p><p>Account (mostly) maintained by <span class=\"h-card\" translate=\"no\"><a href=\"https://manitu.social/@felsqualle\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>felsqualle</span></a></span></p>",
-    "domain": "corteximplant.com",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "engine",
-      "graphical_adventure"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-3.0-only"
-    ],
-    "repo": "https://github.com/scummvm",
-    "web": "https://www.scummvm.org"
   },
   {
     "username": "scummvm",
@@ -422,59 +249,6 @@
     ],
     "repo": "https://gitlab.com/solarus-games",
     "web": "https://www.solarus-games.org"
-  },
-  {
-    "username": "solarus",
-    "acct": "solarus@mastodon.gamedev.place",
-    "display_name": "Solarus",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/662/487/original/1795d3803f9d6333.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/000/662/487/original/e71bae8c8136f051.jpg",
-    "url": "https://mastodon.gamedev.place/@solarus",
-    "note": "<p>⚙️ Free and open-source  2D game engine, licensed under GPL, and written in C++/Lua. Primarly aimed for Action-RPGs but can do much more!</p><p>🛠️ It supports Lua scripting, and includes a game editor and a game launcher, both written in C++/Qt.</p><p>🎮 We also make games to showcase our engine!</p>",
-    "domain": "mastodon.gamedev.place",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "game_engine",
-      "games",
-      "lua",
-      "rpg"
-    ],
-    "base": null,
-    "licenses": [
-      "CC-BY-SA-4.0",
-      "GPL-3.0-only"
-    ],
-    "repo": "https://gitlab.com/solarus-games",
-    "web": "https://www.solarus-games.org"
-  },
-  {
-    "username": "xenko",
-    "acct": "xenko@mastodon.gamedev.place",
-    "display_name": "Stride",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/716/154/original/2d131b70daa282b6.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/000/716/154/original/78a1bad65da90f59.jpg",
-    "url": "https://mastodon.gamedev.place/@xenko",
-    "note": "<p>Stride is a modern open-source cross-platform game engine written in c#</p><p><a href=\"https://mastodon.gamedev.place/tags/gameengine\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>gameengine</span></a> <a href=\"https://mastodon.gamedev.place/tags/dotnet\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>dotnet</span></a> <a href=\"https://mastodon.gamedev.place/tags/csharp\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>csharp</span></a> <a href=\"https://mastodon.gamedev.place/tags/opensource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>opensource</span></a></p>",
-    "domain": "mastodon.gamedev.place",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "3d",
-      "c#",
-      "game_engine",
-      "games"
-    ],
-    "base": null,
-    "licenses": [
-      "MIT"
-    ],
-    "repo": "https://github.com/stride3d/stride",
-    "web": "https://vala.dev/"
   },
   {
     "username": "xenko",

@@ -25,56 +25,6 @@
     "web": "https://play0ad.com/"
   },
   {
-    "username": "play0ad",
-    "acct": "play0ad@mastodon.social",
-    "display_name": "0 A.D.  ✅",
-    "avatar": "https://files.mastodon.social/accounts/avatars/001/074/531/original/b44a56304572cb09.png",
-    "header": "https://files.mastodon.social/accounts/headers/001/074/531/original/3b4e13bda23047d9.jpg",
-    "url": "https://mastodon.social/@play0ad",
-    "note": "<p>0 A.D. is a free and open-source, historical Real Time Strategy game, focused on the period from 500 B.C. to 1 B.C., under development by Wildfire Games. It&#39;s cross-platform, playable on Windows, macOS, FreeBSD, Linux, and OpenBSD. Choose from 13 different civilizations, a multitude of maps, game modes, single player or multiplayer.</p>",
-    "domain": "mastodon.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "rts",
-      "strategy"
-    ],
-    "base": null,
-    "licenses": [
-      "CC-BY-SA-3.0",
-      "GPL-2.0-only"
-    ],
-    "repo": "https://github.com/0ad/0ad",
-    "web": "https://play0ad.com/"
-  },
-  {
-    "username": "wesnoth",
-    "acct": "wesnoth@fosstodon.org",
-    "display_name": "Battle for Wesnoth",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/389/896/459/387/814/original/d80a8a1d618fad11.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/389/896/459/387/814/original/15735b376c1e995a.jpeg",
-    "url": "https://fosstodon.org/@wesnoth",
-    "note": "<p>Official Battle for Wesnoth Mastodon feed. Check our site's status at <a href=\"https://status.wesnoth.org\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">status.wesnoth.org</span><span class=\"invisible\"></span></a>.</p>",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "strategy",
-      "turns"
-    ],
-    "base": null,
-    "licenses": [
-      "CC-BY-SA-4.0",
-      "GPL-2.0-only"
-    ],
-    "repo": "https://github.com/wesnoth/wesnoth",
-    "web": "https://www.wesnoth.org/"
-  },
-  {
     "username": "wesnoth",
     "acct": "wesnoth@fosstodon.org",
     "display_name": "Battle for Wesnoth",
@@ -124,30 +74,6 @@
     "web": "https://www.freeciv.org"
   },
   {
-    "username": "freeciv",
-    "acct": "freeciv@fosstodon.org",
-    "display_name": "freeciv",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/333/148/214/182/199/original/c7079c3909fd5001.png",
-    "header": "https://mastodon.social/headers/original/missing.png",
-    "url": "https://fosstodon.org/@freeciv",
-    "note": "",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "empire_building",
-      "strategy"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-2.0-only"
-    ],
-    "repo": "https://github.com/freeciv/freeciv",
-    "web": "https://www.freeciv.org"
-  },
-  {
     "username": "FreeRCT",
     "acct": "FreeRCT@floss.social",
     "display_name": "FreeRCT",
@@ -171,56 +97,6 @@
     ],
     "repo": "https://github.com/FreeRCT/FreeRCT",
     "web": "https://freerct.net/"
-  },
-  {
-    "username": "FreeRCT",
-    "acct": "FreeRCT@floss.social",
-    "display_name": "FreeRCT",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/184/648/039/877/644/original/5a7d28ce1f8bf049.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/184/648/039/877/644/original/fbef260330f4391b.png",
-    "url": "https://floss.social/@FreeRCT",
-    "note": "<p>FreeRCT aims to be a free and open source game which captures the look, feel, and gameplay of the popular games RollerCoaster Tycoon 1 and 2. The game is still in an early alpha state, but it is already playable and offers a variety of features.</p>",
-    "domain": "floss.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "construction",
-      "management_sim",
-      "strategy"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-2.0-only"
-    ],
-    "repo": "https://github.com/FreeRCT/FreeRCT",
-    "web": "https://freerct.net/"
-  },
-  {
-    "username": "openttd",
-    "acct": "openttd@fosstodon.org",
-    "display_name": "OpenTTD",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/615/814/490/783/979/original/1040bb217407d6b3.gif",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/615/814/490/783/979/original/9fc56604b7239edd.png",
-    "url": "https://fosstodon.org/@openttd",
-    "note": "<p>OpenTTD is a free and open source transport simulation game.</p><p>This account is unofficial but developer-run.</p>",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "construction",
-      "simulation",
-      "strategy"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-2.0-only"
-    ],
-    "repo": "https://github.com/OpenTTD/OpenTTD",
-    "web": "https://www.openttd.org/"
   },
   {
     "username": "openttd",

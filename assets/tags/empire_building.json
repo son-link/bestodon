@@ -22,29 +22,5 @@
     ],
     "repo": "https://github.com/freeciv/freeciv",
     "web": "https://www.freeciv.org"
-  },
-  {
-    "username": "freeciv",
-    "acct": "freeciv@fosstodon.org",
-    "display_name": "freeciv",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/333/148/214/182/199/original/c7079c3909fd5001.png",
-    "header": "https://mastodon.social/headers/original/missing.png",
-    "url": "https://fosstodon.org/@freeciv",
-    "note": "",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "empire_building",
-      "strategy"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-2.0-only"
-    ],
-    "repo": "https://github.com/freeciv/freeciv",
-    "web": "https://www.freeciv.org"
   }
 ]

@@ -21,28 +21,5 @@
     ],
     "repo": "https://gitlab.gnome.org/GNOME/vala",
     "web": "https://vala.dev/"
-  },
-  {
-    "username": "vala_lang",
-    "acct": "vala_lang@mastodon.social",
-    "display_name": "Vala",
-    "avatar": "https://files.mastodon.social/accounts/avatars/108/582/953/196/753/327/original/4c3786fe39bc8728.png",
-    "header": "https://files.mastodon.social/accounts/headers/108/582/953/196/753/327/original/43141b58086d4188.png",
-    "url": "https://mastodon.social/@vala_lang",
-    "note": "<p>A Familiar Way To Develop Applications</p><p>Vala is an object-oriented programming language with a self-hosting compiler that generates C code and uses the GObject type system.</p><p>Account is run by: <span class=\"h-card\" translate=\"no\"><a href=\"https://merveilles.town/@colinkiama\" class=\"u-url mention\">@<span>colinkiama</span></a></span></p><p><a href=\"https://mastodon.social/tags/vala\" class=\"mention hashtag\" rel=\"tag\">#<span>vala</span></a> <a href=\"https://mastodon.social/tags/valalang\" class=\"mention hashtag\" rel=\"tag\">#<span>valalang</span></a> <a href=\"https://mastodon.social/tags/gnome\" class=\"mention hashtag\" rel=\"tag\">#<span>gnome</span></a> <a href=\"https://mastodon.social/tags/elementaryos\" class=\"mention hashtag\" rel=\"tag\">#<span>elementaryos</span></a> <a href=\"https://mastodon.social/tags/linux\" class=\"mention hashtag\" rel=\"tag\">#<span>linux</span></a> <a href=\"https://mastodon.social/tags/foss\" class=\"mention hashtag\" rel=\"tag\">#<span>foss</span></a> <a href=\"https://mastodon.social/tags/opensource\" class=\"mention hashtag\" rel=\"tag\">#<span>opensource</span></a> <a href=\"https://mastodon.social/tags/programming\" class=\"mention hashtag\" rel=\"tag\">#<span>programming</span></a> <a href=\"https://mastodon.social/tags/programminglanguages\" class=\"mention hashtag\" rel=\"tag\">#<span>programminglanguages</span></a></p>",
-    "domain": "mastodon.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "programming_lang",
-      "vala"
-    ],
-    "base": null,
-    "licenses": [
-      "LGPL-2.1"
-    ],
-    "repo": "https://gitlab.gnome.org/GNOME/vala",
-    "web": "https://vala.dev/"
   }
 ]

@@ -23,30 +23,5 @@
     ],
     "repo": "https://github.com/wesnoth/wesnoth",
     "web": "https://www.wesnoth.org/"
-  },
-  {
-    "username": "wesnoth",
-    "acct": "wesnoth@fosstodon.org",
-    "display_name": "Battle for Wesnoth",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/389/896/459/387/814/original/d80a8a1d618fad11.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/389/896/459/387/814/original/15735b376c1e995a.jpeg",
-    "url": "https://fosstodon.org/@wesnoth",
-    "note": "<p>Official Battle for Wesnoth Mastodon feed. Check our site's status at <a href=\"https://status.wesnoth.org\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">status.wesnoth.org</span><span class=\"invisible\"></span></a>.</p>",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "2d",
-      "strategy",
-      "turns"
-    ],
-    "base": null,
-    "licenses": [
-      "CC-BY-SA-4.0",
-      "GPL-2.0-only"
-    ],
-    "repo": "https://github.com/wesnoth/wesnoth",
-    "web": "https://www.wesnoth.org/"
   }
 ]
