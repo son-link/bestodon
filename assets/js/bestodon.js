@@ -33,6 +33,15 @@ const getData = list => {
 	});
 }
 
+const getTags = tag => {
+	axios.get(`/assets/tags/${tag}.json`)
+	.then( resp => {
+		accounts = resp.data;
+		drawAccounts();
+		drawPagination();
+	});
+}
+
 const drawAccounts = () => {
 	data = paginate(accounts, page, 10);
 	const tpl = $('#account-tpl').html();
@@ -103,6 +112,8 @@ const AddDelBookmark = ele => {
 
 	localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
 }
+
+const getTagLabel = (slug) => tags_labels[slug];
 
 document.addEventListener("DOMContentLoaded", () => {
 	$('#pagination').on('click', '.page', function() {
