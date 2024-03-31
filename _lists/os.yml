@@ -29,6 +29,13 @@
   tags:
     - ms-dos
   web: https://www.freedos.org
+
+- acct: haiku@mastodon.xyz
+  langs:
+    - en
+  repo: https://github.com/haiku/haiku
+  web: https://www.haiku-os.org/
+
 - acct: mxlinux@mastodon.social
   base: Debian
   langs:
@@ -42,6 +49,14 @@
   langs:
     - en
   repo: https://github.com/OpenMandrivaSoftware
+  tags:
+    - linux
+  web: https://www.openmandriva.org/
+- acct: ManjaroARM@fosstodon.org 
+  base: Manjaro
+  langs:
+    - en
+  repo: https://gitlab.manjaro.org
   tags:
     - linux
   web: https://www.openmandriva.org/

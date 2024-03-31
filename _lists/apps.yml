@@ -8,6 +8,16 @@
   repo: https://github.com/AntennaPod/AntennaPod
   licenses:
     - GPL-3.0-only
+- acct: audiotube@floss.social
+  langs:
+    - en
+  tags:
+    - music
+    - youtube
+  web: https://apps.kde.org/es/audiotube/
+  repo: https://invent.kde.org/multimedia/audiotube
+  licenses:
+    - GPL-2.0-or-later
 - acct: Blender@mastodon.social
   langs:
     - en
@@ -27,6 +37,16 @@
   repo: https://code.briarproject.org/briar/briar
   licenses:
     - GPL-3.0-only
+- acct: DOSBox_Staging@corteximplant.com 
+  langs:
+    - en
+  tags:
+    - emulation
+    - msdos
+  web: https://dosbox-staging.github.io/
+  repo: https://github.com/dosbox-staging/dosbox-staging
+  licenses:
+    - GPL-2.0-or-later
 - acct: fdroidorg@floss.social
   langs:
     - en
@@ -193,6 +213,16 @@
   repo: https://github.com/thunderbird/thunderbird-android
   licenses:
     - Apache-2.0
+- acct: kasts@fosstodon.org 
+  langs:
+    - en
+  tags:
+    - podcast
+    - linux
+  web: https://apps.kde.org/es/kasts/
+  repo: https://invent.kde.org/multimedia/kasts
+  licenses:
+    - GPL-2.0-or-later
 - acct: kde@floss.social
   langs:
     - en
@@ -274,6 +304,40 @@
   repo: https://github.com/matrix-org
   licenses:
     - Apache-2.0
+- acct: mixxx@floss.social
+  langs:
+    - en
+  tags:
+    - audio
+    - dj
+    - music
+  web: https://matrix.org
+  repo: https://github.com/mixxxdj/mixxx
+  licenses:
+    - GPL-2.0-or-later
+- acct: neochat@kde.social
+  langs:
+    - en
+  tags:
+    - instant_messaging
+    - chat
+    - windows
+  web: https://apps.kde.org/es/neochat/
+  repo: https://invent.kde.org/network/neochat
+  licenses:
+    - GPL-3.0-only
+- acct: podverse@podcastindex.social
+  langs:
+    - en
+  tags:
+    - podcast
+    - android
+    - ios
+    - web
+  web: https://podverse.fm/
+  repo: https://github.com/podverse
+  licenses:
+    - AGPL-3.0-only
 - acct: qgis@fosstodon.org
   langs:
     - en

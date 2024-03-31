@@ -21,6 +21,17 @@
     - management_sim
     - strategy
   web: https://freerct.net/
+
+- acct: liblast@mastodon.gamedev.place
+  langs:
+    - en
+  licenses:
+    - MIT
+  repo: https://codeberg.org/Liblast/Liblast
+  tags:
+    - 3d
+    - fps
+  web: https://libla.st/
 - acct: MineClone2@fosstodon.org
   langs:
     - en

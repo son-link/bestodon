@@ -59,10 +59,12 @@ const getList = (list, accounts) => {
                 content.push(arr);
                 accts2merge[list].push(arr);
 
-                extra_data.tags.forEach( tag => {
-                  if (!tags2merge[tag]) tags2merge[tag] = []
-                  tags2merge[tag].push(arr)
-                })
+                if (!!extra_data.tags) {
+                  extra_data.tags.forEach( tag => {
+                    if (!tags2merge[tag]) tags2merge[tag] = []
+                    tags2merge[tag].push(arr)
+                  })
+                }
               }
             });
 
