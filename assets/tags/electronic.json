@@ -22,5 +22,29 @@
     ],
     "repo": "https://gitlab.com/kicad",
     "web": "https://www.kicad.org/"
+  },
+  {
+    "username": "kicad",
+    "acct": "kicad@fosstodon.org",
+    "display_name": "KiCad",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/108/279/792/945/982/549/original/4352ea8aebbb89f9.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/108/279/792/945/982/549/original/c9b9c886eeb646f0.jpeg",
+    "url": "https://fosstodon.org/@kicad",
+    "note": "<p>Official account of the KiCad EDA suite.</p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "electronic",
+      "pcb",
+      "schematic"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-3.0-or-later"
+    ],
+    "repo": "https://gitlab.com/kicad",
+    "web": "https://www.kicad.org/"
   }
 ]

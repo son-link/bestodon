@@ -21,5 +21,28 @@
     ],
     "repo": "https://github.com/readthedocs",
     "web": "https://about.readthedocs.com"
+  },
+  {
+    "username": "readthedocs",
+    "acct": "readthedocs@fosstodon.org",
+    "display_name": "Read the Docs",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/399/803/803/223/723/original/4fee1d84604251cc.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/399/803/803/223/723/original/3776f2bb5cdbbac2.png",
+    "url": "https://fosstodon.org/@readthedocs",
+    "note": "<p>🌎 We host the world's docs<br>💗 Fully open source<br>🔨 Sphinx, Mkdocs, and your tool of choice<br>🔑 Public &amp; private docs<br>🐦 <a href=\"https://twitter.com/readthedocs\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/readthedocs</span><span class=\"invisible\"></span></a></p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "documentation",
+      "development"
+    ],
+    "base": null,
+    "licenses": [
+      "MIT"
+    ],
+    "repo": "https://github.com/readthedocs",
+    "web": "https://about.readthedocs.com"
   }
 ]

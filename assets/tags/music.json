@@ -1,5 +1,51 @@
 [
   {
+    "username": "audiotube",
+    "acct": "audiotube@floss.social",
+    "display_name": "AudioTube :kde:",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/962/263/470/750/099/original/74a0d1534fb94b74.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/962/263/470/750/099/original/b62cdd4ce8b8195b.png",
+    "url": "https://floss.social/@audiotube",
+    "note": "<p>AudioTube is a convergent YouTube Music player built on KDE Technology.</p><p>Posts by <span class=\"h-card\" translate=\"no\"><a href=\"https://social.anoxinon.de/@m4TZ\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>m4TZ</span></a></span> and <span class=\"h-card\" translate=\"no\"><a href=\"https://social.tchncs.de/@Jbb\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>Jbb</span></a></span>.</p>",
+    "domain": "floss.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "music",
+      "youtube"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-or-later"
+    ],
+    "repo": "https://invent.kde.org/multimedia/audiotube",
+    "web": "https://apps.kde.org/es/audiotube/"
+  },
+  {
+    "username": "audiotube",
+    "acct": "audiotube@floss.social",
+    "display_name": "AudioTube :kde:",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/962/263/470/750/099/original/74a0d1534fb94b74.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/962/263/470/750/099/original/b62cdd4ce8b8195b.png",
+    "url": "https://floss.social/@audiotube",
+    "note": "<p>AudioTube is a convergent YouTube Music player built on KDE Technology.</p><p>Posts by <span class=\"h-card\" translate=\"no\"><a href=\"https://social.anoxinon.de/@m4TZ\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>m4TZ</span></a></span> and <span class=\"h-card\" translate=\"no\"><a href=\"https://social.tchncs.de/@Jbb\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>Jbb</span></a></span>.</p>",
+    "domain": "floss.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "music",
+      "youtube"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-or-later"
+    ],
+    "repo": "https://invent.kde.org/multimedia/audiotube",
+    "web": "https://apps.kde.org/es/audiotube/"
+  },
+  {
     "username": "funkwhale",
     "acct": "funkwhale@social.funkwhale.audio",
     "display_name": "Funkwhale",
@@ -46,5 +92,53 @@
     ],
     "repo": "https://dev.funkwhale.audio/funkwhale/funkwhale",
     "web": "https://funkwhale.audio"
+  },
+  {
+    "username": "mixxx",
+    "acct": "mixxx@floss.social",
+    "display_name": "Mixxx DJ Software",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/638/561/556/031/087/original/4983b30709c93af7.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/638/561/556/031/087/original/f2cc59e4ad876ffe.jpg",
+    "url": "https://floss.social/@mixxx",
+    "note": "<p>Get the party rocking with Mixxx, the top-rated, easy-to-use DJ software that gives you everything you need to perform live mixes. Always completely free!</p>",
+    "domain": "floss.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "audio",
+      "dj",
+      "music"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-or-later"
+    ],
+    "repo": "https://github.com/mixxxdj/mixxx",
+    "web": "https://matrix.org"
+  },
+  {
+    "username": "mixxx",
+    "acct": "mixxx@floss.social",
+    "display_name": "Mixxx DJ Software",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/638/561/556/031/087/original/4983b30709c93af7.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/638/561/556/031/087/original/f2cc59e4ad876ffe.jpg",
+    "url": "https://floss.social/@mixxx",
+    "note": "<p>Get the party rocking with Mixxx, the top-rated, easy-to-use DJ software that gives you everything you need to perform live mixes. Always completely free!</p>",
+    "domain": "floss.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "audio",
+      "dj",
+      "music"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-or-later"
+    ],
+    "repo": "https://github.com/mixxxdj/mixxx",
+    "web": "https://matrix.org"
   }
 ]

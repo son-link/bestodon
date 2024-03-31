@@ -24,5 +24,31 @@
     ],
     "repo": "https://github.com/stride3d/stride",
     "web": "https://vala.dev/"
+  },
+  {
+    "username": "xenko",
+    "acct": "xenko@mastodon.gamedev.place",
+    "display_name": "Stride",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/716/154/original/2d131b70daa282b6.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/716/154/original/78a1bad65da90f59.jpg",
+    "url": "https://mastodon.gamedev.place/@xenko",
+    "note": "<p>Stride is a modern open-source cross-platform game engine written in c#</p><p><a href=\"https://mastodon.gamedev.place/tags/gameengine\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>gameengine</span></a> <a href=\"https://mastodon.gamedev.place/tags/dotnet\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>dotnet</span></a> <a href=\"https://mastodon.gamedev.place/tags/csharp\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>csharp</span></a> <a href=\"https://mastodon.gamedev.place/tags/opensource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>opensource</span></a></p>",
+    "domain": "mastodon.gamedev.place",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "2d",
+      "3d",
+      "c#",
+      "game_engine",
+      "games"
+    ],
+    "base": null,
+    "licenses": [
+      "MIT"
+    ],
+    "repo": "https://github.com/stride3d/stride",
+    "web": "https://vala.dev/"
   }
 ]

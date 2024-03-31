@@ -20,5 +20,27 @@
     ],
     "repo": "https://github.com/qgis/",
     "web": "https://qgis.org"
+  },
+  {
+    "username": "qgis",
+    "acct": "qgis@fosstodon.org",
+    "display_name": "QGIS",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/267/592/024/955/541/original/d79e3df747a9d81b.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/267/592/024/955/541/original/f245aa18592176a2.png",
+    "url": "https://fosstodon.org/@qgis",
+    "note": "<p>Official account of QGIS - the user friendly Open Source Geographic Information System</p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "geographic"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-only"
+    ],
+    "repo": "https://github.com/qgis/",
+    "web": "https://qgis.org"
   }
 ]

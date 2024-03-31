@@ -20,5 +20,27 @@
     "licenses": null,
     "repo": null,
     "web": null
+  },
+  {
+    "username": "gbstudiocentral",
+    "acct": "gbstudiocentral@pocketpixels.club",
+    "display_name": "GB Studio Central",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/558/504/330/158/815/original/2ce245d679927b89.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/558/504/330/158/815/original/325265e642ee461e.png",
+    "url": "https://pocketpixels.club/@gbstudiocentral",
+    "note": "<p>Official site dedicated to all things GB Studio Dev<br> - the free, open source and easy to use tool for making real Game Boy Games.</p>",
+    "domain": "pocketpixels.club",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "development",
+      "gameboy",
+      "games"
+    ],
+    "base": null,
+    "licenses": null,
+    "repo": null,
+    "web": null
   }
 ]

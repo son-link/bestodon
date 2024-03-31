@@ -1,0 +1,52 @@
+[
+  {
+    "username": "podverse",
+    "acct": "podverse@podcastindex.social",
+    "display_name": "Podverse",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/107/685/744/711/431/563/original/e77026a62d0d7faf.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/107/685/744/711/431/563/original/0e9ffe790137266e.png",
+    "url": "https://podcastindex.social/@podverse",
+    "note": "<p>Open source podcast app for iOS, Android, F-Droid, and web. Proud supporter of Podcasting 2.0 and Podcast Index. <a href=\"https://podcastindex.social/tags/FOSS\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>FOSS</span></a> <a href=\"https://podcastindex.social/tags/V4V\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>V4V</span></a> <a href=\"http://newpodcastapps.com\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">newpodcastapps.com</span><span class=\"invisible\"></span></a></p><p>⚡️:podverse@getalby.com</p>",
+    "domain": "podcastindex.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "podcast",
+      "android",
+      "ios",
+      "web"
+    ],
+    "base": null,
+    "licenses": [
+      "AGPL-3.0-only"
+    ],
+    "repo": "https://github.com/podverse",
+    "web": "https://podverse.fm/"
+  },
+  {
+    "username": "podverse",
+    "acct": "podverse@podcastindex.social",
+    "display_name": "Podverse",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/107/685/744/711/431/563/original/e77026a62d0d7faf.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/107/685/744/711/431/563/original/0e9ffe790137266e.png",
+    "url": "https://podcastindex.social/@podverse",
+    "note": "<p>Open source podcast app for iOS, Android, F-Droid, and web. Proud supporter of Podcasting 2.0 and Podcast Index. <a href=\"https://podcastindex.social/tags/FOSS\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>FOSS</span></a> <a href=\"https://podcastindex.social/tags/V4V\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>V4V</span></a> <a href=\"http://newpodcastapps.com\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">newpodcastapps.com</span><span class=\"invisible\"></span></a></p><p>⚡️:podverse@getalby.com</p>",
+    "domain": "podcastindex.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "podcast",
+      "android",
+      "ios",
+      "web"
+    ],
+    "base": null,
+    "licenses": [
+      "AGPL-3.0-only"
+    ],
+    "repo": "https://github.com/podverse",
+    "web": "https://podverse.fm/"
+  }
+]

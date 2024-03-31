@@ -21,5 +21,28 @@
     ],
     "repo": "https://github.com/KDE/kdenlive",
     "web": "https://kdenlive.org"
+  },
+  {
+    "username": "kdenlive",
+    "acct": "kdenlive@floss.social",
+    "display_name": "Kdenlive",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/137/203/193/899/478/original/c660e73fcd84db2f.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/137/203/193/899/478/original/d2855a80c425efed.jpg",
+    "url": "https://floss.social/@kdenlive",
+    "note": "<p>Free and Open Source video editing program made by the KDE community.</p>",
+    "domain": "floss.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "video",
+      "video_edit"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-3.0-only"
+    ],
+    "repo": "https://github.com/KDE/kdenlive",
+    "web": "https://kdenlive.org"
   }
 ]

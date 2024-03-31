@@ -1,25 +1,51 @@
-#readme h1 { font-size: 2.25rem; line-height: 2.5rem; }
+#readme h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+#readme h1, #readme h2 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+#readme h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+#readme h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+#readme p, #readme ul {
+  margin-bottom: 0.5rem;
+}
+#readme ul {
+  list-style-position: inside;
+  list-style-type: disc;
+  margin-left: 0.5rem;
+}
+#readme a {
+  text-decoration-line: underline;
+}
 
-#readme h1, #readme h2 { margin-bottom: 1rem; margin-top: 1rem; }
+#list .note a {
+  text-decoration-line: underline;
+}
 
-#readme h2 { font-size: 1.875rem; line-height: 2.25rem; }
+.bookmark svg {
+  fill: #737373;
+}
+.bookmark.marked svg {
+  fill: #dc2626;
+}
 
-#readme h3 { font-size: 1.5rem; line-height: 2rem; margin-bottom: 1rem; margin-top: 1rem; }
-
-#readme p, #readme ul { margin-bottom: .5rem; }
-
-#readme ul { list-style-position: inside; list-style-type: disc; margin-left: .5rem; }
-
-#readme a { text-decoration-line: underline; }
-
-#list .note a { text-decoration-line: underline; }
-
-.bookmark svg { fill: #737373; }
-
-.bookmark.marked svg { fill: #dc2626; }
-
-#content { margin-left: 4rem; }
-
-@media (min-width: 1024px) { #content { margin-left: 20%; } }
+#content {
+  margin-left: 4rem;
+}
+@media (min-width: 1024px) {
+  #content {
+    margin-left: 20%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

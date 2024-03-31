@@ -1,0 +1,48 @@
+[
+  {
+    "username": "liblast",
+    "acct": "liblast@mastodon.gamedev.place",
+    "display_name": "Liblast",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/536/713/980/065/033/original/0ec327341b0e6455.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/536/713/980/065/033/original/3afdb88f8327d545.jpg",
+    "url": "https://mastodon.gamedev.place/@liblast",
+    "note": "<p>Liblast is an open-source multiplayer FPS game built with Godot 4 game engine and a fully open-source toolchain.</p>",
+    "domain": "mastodon.gamedev.place",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "3d",
+      "fps"
+    ],
+    "base": null,
+    "licenses": [
+      "MIT"
+    ],
+    "repo": "https://codeberg.org/Liblast/Liblast",
+    "web": "https://libla.st/"
+  },
+  {
+    "username": "liblast",
+    "acct": "liblast@mastodon.gamedev.place",
+    "display_name": "Liblast",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/536/713/980/065/033/original/0ec327341b0e6455.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/536/713/980/065/033/original/3afdb88f8327d545.jpg",
+    "url": "https://mastodon.gamedev.place/@liblast",
+    "note": "<p>Liblast is an open-source multiplayer FPS game built with Godot 4 game engine and a fully open-source toolchain.</p>",
+    "domain": "mastodon.gamedev.place",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "3d",
+      "fps"
+    ],
+    "base": null,
+    "licenses": [
+      "MIT"
+    ],
+    "repo": "https://codeberg.org/Liblast/Liblast",
+    "web": "https://libla.st/"
+  }
+]

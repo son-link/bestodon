@@ -23,5 +23,30 @@
     ],
     "repo": "https://github.com/poliastro/poliastro",
     "web": "https://www.poliastro.space/"
+  },
+  {
+    "username": "poliastro",
+    "acct": "poliastro@fosstodon.org",
+    "display_name": "poliastro",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/325/817/494/716/551/original/4c72d7a340a3920e.jpg",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/325/817/494/716/551/original/31688d7e2941b3e2.jpeg",
+    "url": "https://fosstodon.org/@poliastro",
+    "note": "<p>Python library for interactive Astrodynamics and Orbital Mechanics 🚀</p><p>Toots by <span class=\"h-card\"><a href=\"https://social.juanlu.space/@astrojuanlu\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>astrojuanlu</span></a></span></p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "astrodynamics",
+      "orbital",
+      "python",
+      "space"
+    ],
+    "base": null,
+    "licenses": [
+      "MIT"
+    ],
+    "repo": "https://github.com/poliastro/poliastro",
+    "web": "https://www.poliastro.space/"
   }
 ]

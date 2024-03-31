@@ -75,6 +75,31 @@
     "web": "https://www.minetest.net/"
   },
   {
+    "username": "Minetest",
+    "acct": "Minetest@fosstodon.org",
+    "display_name": "Minetest",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/695/170/original/5d239b6856957ba8.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/695/170/original/473377be23a44cb2.jpg",
+    "url": "https://fosstodon.org/@Minetest",
+    "note": "<p>Official account for Minetest, an open source game engine. Follow for Minetest news and content. Run by <span class=\"h-card\" translate=\"no\"><a href=\"https://fosstodon.org/@rubenwardy\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>rubenwardy</span></a></span>.</p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "3d",
+      "games",
+      "voxel"
+    ],
+    "base": null,
+    "licenses": [
+      "MIT",
+      "CC-BY-SA-3.0"
+    ],
+    "repo": "https://github.com/minetest/minetest",
+    "web": "https://www.minetest.net/"
+  },
+  {
     "username": "veloren",
     "acct": "veloren@floss.social",
     "display_name": "Veloren",

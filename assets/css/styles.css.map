@@ -1,12 +1,1 @@
-{
-	"version": 3,
-	"file": "styles.css",
-	"sources": [
-		"styles.scss"
-	],
-	"sourcesContent": [
-		"#readme{h1{font-size:2.25rem;line-height:2.5rem}h1,h2{margin-bottom:1rem;margin-top:1rem}h2{font-size:1.875rem;line-height:2.25rem}h3{font-size:1.5rem;line-height:2rem;margin-bottom:1rem;margin-top:1rem}p,ul{margin-bottom:.5rem}ul{list-style-position:inside;list-style-type:disc;margin-left:.5rem}a{text-decoration-line:underline}}#list{.note a{text-decoration-line:underline}}.bookmark{svg{fill:#737373}&.marked{svg{fill:#dc2626}}}#content{margin-left:4rem;@media (min-width:1024px){margin-left:20%}}"
-	],
-	"names": [],
-	"mappings": "AAAA,AAAQ,OAAD,CAAC,EAAE,CAAA,EAAC,SAAS,EAAC,OAAO,EAAC,WAAW,EAAC,MAAM,GAAE;;AAAjD,AAAgD,OAAzC,CAAyC,EAAE,EAAlD,OAAO,CAA4C,EAAE,CAAA,EAAC,aAAa,EAAC,IAAI,EAAC,UAAU,EAAC,IAAI,GAAE;;AAA1F,AAAyF,OAAlF,CAAkF,EAAE,CAAA,EAAC,SAAS,EAAC,QAAQ,EAAC,WAAW,EAAC,OAAO,GAAE;;AAApI,AAAmI,OAA5H,CAA4H,EAAE,CAAA,EAAC,SAAS,EAAC,MAAM,EAAC,WAAW,EAAC,IAAI,EAAC,aAAa,EAAC,IAAI,EAAC,UAAU,EAAC,IAAI,GAAE;;AAA5M,AAA2M,OAApM,CAAoM,CAAC,EAA5M,OAAO,CAAsM,EAAE,CAAA,EAAC,aAAa,EAAC,KAAK,GAAE;;AAArO,AAAoO,OAA7N,CAA6N,EAAE,CAAA,EAAC,mBAAmB,EAAC,MAAM,EAAC,eAAe,EAAC,IAAI,EAAC,WAAW,EAAC,KAAK,GAAE;;AAA1S,AAAyS,OAAlS,CAAkS,CAAC,CAAA,EAAC,oBAAoB,EAAC,SAAS,GAAE;;AAAA,AAAM,KAAD,CAAC,KAAK,CAAC,CAAC,CAAA,EAAC,oBAAoB,EAAC,SAAS,GAAE;;AAAA,AAAU,SAAD,CAAC,GAAG,CAAA,EAAC,IAAI,EAAC,OAAO,GAAE;;AAA5B,AAAoC,SAA3B,AAAmB,OAAO,CAAC,GAAG,CAAA,EAAC,IAAI,EAAC,OAAO,GAAE;;AAAC,AAAA,QAAQ,CAAA,EAAC,WAAW,EAAC,IAAI,GAA6C;;AAA5C,MAAM,oBAAhC,GAAA,AAAA,QAAQ,CAAA,EAA4C,WAAW,EAAC,GAAG,GAAG,EAAD"
-}
+{"version":3,"sourceRoot":"","sources":["styles.scss"],"names":[],"mappings":"AAAQ;EAAG;EAAkB;;AAAmB;EAAM;EAAmB;;AAAgB;EAAG;EAAmB;;AAAoB;EAAG;EAAiB;EAAiB;EAAmB;;AAAgB;EAAK;;AAAoB;EAAG;EAA2B;EAAqB;;AAAkB;EAAE;;;AAAsC;EAAQ;;;AAA0C;EAAI;;AAAsB;EAAI;;;AAAe;EAAS;;AAAiB;EAA1B;IAAoD","sourcesContent":["#readme{h1{font-size:2.25rem;line-height:2.5rem}h1,h2{margin-bottom:1rem;margin-top:1rem}h2{font-size:1.875rem;line-height:2.25rem}h3{font-size:1.5rem;line-height:2rem;margin-bottom:1rem;margin-top:1rem}p,ul{margin-bottom:.5rem}ul{list-style-position:inside;list-style-type:disc;margin-left:.5rem}a{text-decoration-line:underline}}#list{.note a{text-decoration-line:underline}}.bookmark{svg{fill:#737373}&.marked{svg{fill:#dc2626}}}#content{margin-left:4rem;@media (min-width:1024px){margin-left:20%}}"],"file":"styles.css"}

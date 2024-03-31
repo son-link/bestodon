@@ -3,10 +3,34 @@
     "username": "thunderbird",
     "acct": "thunderbird@mastodon.online",
     "display_name": "Thunderbird: Free Your Inbox",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/108/194/863/260/762/493/original/38478d6273244988.jpg",
-    "header": "https://files.mastodon.social/cache/accounts/headers/108/194/863/260/762/493/original/5284ac1323f831ed.jpg",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/108/194/863/260/762/493/original/c1eb9319db8c50a7.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/108/194/863/260/762/493/original/3863a31c504ed172.png",
     "url": "https://mastodon.online/@thunderbird",
-    "note": "<p>Your all-in-one communications command center that puts YOU in control, not a corporation. Manage multiple email accounts, calendars, tasks, RSS feeds and newsgroups. </p><p><a href=\"https://mastodon.online/tags/OpenSource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>OpenSource</span></a> and respectful of your privacy.</p><p>What's New In v115: <a href=\"https://mzla.link/whatsnew115\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/whatsnew115</span><span class=\"invisible\"></span></a></p><p>Donate to Thunderbird here: <a href=\"https://mzla.link/eoy23_masto\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/eoy23_masto</span><span class=\"invisible\"></span></a></p><p>Get involved with Thunderbird here: <a href=\"https://mzla.link/3Ur3BXu\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/3Ur3BXu</span><span class=\"invisible\"></span></a></p><p>Get help with Thunderbird here: <a href=\"https://mzla.link/thunderbirdhelp\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/thunderbirdhelp</span><span class=\"invisible\"></span></a></p>",
+    "note": "<p>FREE YOUR INBOX! Thunderbird is your all-in-one communications command center that puts YOU in control. Manage all your email accounts separately or in a unified inbox. Filter, customize, and organize the way you like. Thunderbird simply makes your life simpler.</p><p>What's New In v115: <a href=\"https://mzla.link/whatsnew115\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/whatsnew115</span><span class=\"invisible\"></span></a></p>",
+    "domain": "mastodon.online",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "calendar",
+      "email",
+      "tasks"
+    ],
+    "base": null,
+    "licenses": [
+      "MPL-2.0"
+    ],
+    "repo": "https://hg.mozilla.org/comm-central",
+    "web": "https://www.thunderbird.net"
+  },
+  {
+    "username": "thunderbird",
+    "acct": "thunderbird@mastodon.online",
+    "display_name": "Thunderbird: Free Your Inbox",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/108/194/863/260/762/493/original/c1eb9319db8c50a7.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/108/194/863/260/762/493/original/3863a31c504ed172.png",
+    "url": "https://mastodon.online/@thunderbird",
+    "note": "<p>FREE YOUR INBOX! Thunderbird is your all-in-one communications command center that puts YOU in control. Manage all your email accounts separately or in a unified inbox. Filter, customize, and organize the way you like. Thunderbird simply makes your life simpler.</p><p>What's New In v115: <a href=\"https://mzla.link/whatsnew115\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mzla.link/whatsnew115</span><span class=\"invisible\"></span></a></p>",
     "domain": "mastodon.online",
     "langs": [
       "en"

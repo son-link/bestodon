@@ -114,5 +114,28 @@
     ],
     "repo": "https://github.com/KDE/krita",
     "web": "https://krita.org"
+  },
+  {
+    "username": "krita",
+    "acct": "krita@mastodon.art",
+    "display_name": "Krita",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/298/954/original/9487a468859d23a5.jpg",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/298/954/original/9dd34247e4f55378.png",
+    "url": "https://mastodon.art/@Krita",
+    "note": "<p>Free and open source painting software. Get it at krita.org  (Linux, Windows, OSX or Android) and talk with other users and devs in the <a href=\"https://mastodon.art/tags/krita\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>krita</span></a> channel on libera.chat!</p>",
+    "domain": "mastodon.art",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "image",
+      "image_editor"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-3.0-only"
+    ],
+    "repo": "https://github.com/KDE/krita",
+    "web": "https://krita.org"
   }
 ]

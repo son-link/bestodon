@@ -25,13 +25,64 @@
     "web": "https://gdevelop.io"
   },
   {
+    "username": "gdevelop",
+    "acct": "gdevelop@mastodon.gamedev.place",
+    "display_name": "GDevelop",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/282/232/281/178/165/original/4c6491d2b2624fe1.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/282/232/281/178/165/original/79e084fa7a95dbb5.jpg",
+    "url": "https://mastodon.gamedev.place/@gdevelop",
+    "note": "<p>An open-source, cross-platform game engine designed for everyone - extensible, fast and easy to learn <a href=\"https://mastodon.gamedev.place/tags/nocode\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>nocode</span></a> 🎮</p>",
+    "domain": "mastodon.gamedev.place",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "2d",
+      "3d",
+      "game_engine",
+      "games"
+    ],
+    "base": null,
+    "licenses": [
+      "MIT"
+    ],
+    "repo": "https://github.com/4ian/GDevelop",
+    "web": "https://gdevelop.io"
+  },
+  {
     "username": "godotengine",
     "acct": "godotengine@mastodon.gamedev.place",
     "display_name": "Godot Engine :godot:",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/237/886/original/4eda734b2cfbf291.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/000/237/886/original/c8ef336ce5ea7d46.png",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/237/886/original/1546392a31854f3c.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/237/886/original/a57e27a138ac3bfa.png",
     "url": "https://mastodon.gamedev.place/@godotengine",
-    "note": "<p>Advanced, feature-packed, multi-platform 2D and 3D open source game engine. It is developed by hundreds of contributors from all around the world!</p>",
+    "note": "<p>Your free, open-source game engine 🎮🛠️</p><p>Develop your 2D &amp; 3D games, cross-platform projects, or even XR ideas!</p>",
+    "domain": "mastodon.gamedev.place",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "2d",
+      "3d",
+      "development",
+      "game_engine",
+      "games"
+    ],
+    "base": null,
+    "licenses": [
+      "MIT"
+    ],
+    "repo": "https://github.com/godotengine/godot",
+    "web": "https://godotengine.org/"
+  },
+  {
+    "username": "godotengine",
+    "acct": "godotengine@mastodon.gamedev.place",
+    "display_name": "Godot Engine :godot:",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/237/886/original/1546392a31854f3c.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/237/886/original/a57e27a138ac3bfa.png",
+    "url": "https://mastodon.gamedev.place/@godotengine",
+    "note": "<p>Your free, open-source game engine 🎮🛠️</p><p>Develop your 2D &amp; 3D games, cross-platform projects, or even XR ideas!</p>",
     "domain": "mastodon.gamedev.place",
     "langs": [
       "en"
@@ -74,6 +125,77 @@
     ],
     "repo": "https://github.com/ioquake/ioq3/",
     "web": "https://ioquake3.org/"
+  },
+  {
+    "username": "ioquake3",
+    "acct": "ioquake3@mastodon.social",
+    "display_name": "ioquake3",
+    "avatar": "https://files.mastodon.social/accounts/avatars/109/888/640/764/715/490/original/c4db1f999fdb6f7f.jpeg",
+    "header": "https://files.mastodon.social/accounts/headers/109/888/640/764/715/490/original/7798a29ea497a80a.jpeg",
+    "url": "https://mastodon.social/@ioquake3",
+    "note": "<p>free software FPS engine. Play Quake 3, make new games, run servers. Have fun!</p>",
+    "domain": "mastodon.social",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "3d",
+      "development",
+      "game_engine",
+      "games"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-only"
+    ],
+    "repo": "https://github.com/ioquake/ioq3/",
+    "web": "https://ioquake3.org/"
+  },
+  {
+    "username": "liblast",
+    "acct": "liblast@mastodon.gamedev.place",
+    "display_name": "Liblast",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/536/713/980/065/033/original/0ec327341b0e6455.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/536/713/980/065/033/original/3afdb88f8327d545.jpg",
+    "url": "https://mastodon.gamedev.place/@liblast",
+    "note": "<p>Liblast is an open-source multiplayer FPS game built with Godot 4 game engine and a fully open-source toolchain.</p>",
+    "domain": "mastodon.gamedev.place",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "3d",
+      "fps"
+    ],
+    "base": null,
+    "licenses": [
+      "MIT"
+    ],
+    "repo": "https://codeberg.org/Liblast/Liblast",
+    "web": "https://libla.st/"
+  },
+  {
+    "username": "liblast",
+    "acct": "liblast@mastodon.gamedev.place",
+    "display_name": "Liblast",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/536/713/980/065/033/original/0ec327341b0e6455.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/536/713/980/065/033/original/3afdb88f8327d545.jpg",
+    "url": "https://mastodon.gamedev.place/@liblast",
+    "note": "<p>Liblast is an open-source multiplayer FPS game built with Godot 4 game engine and a fully open-source toolchain.</p>",
+    "domain": "mastodon.gamedev.place",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "3d",
+      "fps"
+    ],
+    "base": null,
+    "licenses": [
+      "MIT"
+    ],
+    "repo": "https://codeberg.org/Liblast/Liblast",
+    "web": "https://libla.st/"
   },
   {
     "username": "MineClone2",
@@ -151,6 +273,31 @@
     "web": "https://www.minetest.net/"
   },
   {
+    "username": "Minetest",
+    "acct": "Minetest@fosstodon.org",
+    "display_name": "Minetest",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/695/170/original/5d239b6856957ba8.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/695/170/original/473377be23a44cb2.jpg",
+    "url": "https://fosstodon.org/@Minetest",
+    "note": "<p>Official account for Minetest, an open source game engine. Follow for Minetest news and content. Run by <span class=\"h-card\" translate=\"no\"><a href=\"https://fosstodon.org/@rubenwardy\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>rubenwardy</span></a></span>.</p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "3d",
+      "games",
+      "voxel"
+    ],
+    "base": null,
+    "licenses": [
+      "MIT",
+      "CC-BY-SA-3.0"
+    ],
+    "repo": "https://github.com/minetest/minetest",
+    "web": "https://www.minetest.net/"
+  },
+  {
     "username": "speed_dreams_official",
     "acct": "speed_dreams_official@mastodon.social",
     "display_name": "Speed Dreams",
@@ -197,6 +344,32 @@
     ],
     "repo": "https://sourceforge.net/projects/speed-dreams",
     "web": "https://www.speed-dreams.net"
+  },
+  {
+    "username": "xenko",
+    "acct": "xenko@mastodon.gamedev.place",
+    "display_name": "Stride",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/716/154/original/2d131b70daa282b6.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/716/154/original/78a1bad65da90f59.jpg",
+    "url": "https://mastodon.gamedev.place/@xenko",
+    "note": "<p>Stride is a modern open-source cross-platform game engine written in c#</p><p><a href=\"https://mastodon.gamedev.place/tags/gameengine\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>gameengine</span></a> <a href=\"https://mastodon.gamedev.place/tags/dotnet\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>dotnet</span></a> <a href=\"https://mastodon.gamedev.place/tags/csharp\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>csharp</span></a> <a href=\"https://mastodon.gamedev.place/tags/opensource\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>opensource</span></a></p>",
+    "domain": "mastodon.gamedev.place",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "2d",
+      "3d",
+      "c#",
+      "game_engine",
+      "games"
+    ],
+    "base": null,
+    "licenses": [
+      "MIT"
+    ],
+    "repo": "https://github.com/stride3d/stride",
+    "web": "https://vala.dev/"
   },
   {
     "username": "xenko",

@@ -1,0 +1,48 @@
+[
+  {
+    "username": "DOSBox_Staging",
+    "acct": "DOSBox_Staging@corteximplant.com",
+    "display_name": "DOSBox Staging",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/110/254/237/673/118/502/original/b3ce793fc8afceec.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/110/254/237/673/118/502/original/21707f2194627487.png",
+    "url": "https://corteximplant.com/@DOSBox_Staging",
+    "note": "<p>DOSBox Staging is a modern continuation of DOSBox with advanced features and current development practices.</p>",
+    "domain": "corteximplant.com",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "emulation",
+      "msdos"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-or-later"
+    ],
+    "repo": "https://github.com/dosbox-staging/dosbox-staging",
+    "web": "https://dosbox-staging.github.io/"
+  },
+  {
+    "username": "DOSBox_Staging",
+    "acct": "DOSBox_Staging@corteximplant.com",
+    "display_name": "DOSBox Staging",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/110/254/237/673/118/502/original/b3ce793fc8afceec.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/110/254/237/673/118/502/original/21707f2194627487.png",
+    "url": "https://corteximplant.com/@DOSBox_Staging",
+    "note": "<p>DOSBox Staging is a modern continuation of DOSBox with advanced features and current development practices.</p>",
+    "domain": "corteximplant.com",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "emulation",
+      "msdos"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-or-later"
+    ],
+    "repo": "https://github.com/dosbox-staging/dosbox-staging",
+    "web": "https://dosbox-staging.github.io/"
+  }
+]
