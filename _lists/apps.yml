@@ -59,16 +59,6 @@
     - GPL-3.0-or-later
     - CC-BY-3.0
     - CC-BY-4.0
-- acct: FirefoxNightly@mozilla.social
-  langs:
-    - en
-  tags:
-    - internet
-    - browser
-  web: https://nightly.mozilla.org/
-  repo: https://hg.mozilla.org/mozilla-central
-  licenses:
-    - MPL-2.0
 - acct: FlatpakApps@fosstodon.org
   langs:
     - en
@@ -368,6 +358,18 @@
   repo: https://gitlab.torproject.org/tpo
   licenses:
     - many
+- acct: Tuba@floss.social
+  langs:
+    - en
+  tags:
+    - internet
+    - fediverse
+    - mastodon
+    - pixelfed
+  web: https://tuba.geopjr.dev/
+  repo: https://github.com/GeopJr/Tuba
+  licenses:
+    - GPL-3.0-only
 - acct: usebottles@mastodon.online
   langs:
     - en
