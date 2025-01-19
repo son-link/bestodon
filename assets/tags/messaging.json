@@ -6,29 +6,7 @@
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/001/206/106/original/45e631b9d1ff243e.jpg",
     "header": "https://mastodon.social/headers/original/missing.png",
     "url": "https://fosstodon.org/@briar",
-    "note": "<p>Our goal is to enable people in any country to create safe spaces where they can debate any topic, plan events, and organise social movements.<br><a href=\"https://briarproject.org/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">briarproject.org/</span><span class=\"invisible\"></span></a></p><p>(not-yet-official account. On the request if Briar likes to join the fediverse, the response was: Time is rare, but go for it)</p>",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "messaging"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-3.0-only"
-    ],
-    "repo": "https://code.briarproject.org/briar/briar",
-    "web": "https://briarproject.org/"
-  },
-  {
-    "username": "briar",
-    "acct": "briar@fosstodon.org",
-    "display_name": "Briar Project",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/001/206/106/original/45e631b9d1ff243e.jpg",
-    "header": "https://mastodon.social/headers/original/missing.png",
-    "url": "https://fosstodon.org/@briar",
-    "note": "<p>Our goal is to enable people in any country to create safe spaces where they can debate any topic, plan events, and organise social movements.<br><a href=\"https://briarproject.org/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">briarproject.org/</span><span class=\"invisible\"></span></a></p><p>(not-yet-official account. On the request if Briar likes to join the fediverse, the response was: Time is rare, but go for it)</p>",
+    "note": "<p>Our goal is to enable people in any country to create safe spaces where they can debate any topic, plan events, and organise social movements.<br><a href=\"https://briarproject.org/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">briarproject.org/</span><span class=\"invisible\"></span></a></p><p>(not-yet-official account. On the request if Briar likes to join the fediverse, the response was: Time is rare, but go for it)</p>",
     "domain": "fosstodon.org",
     "langs": [
       "en"

@@ -22,29 +22,5 @@
     ],
     "repo": "https://github.com/mixxxdj/mixxx",
     "web": "https://matrix.org"
-  },
-  {
-    "username": "mixxx",
-    "acct": "mixxx@floss.social",
-    "display_name": "Mixxx DJ Software",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/638/561/556/031/087/original/4983b30709c93af7.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/638/561/556/031/087/original/f2cc59e4ad876ffe.jpg",
-    "url": "https://floss.social/@mixxx",
-    "note": "<p>Get the party rocking with Mixxx, the top-rated, easy-to-use DJ software that gives you everything you need to perform live mixes. Always completely free!</p>",
-    "domain": "floss.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "audio",
-      "dj",
-      "music"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-2.0-or-later"
-    ],
-    "repo": "https://github.com/mixxxdj/mixxx",
-    "web": "https://matrix.org"
   }
 ]

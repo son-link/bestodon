@@ -23,33 +23,33 @@
     "web": "https://freedesktop.org"
   },
   {
-    "username": "XOrgFoundation",
-    "acct": "XOrgFoundation@floss.social",
-    "display_name": "freedesktop.org",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/110/173/605/614/026/723/original/90252f9caa0846c8.png",
-    "header": "https://mastodon.social/headers/original/missing.png",
-    "url": "https://floss.social/@XOrgFoundation",
-    "note": "<p>Home of the free desktop: XDG, Wayland, Mesa, PipeWire, and more. Front for the X.Org Foundation. they/them. 🐧</p>",
+    "username": "gnome",
+    "acct": "gnome@floss.social",
+    "display_name": "GNOME",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/387/544/original/edbfcfbd2c4ab2f0.jpg",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/387/544/original/c591dcb56c4e99ff.jpg",
+    "url": "https://floss.social/@gnome",
+    "note": "<p>GNOME is a free and open-source software environment project supported by a non-profit foundation. Together, the community of contributors and the Foundation create a computing platform and software ecosystem, composed entirely of free software, that is designed to be elegant, efficient, and easy to use.</p>",
     "domain": "floss.social",
     "langs": [
       "en"
     ],
     "tags": [
-      "linux",
-      "desktop"
+      "desktop",
+      "gnome"
     ],
     "base": null,
     "licenses": [
-      "many"
+      "GPL-2.0-or-later"
     ],
-    "repo": "https://cgit.freedesktop.org/",
-    "web": "https://freedesktop.org"
+    "repo": "https://gitlab.gnome.org/GNOME/",
+    "web": "https://gitlab.gnome.org/GNOME/gimp"
   },
   {
     "username": "gnome",
     "acct": "gnome@floss.social",
     "display_name": "GNOME",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/387/544/original/06299f83e816cf6f.jpg",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/387/544/original/edbfcfbd2c4ab2f0.jpg",
     "header": "https://files.mastodon.social/cache/accounts/headers/000/387/544/original/c591dcb56c4e99ff.jpg",
     "url": "https://floss.social/@gnome",
     "note": "<p>GNOME is a free and open-source software environment project supported by a non-profit foundation. Together, the community of contributors and the Foundation create a computing platform and software ecosystem, composed entirely of free software, that is designed to be elegant, efficient, and easy to use.</p>",
@@ -72,30 +72,8 @@
     "username": "kde",
     "acct": "kde@floss.social",
     "display_name": "KDE",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/134/754/242/834/542/original/2583813a6211af71.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/134/754/242/834/542/original/92a4e385ac66e51f.jpg",
-    "url": "https://floss.social/@kde",
-    "note": "<p>A worldwide technology community 🌍 Creators of the Plasma desktop &amp; a variety of Free and open source applications that let you control your digital life.</p>",
-    "domain": "floss.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "desktop"
-    ],
-    "base": null,
-    "licenses": [
-      "many"
-    ],
-    "repo": "https://github.com/KDE",
-    "web": "https://kde.org"
-  },
-  {
-    "username": "kde",
-    "acct": "kde@floss.social",
-    "display_name": "KDE",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/134/754/242/834/542/original/2583813a6211af71.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/134/754/242/834/542/original/92a4e385ac66e51f.jpg",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/134/754/242/834/542/original/4afa197754d9d14a.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/134/754/242/834/542/original/a93b0b6422295302.png",
     "url": "https://floss.social/@kde",
     "note": "<p>A worldwide technology community 🌍 Creators of the Plasma desktop &amp; a variety of Free and open source applications that let you control your digital life.</p>",
     "domain": "floss.social",
@@ -117,7 +95,7 @@
     "acct": "kde_espana@floss.social",
     "display_name": "KDE España",
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/144/461/156/338/805/original/8fdfb24573360f61.jpg",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/144/461/156/338/805/original/5ff2cb0db923d0c5.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/144/461/156/338/805/original/bd80077c011ce3b5.png",
     "url": "https://floss.social/@kde_espana",
     "note": "<p>KDE España es una asociación que está formada por un grupo de personas que desarrollan y contribuyen al proyecto KDE con la intención de dinamizar el desarrollo y uso del entorno del escritorio KDE en particular y el software libre en general</p>",
     "domain": "floss.social",
@@ -139,7 +117,7 @@
     "acct": "kde_espana@floss.social",
     "display_name": "KDE España",
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/144/461/156/338/805/original/8fdfb24573360f61.jpg",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/144/461/156/338/805/original/5ff2cb0db923d0c5.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/144/461/156/338/805/original/bd80077c011ce3b5.png",
     "url": "https://floss.social/@kde_espana",
     "note": "<p>KDE España es una asociación que está formada por un grupo de personas que desarrollan y contribuyen al proyecto KDE con la intención de dinamizar el desarrollo y uso del entorno del escritorio KDE en particular y el software libre en general</p>",
     "domain": "floss.social",
@@ -155,28 +133,6 @@
     "licenses": null,
     "repo": null,
     "web": null
-  },
-  {
-    "username": "LXQt",
-    "acct": "LXQt@mastodon.social",
-    "display_name": "LXQt-Project",
-    "avatar": "https://files.mastodon.social/accounts/avatars/107/050/683/118/244/003/original/46fc9f7f729ce148.png",
-    "header": "https://files.mastodon.social/accounts/headers/107/050/683/118/244/003/original/f691c03199b1d1fc.png",
-    "url": "https://mastodon.social/@LXQt",
-    "note": "<p>The lightweight and modular Desktop Environment based on Qt</p>",
-    "domain": "mastodon.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "desktop"
-    ],
-    "base": null,
-    "licenses": [
-      "LGPL-2.1"
-    ],
-    "repo": "https://github.com/lxqt",
-    "web": "https://lxqt-project.org"
   },
   {
     "username": "LXQt",

@@ -6,31 +6,7 @@
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/110/383/345/687/152/615/original/b827fa8319d5a867.png",
     "header": "https://mastodon.social/headers/original/missing.png",
     "url": "https://kde.social/@neochat",
-    "note": "<p>NeoChat is a friendly Matrix client, the decentralized communication protocol for instant messaging. It's developed with love by the <span class=\"h-card\" translate=\"no\"><a href=\"https://floss.social/@kde\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>kde</span></a></span> community and supports most of the Matrix specification.</p>",
-    "domain": "kde.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "instant_messaging",
-      "chat",
-      "windows"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-3.0-only"
-    ],
-    "repo": "https://invent.kde.org/network/neochat",
-    "web": "https://apps.kde.org/es/neochat/"
-  },
-  {
-    "username": "neochat",
-    "acct": "neochat@kde.social",
-    "display_name": "NeoChat",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/110/383/345/687/152/615/original/b827fa8319d5a867.png",
-    "header": "https://mastodon.social/headers/original/missing.png",
-    "url": "https://kde.social/@neochat",
-    "note": "<p>NeoChat is a friendly Matrix client, the decentralized communication protocol for instant messaging. It's developed with love by the <span class=\"h-card\" translate=\"no\"><a href=\"https://floss.social/@kde\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>kde</span></a></span> community and supports most of the Matrix specification.</p>",
+    "note": "<p>NeoChat is a friendly Matrix client, the decentralized communication protocol for instant messaging. It's developed with love by the <span class=\"h-card\" translate=\"no\"><a href=\"https://floss.social/@kde\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>kde</span></a></span> community and supports most of the Matrix specification.</p>",
     "domain": "kde.social",
     "langs": [
       "en"

@@ -3,31 +3,8 @@
     "username": "torproject",
     "acct": "torproject@mastodon.social",
     "display_name": "The Tor Project",
-    "avatar": "https://files.mastodon.social/accounts/avatars/000/039/583/original/6376546e99fa00ad.png",
-    "header": "https://files.mastodon.social/accounts/headers/000/039/583/original/06382ab6dfa3f739.png",
-    "url": "https://mastodon.social/@torproject",
-    "note": "<p>We advance human rights and defend your privacy online through free software and open networks.</p>",
-    "domain": "mastodon.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "internet",
-      "security"
-    ],
-    "base": null,
-    "licenses": [
-      "many"
-    ],
-    "repo": "https://gitlab.torproject.org/tpo",
-    "web": "https://torproject.org/"
-  },
-  {
-    "username": "torproject",
-    "acct": "torproject@mastodon.social",
-    "display_name": "The Tor Project",
-    "avatar": "https://files.mastodon.social/accounts/avatars/000/039/583/original/6376546e99fa00ad.png",
-    "header": "https://files.mastodon.social/accounts/headers/000/039/583/original/06382ab6dfa3f739.png",
+    "avatar": "https://files.mastodon.social/accounts/avatars/000/039/583/original/ef7fd1984e4e2144.png",
+    "header": "https://files.mastodon.social/accounts/headers/000/039/583/original/ed591a94606baee0.png",
     "url": "https://mastodon.social/@torproject",
     "note": "<p>We advance human rights and defend your privacy online through free software and open networks.</p>",
     "domain": "mastodon.social",

@@ -2,34 +2,11 @@
   {
     "username": "circuitpython",
     "acct": "circuitpython@fosstodon.org",
-    "display_name": "circuitpython",
+    "display_name": "CircuitPython",
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/319/729/051/544/580/original/947067194df189d0.png",
     "header": "https://files.mastodon.social/cache/accounts/headers/109/319/729/051/544/580/original/f1a276d070576b97.jpg",
     "url": "https://fosstodon.org/@circuitpython",
-    "note": "<p>CircuitPython is a version of Python for microcontrollers.<br><a href=\"https://circuitpython.org/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">circuitpython.org/</span><span class=\"invisible\"></span></a><br><a href=\"https://adafruit.com/circuitpython\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">adafruit.com/circuitpython</span><span class=\"invisible\"></span></a><br><a href=\"https://github.com/adafruit/circuitpython\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/adafruit/circuitpyt</span><span class=\"invisible\">hon</span></a></p>",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "microcontrollers",
-      "python"
-    ],
-    "base": null,
-    "licenses": [
-      "MIT"
-    ],
-    "repo": "https://github.com/adafruit/Adafruit_CircuitPython_Dash_Display",
-    "web": "https://circuitpython.org"
-  },
-  {
-    "username": "circuitpython",
-    "acct": "circuitpython@fosstodon.org",
-    "display_name": "circuitpython",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/319/729/051/544/580/original/947067194df189d0.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/319/729/051/544/580/original/f1a276d070576b97.jpg",
-    "url": "https://fosstodon.org/@circuitpython",
-    "note": "<p>CircuitPython is a version of Python for microcontrollers.<br><a href=\"https://circuitpython.org/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">circuitpython.org/</span><span class=\"invisible\"></span></a><br><a href=\"https://adafruit.com/circuitpython\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">adafruit.com/circuitpython</span><span class=\"invisible\"></span></a><br><a href=\"https://github.com/adafruit/circuitpython\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/adafruit/circuitpyt</span><span class=\"invisible\">hon</span></a></p>",
+    "note": "<p>CircuitPython is a version of Python for microcontrollers.<br>Help: <a href=\"https://adafru.it/discord\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">adafru.it/discord</span><span class=\"invisible\"></span></a><br>Info: <a href=\"https://circuitpython.org/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">circuitpython.org/</span><span class=\"invisible\"></span></a><br><a href=\"https://adafruit.com/circuitpython\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">adafruit.com/circuitpython</span><span class=\"invisible\"></span></a><br><a href=\"https://github.com/adafruit/circuitpython\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/adafruit/circuitpyt</span><span class=\"invisible\">hon</span></a></p>",
     "domain": "fosstodon.org",
     "langs": [
       "en"
@@ -52,32 +29,7 @@
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/325/817/494/716/551/original/4c72d7a340a3920e.jpg",
     "header": "https://files.mastodon.social/cache/accounts/headers/109/325/817/494/716/551/original/31688d7e2941b3e2.jpeg",
     "url": "https://fosstodon.org/@poliastro",
-    "note": "<p>Python library for interactive Astrodynamics and Orbital Mechanics 🚀</p><p>Toots by <span class=\"h-card\"><a href=\"https://social.juanlu.space/@astrojuanlu\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>astrojuanlu</span></a></span></p>",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "astrodynamics",
-      "orbital",
-      "python",
-      "space"
-    ],
-    "base": null,
-    "licenses": [
-      "MIT"
-    ],
-    "repo": "https://github.com/poliastro/poliastro",
-    "web": "https://www.poliastro.space/"
-  },
-  {
-    "username": "poliastro",
-    "acct": "poliastro@fosstodon.org",
-    "display_name": "poliastro",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/325/817/494/716/551/original/4c72d7a340a3920e.jpg",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/325/817/494/716/551/original/31688d7e2941b3e2.jpeg",
-    "url": "https://fosstodon.org/@poliastro",
-    "note": "<p>Python library for interactive Astrodynamics and Orbital Mechanics 🚀</p><p>Toots by <span class=\"h-card\"><a href=\"https://social.juanlu.space/@astrojuanlu\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>astrojuanlu</span></a></span></p>",
+    "note": "<p>Python library for interactive Astrodynamics and Orbital Mechanics 🚀</p><p>Toots by <span class=\"h-card\" translate=\"no\"><a href=\"https://social.juanlu.space/@astrojuanlu\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>astrojuanlu</span></a></span></p>",
     "domain": "fosstodon.org",
     "langs": [
       "en"
@@ -102,7 +54,7 @@
     "avatar": "https://files.mastodon.social/accounts/avatars/109/250/551/580/459/644/original/c97de4a9cd89369f.png",
     "header": "https://files.mastodon.social/accounts/headers/109/250/551/580/459/644/original/ce0b1fc3b7eca34b.png",
     "url": "https://mastodon.social/@pygame",
-    "note": "<p>For making ga🌈mes, fart animations &amp; robot controllers.  I&#39;ve had this joypad in my mouth for twenty two years.  Someone please fix my eyes. Us/them.</p>",
+    "note": "<p>For making games, fart animations &amp; robot controllers.  I&#39;ve had this joypad in my mouth for twenty four years.  Someone please fix my eyes. Us/them.</p>",
     "domain": "mastodon.social",
     "langs": [
       "en"
@@ -127,7 +79,7 @@
     "avatar": "https://files.mastodon.social/accounts/avatars/109/250/551/580/459/644/original/c97de4a9cd89369f.png",
     "header": "https://files.mastodon.social/accounts/headers/109/250/551/580/459/644/original/ce0b1fc3b7eca34b.png",
     "url": "https://mastodon.social/@pygame",
-    "note": "<p>For making ga🌈mes, fart animations &amp; robot controllers.  I&#39;ve had this joypad in my mouth for twenty two years.  Someone please fix my eyes. Us/them.</p>",
+    "note": "<p>For making games, fart animations &amp; robot controllers.  I&#39;ve had this joypad in my mouth for twenty four years.  Someone please fix my eyes. Us/them.</p>",
     "domain": "mastodon.social",
     "langs": [
       "en"

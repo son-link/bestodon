@@ -6,7 +6,7 @@
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/001/370/866/original/671d11294692001b.png",
     "header": "https://files.mastodon.social/cache/accounts/headers/001/370/866/original/e300d551af2caa7e.png",
     "url": "https://fosstodon.org/@gajim",
-    "note": "<p>Gajim is a fully-featured XMPP chat client.</p><p><a href=\"https://fosstodon.org/tags/chat\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>chat</span></a> <a href=\"https://fosstodon.org/tags/xmpp\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>xmpp</span></a> <a href=\"https://fosstodon.org/tags/gajim\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>gajim</span></a></p><p>Please join <a href=\"xmpp:gajim@conference.gajim.org?join\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">xmpp:</span><span class=\"ellipsis\">gajim@conference.gajim.org?joi</span><span class=\"invisible\">n</span></a> for support.</p>",
+    "note": "<p>Gajim is a fully-featured XMPP chat client.</p><p><a href=\"https://fosstodon.org/tags/chat\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>chat</span></a> <a href=\"https://fosstodon.org/tags/xmpp\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>xmpp</span></a> <a href=\"https://fosstodon.org/tags/gajim\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>gajim</span></a></p><p>Please join <a href=\"xmpp:gajim@conference.gajim.org?join\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">xmpp:</span><span class=\"ellipsis\">gajim@conference.gajim.org?joi</span><span class=\"invisible\">n</span></a> for support.</p><p>If you like to support Gajim, please consider making a donation: <a href=\"https://liberapay.com/Gajim\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">liberapay.com/Gajim</span><span class=\"invisible\"></span></a></p>",
     "domain": "fosstodon.org",
     "langs": [
       "en"
@@ -27,10 +27,35 @@
     "username": "Jami",
     "acct": "Jami@mstdn.io",
     "display_name": "Jami",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/659/383/original/42f6b19f369e3ed2.png",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/659/383/original/1f46890c8b06d84b.png",
     "header": "https://files.mastodon.social/cache/accounts/headers/000/659/383/original/3238b7dc7d805a88.png",
     "url": "https://mstdn.io/@Jami",
-    "note": "<p>The distributed universal and secure Free Software for multimedia communications by Savoir-faire Linux and the GNU community.<br>Download Jami on <a href=\"https://jami.net\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">jami.net</span><span class=\"invisible\"></span></a></p>",
+    "note": "<p>The distributed universal and secure Free Software for multimedia communications by Savoir-faire Linux and the GNU community.</p>",
+    "domain": "mstdn.io",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "calls",
+      "instant_messaging",
+      "video_calls",
+      "conferences"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-3.0-or-later"
+    ],
+    "repo": "https://git.jami.net/savoirfairelinux",
+    "web": "https://jami.net"
+  },
+  {
+    "username": "Jami",
+    "acct": "Jami@mstdn.io",
+    "display_name": "Jami",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/659/383/original/1f46890c8b06d84b.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/659/383/original/3238b7dc7d805a88.png",
+    "url": "https://mstdn.io/@Jami",
+    "note": "<p>The distributed universal and secure Free Software for multimedia communications by Savoir-faire Linux and the GNU community.</p>",
     "domain": "mstdn.io",
     "langs": [
       "en"
@@ -55,31 +80,7 @@
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/110/383/345/687/152/615/original/b827fa8319d5a867.png",
     "header": "https://mastodon.social/headers/original/missing.png",
     "url": "https://kde.social/@neochat",
-    "note": "<p>NeoChat is a friendly Matrix client, the decentralized communication protocol for instant messaging. It's developed with love by the <span class=\"h-card\" translate=\"no\"><a href=\"https://floss.social/@kde\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>kde</span></a></span> community and supports most of the Matrix specification.</p>",
-    "domain": "kde.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "instant_messaging",
-      "chat",
-      "windows"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-3.0-only"
-    ],
-    "repo": "https://invent.kde.org/network/neochat",
-    "web": "https://apps.kde.org/es/neochat/"
-  },
-  {
-    "username": "neochat",
-    "acct": "neochat@kde.social",
-    "display_name": "NeoChat",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/110/383/345/687/152/615/original/b827fa8319d5a867.png",
-    "header": "https://mastodon.social/headers/original/missing.png",
-    "url": "https://kde.social/@neochat",
-    "note": "<p>NeoChat is a friendly Matrix client, the decentralized communication protocol for instant messaging. It's developed with love by the <span class=\"h-card\" translate=\"no\"><a href=\"https://floss.social/@kde\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>kde</span></a></span> community and supports most of the Matrix specification.</p>",
+    "note": "<p>NeoChat is a friendly Matrix client, the decentralized communication protocol for instant messaging. It's developed with love by the <span class=\"h-card\" translate=\"no\"><a href=\"https://floss.social/@kde\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>kde</span></a></span> community and supports most of the Matrix specification.</p>",
     "domain": "kde.social",
     "langs": [
       "en"
@@ -103,30 +104,7 @@
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/125/788/original/8b20df64e7258aa1.png",
     "header": "https://files.mastodon.social/cache/accounts/headers/000/125/788/original/c67f53e842f601f0.png",
     "url": "https://mastodon.matrix.org/@matrix",
-    "note": "<p>Matrix is an open protocol for decentralised, secure communications. The Matrix.org Foundation exists to act as a neutral custodian for Matrix and to nurture it as efficiently as possible as a single unfragmented standard.</p><p>📣  We're currently seeking individual and organizational members to fund our work: <a href=\"https://matrix.org/membership\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">matrix.org/membership</span><span class=\"invisible\"></span></a></p>",
-    "domain": "mastodon.matrix.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "instant_messaging",
-      "chat"
-    ],
-    "base": null,
-    "licenses": [
-      "Apache-2.0"
-    ],
-    "repo": "https://github.com/matrix-org",
-    "web": "https://matrix.org"
-  },
-  {
-    "username": "matrix",
-    "acct": "matrix@mastodon.matrix.org",
-    "display_name": "The Matrix.org Foundation",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/125/788/original/8b20df64e7258aa1.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/000/125/788/original/c67f53e842f601f0.png",
-    "url": "https://mastodon.matrix.org/@matrix",
-    "note": "<p>Matrix is an open protocol for decentralised, secure communications. The Matrix.org Foundation exists to act as a neutral custodian for Matrix and to nurture it as efficiently as possible as a single unfragmented standard.</p><p>📣  We're currently seeking individual and organizational members to fund our work: <a href=\"https://matrix.org/membership\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">matrix.org/membership</span><span class=\"invisible\"></span></a></p>",
+    "note": "<p>Matrix is an open protocol for decentralised, secure communications. The Matrix.org Foundation exists to act as a neutral custodian for Matrix and to nurture it as efficiently as possible as a single unfragmented standard.</p><p>📣  We're currently seeking individual and organizational members to fund our work: <a href=\"https://matrix.org/membership\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">matrix.org/membership</span><span class=\"invisible\"></span></a></p>",
     "domain": "mastodon.matrix.org",
     "langs": [
       "en"

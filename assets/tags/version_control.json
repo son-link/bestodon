@@ -6,32 +6,7 @@
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/106/949/832/647/744/560/original/67b037eaf2f409f7.png",
     "header": "https://files.mastodon.social/cache/accounts/headers/106/949/832/647/744/560/original/aeebe574702e66e0.jpg",
     "url": "https://social.gitea.io/@gitea",
-    "note": "<p>Lightweight code hosting solution written in Go.</p>",
-    "domain": "social.gitea.io",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "development",
-      "devops",
-      "git",
-      "version_control"
-    ],
-    "base": null,
-    "licenses": [
-      "MIT"
-    ],
-    "repo": "https://github.com/go-gitea/gitea",
-    "web": "https://about.gitea.com/"
-  },
-  {
-    "username": "gitea",
-    "acct": "gitea@social.gitea.io",
-    "display_name": "Gitea",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/106/949/832/647/744/560/original/67b037eaf2f409f7.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/106/949/832/647/744/560/original/aeebe574702e66e0.jpg",
-    "url": "https://social.gitea.io/@gitea",
-    "note": "<p>Lightweight code hosting solution written in Go.</p>",
+    "note": "<p>Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD</p>",
     "domain": "social.gitea.io",
     "langs": [
       "en"

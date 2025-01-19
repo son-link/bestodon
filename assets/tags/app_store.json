@@ -3,7 +3,7 @@
     "username": "fdroidorg",
     "acct": "fdroidorg@floss.social",
     "display_name": "F-Droid",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/177/208/527/248/350/original/55770e14a572a149.png",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/177/208/527/248/350/original/7c6f97bf07ef12c4.png",
     "header": "https://files.mastodon.social/cache/accounts/headers/109/177/208/527/248/350/original/49e6db773f97348c.jpg",
     "url": "https://floss.social/@fdroidorg",
     "note": "<p>F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.</p>",
@@ -23,54 +23,6 @@
     ],
     "repo": "https://gitlab.com/fdroid",
     "web": "https://f-droid.org"
-  },
-  {
-    "username": "fdroidorg",
-    "acct": "fdroidorg@floss.social",
-    "display_name": "F-Droid",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/177/208/527/248/350/original/55770e14a572a149.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/177/208/527/248/350/original/49e6db773f97348c.jpg",
-    "url": "https://floss.social/@fdroidorg",
-    "note": "<p>F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.</p>",
-    "domain": "floss.social",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "android",
-      "app_store"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-3.0-or-later",
-      "CC-BY-3.0",
-      "CC-BY-4.0"
-    ],
-    "repo": "https://gitlab.com/fdroid",
-    "web": "https://f-droid.org"
-  },
-  {
-    "username": "FlatpakApps",
-    "acct": "FlatpakApps@fosstodon.org",
-    "display_name": "Flatpak",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/107/124/138/190/070/674/original/a56b2d5748069c71.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/107/124/138/190/070/674/original/57e3baed52df5915.png",
-    "url": "https://fosstodon.org/@FlatpakApps",
-    "note": "<p>The future of desktop application distribution on Linux.</p>",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "linux",
-      "app_store"
-    ],
-    "base": null,
-    "licenses": [
-      "LGPL-2.1"
-    ],
-    "repo": "https://github.com/flatpak/flatpak",
-    "web": "https://www.flatpak.org/"
   },
   {
     "username": "FlatpakApps",

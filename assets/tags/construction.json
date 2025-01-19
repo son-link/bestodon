@@ -50,56 +50,6 @@
     "web": "https://freerct.net/"
   },
   {
-    "username": "MineClone2",
-    "acct": "MineClone2@fosstodon.org",
-    "display_name": "MineClone2",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/188/535/726/414/664/original/7a96436aa92efc3e.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/188/535/726/414/664/original/5c23bc09187a6554.png",
-    "url": "https://fosstodon.org/@MineClone2",
-    "note": "<p>Fosstodon Account for the MineClone2 Game. Account operated by <span class=\"h-card\" translate=\"no\"><a href=\"https://fosstodon.org/@PrairieWind\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>PrairieWind</span></a></span></p>",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "3d",
-      "construction",
-      "exploration",
-      "voxel"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-3.0-only"
-    ],
-    "repo": "https://git.minetest.land/MineClone2/MineClone2",
-    "web": "https://content.minetest.net/packages/Wuzzy/mineclone2/"
-  },
-  {
-    "username": "MineClone2",
-    "acct": "MineClone2@fosstodon.org",
-    "display_name": "MineClone2",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/188/535/726/414/664/original/7a96436aa92efc3e.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/188/535/726/414/664/original/5c23bc09187a6554.png",
-    "url": "https://fosstodon.org/@MineClone2",
-    "note": "<p>Fosstodon Account for the MineClone2 Game. Account operated by <span class=\"h-card\" translate=\"no\"><a href=\"https://fosstodon.org/@PrairieWind\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>PrairieWind</span></a></span></p>",
-    "domain": "fosstodon.org",
-    "langs": [
-      "en"
-    ],
-    "tags": [
-      "3d",
-      "construction",
-      "exploration",
-      "voxel"
-    ],
-    "base": null,
-    "licenses": [
-      "GPL-3.0-only"
-    ],
-    "repo": "https://git.minetest.land/MineClone2/MineClone2",
-    "web": "https://content.minetest.net/packages/Wuzzy/mineclone2/"
-  },
-  {
     "username": "openttd",
     "acct": "openttd@fosstodon.org",
     "display_name": "OpenTTD",
@@ -148,5 +98,55 @@
     ],
     "repo": "https://github.com/OpenTTD/OpenTTD",
     "web": "https://www.openttd.org/"
+  },
+  {
+    "username": "MineClone2",
+    "acct": "MineClone2@fosstodon.org",
+    "display_name": "VoxeLibre (fka. MineClone2)",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/188/535/726/414/664/original/053892e209698898.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/188/535/726/414/664/original/5c23bc09187a6554.png",
+    "url": "https://fosstodon.org/@MineClone2",
+    "note": "<p>Fosstodon Account for VoxeLibre (formerly known as MineClone2). Account operated by <span class=\"h-card\" translate=\"no\"><a href=\"https://fosstodon.org/@ancientmariner\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>ancientmariner</span></a></span></p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "3d",
+      "construction",
+      "exploration",
+      "voxel"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-3.0-only"
+    ],
+    "repo": "https://git.minetest.land/MineClone2/MineClone2",
+    "web": "https://content.minetest.net/packages/Wuzzy/mineclone2/"
+  },
+  {
+    "username": "MineClone2",
+    "acct": "MineClone2@fosstodon.org",
+    "display_name": "VoxeLibre (fka. MineClone2)",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/188/535/726/414/664/original/053892e209698898.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/188/535/726/414/664/original/5c23bc09187a6554.png",
+    "url": "https://fosstodon.org/@MineClone2",
+    "note": "<p>Fosstodon Account for VoxeLibre (formerly known as MineClone2). Account operated by <span class=\"h-card\" translate=\"no\"><a href=\"https://fosstodon.org/@ancientmariner\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>ancientmariner</span></a></span></p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "3d",
+      "construction",
+      "exploration",
+      "voxel"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-3.0-only"
+    ],
+    "repo": "https://git.minetest.land/MineClone2/MineClone2",
+    "web": "https://content.minetest.net/packages/Wuzzy/mineclone2/"
   }
 ]

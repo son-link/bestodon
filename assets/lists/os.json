@@ -23,8 +23,8 @@
     "username": "elementary",
     "acct": "elementary@mastodon.social",
     "display_name": "elementary",
-    "avatar": "https://files.mastodon.social/accounts/avatars/000/321/397/original/d777019c5beab74a.png",
-    "header": "https://files.mastodon.social/accounts/headers/000/321/397/original/c9f1ec67dfb23e8a.jpg",
+    "avatar": "https://files.mastodon.social/accounts/avatars/000/321/397/original/ead3f861fac6a887.png",
+    "header": "https://files.mastodon.social/accounts/headers/000/321/397/original/07441b30185a59d6.jpeg",
     "url": "https://mastodon.social/@elementary",
     "note": "<p>The thoughtful, capable, and ethical replacement for Windows and macOS—plus AppCenter, the pay-what-you-can app store.</p>",
     "domain": "mastodon.social",
@@ -42,9 +42,9 @@
   {
     "username": "fedora",
     "acct": "fedora@fosstodon.org",
-    "display_name": "Fedora Project :fedora:",
-    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/512/519/380/277/288/original/1f8ef5b21cc622e9.jpg",
-    "header": "https://files.mastodon.social/cache/accounts/headers/109/512/519/380/277/288/original/e2ca30320d15ca65.png",
+    "display_name": "Fedora Project",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/512/519/380/277/288/original/92b07993f5b68b5c.jpg",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/512/519/380/277/288/original/12f95c4e276f6139.png",
     "url": "https://fosstodon.org/@fedora",
     "note": "<p>This is the official feed for the Fedora Project, a global free &amp; open source software community sponsored by Red Hat.</p><p>We make Fedora Linux - an innovative free &amp; open source operating system for computers, clouds, containers, and other hardware platforms.</p>",
     "domain": "fosstodon.org",
@@ -83,7 +83,7 @@
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/274/832/199/270/842/original/b8a45cac4de8ff10.png",
     "header": "https://mastodon.social/headers/original/missing.png",
     "url": "https://fosstodon.org/@ManjaroARM",
-    "note": "<p>Manjaro Linux, but for embedded devices!<br><a href=\"https://fosstodon.org/tags/linux\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>linux</span></a> <a href=\"https://fosstodon.org/tags/manjaro\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>manjaro</span></a> <a href=\"https://fosstodon.org/tags/arm\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>arm</span></a></p>",
+    "note": "<p>Manjaro Linux, but for embedded devices!<br><a href=\"https://fosstodon.org/tags/linux\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>linux</span></a> <a href=\"https://fosstodon.org/tags/manjaro\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>manjaro</span></a> <a href=\"https://fosstodon.org/tags/arm\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>arm</span></a></p>",
     "domain": "fosstodon.org",
     "langs": [
       "en"
@@ -103,7 +103,7 @@
     "avatar": "https://files.mastodon.social/accounts/avatars/000/296/330/original/2f6ae937d8cc03d6.png",
     "header": "https://files.mastodon.social/accounts/headers/000/296/330/original/a2e3f04324f3d6af.png",
     "url": "https://mastodon.social/@mxlinux",
-    "note": "<p>The official MX Linux Mastodon.</p><p>Midweight Linux OS based on Debian stable. Using core antiX components +additional software created / packaged by the MX community.</p><p>Please follow the spare account also: <a href=\"https://linuxrocks.online/@MXLinux\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">linuxrocks.online/@MXLinux</span><span class=\"invisible\"></span></a></p>",
+    "note": "<p>The official MX Linux Mastodon.</p><p>Midweight Linux OS based on Debian stable. Using core antiX components +additional software created / packaged by the MX community.</p><p>Please follow the spare account also: <a href=\"https://linuxrocks.online/@MXLinux\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">linuxrocks.online/@MXLinux</span><span class=\"invisible\"></span></a></p>",
     "domain": "mastodon.social",
     "langs": [
       "en"
@@ -123,7 +123,7 @@
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/107/904/182/504/156/586/original/5a0d05b23bf48f36.png",
     "header": "https://files.mastodon.social/cache/accounts/headers/107/904/182/504/156/586/original/9ac0b3633832ff60.png",
     "url": "https://chaos.social/@nixos_org",
-    "note": "<p>Nix is a tool that takes a unique approach to package management and system configuration. Use it to build reproducible, declarative and reliable systems.</p><p>Posts mostly in English.</p><p>Announcements created by the NixOS Marketing Team, account monitored by <span class=\"h-card\" translate=\"no\"><a href=\"https://merveilles.town/@raboof\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>raboof</span></a></span></p>",
+    "note": "<p>Nix is a tool that takes a unique approach to package management and system configuration. Use it to build reproducible, declarative and reliable systems.</p><p>Posts mostly in English.</p><p>Announcements created by the NixOS Marketing Team, account monitored by <span class=\"h-card\" translate=\"no\"><a href=\"https://merveilles.town/@raboof\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>raboof</span></a></span></p>",
     "domain": "chaos.social",
     "langs": [
       "en"
@@ -163,7 +163,7 @@
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/275/200/482/424/927/original/b08a5012e7a9823b.png",
     "header": "https://files.mastodon.social/cache/accounts/headers/109/275/200/482/424/927/original/b7b2da077dc745e1.png",
     "url": "https://floss.social/@opensuse_es",
-    "note": "<p>openSUSE es un sistema operativo abierto, gratuito y seguro basado en Linux para PC, computadoras portátiles, servidores y dispositivos ARM.<br>Esta cuenta reproduce las notas compartidas en <a href=\"https://planet.opensuse.org/es/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">planet.opensuse.org/es/</span><span class=\"invisible\"></span></a>, entre otras cosas.</p>",
+    "note": "<p>openSUSE es un sistema operativo abierto, gratuito y seguro basado en Linux para PC, computadoras portátiles, servidores y dispositivos ARM.<br>Esta cuenta reproduce las notas compartidas en <a href=\"https://planet.opensuse.org/es/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">planet.opensuse.org/es/</span><span class=\"invisible\"></span></a>, entre otras cosas.</p>",
     "domain": "floss.social",
     "langs": [
       "es"
@@ -181,9 +181,9 @@
     "acct": "opensuse@fosstodon.org",
     "display_name": "openSUSE Linux",
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/000/682/754/original/24279b6b797aaafd.png",
-    "header": "https://files.mastodon.social/cache/accounts/headers/000/682/754/original/6e4d1526509ce412.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/000/682/754/original/ff2b6d0ad8b4314e.png",
     "url": "https://fosstodon.org/@opensuse",
-    "note": "<p>openSUSE makes Linux-based operating systems and tools to support developers and sysadmins. openSUSE provides a feature-rich environment that’s ideal for everything from desktop use to a server set up. Get it at <a href=\"https://software.opensuse.org\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">software.opensuse.org</span><span class=\"invisible\"></span></a></p>",
+    "note": "<p>openSUSE makes Linux-based operating systems and tools to support developers and sysadmins. openSUSE provides a feature-rich environment that’s ideal for everything from desktop use to a server set up. Get it at <a href=\"https://software.opensuse.org\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">software.opensuse.org</span><span class=\"invisible\"></span></a></p>",
     "domain": "fosstodon.org",
     "langs": [
       "en"

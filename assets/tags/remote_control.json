@@ -6,7 +6,29 @@
     "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/796/034/472/017/429/original/92c40f7cf59dd91e.png",
     "header": "https://files.mastodon.social/cache/accounts/headers/109/796/034/472/017/429/original/80680c6ee3de026f.png",
     "url": "https://fosstodon.org/@ideckia",
-    "note": "<p>Control your computer from a centralized panel (smartphone, desktop...)</p>",
+    "note": "<p>Control your computer from a centralized panel (smartphone, desktop...). TLDR; StreamDeck libre alternative.</p>",
+    "domain": "fosstodon.org",
+    "langs": [
+      "en"
+    ],
+    "tags": [
+      "remote_control"
+    ],
+    "base": null,
+    "licenses": [
+      "GPL-2.0-only"
+    ],
+    "repo": "https://github.com/ideckia",
+    "web": "https://ideckia.github.io"
+  },
+  {
+    "username": "ideckia",
+    "acct": "ideckia@fosstodon.org",
+    "display_name": "ideckia",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/796/034/472/017/429/original/92c40f7cf59dd91e.png",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/796/034/472/017/429/original/80680c6ee3de026f.png",
+    "url": "https://fosstodon.org/@ideckia",
+    "note": "<p>Control your computer from a centralized panel (smartphone, desktop...). TLDR; StreamDeck libre alternative.</p>",
     "domain": "fosstodon.org",
     "langs": [
       "en"
